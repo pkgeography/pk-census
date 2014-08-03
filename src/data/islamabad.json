@@ -1,23 +1,27 @@
 {
-    "Title": "ISLAMABAD DISTRICT AT A GLANCE ",
-    "Area": "906 Sq.Kms.",
-    "Population - 1998": "805235 persons",
-    " Male": "75.09 %",
-    " Female": "48.78 %",
-    "Sex Ratio (males per 100  females)": "117.0",
-    "Populaltion Density": "888.8 per Sq. Km",
-    " Urban Population": "529180 (65.71 %)",
-    " Rural Population": "276055 (34.28 %)",
-    "Average Household Size": "6.2",
-    "Literacy Ratio (10 +)": "62.52 %",
-    "Population - 1981": "340286 persons",
-    "Average Annual Growth Rate  (1981 - 98)": "5.19 %",
-    "Total Housing Units": "128753",
-    "Pacca Housing Units": "113263 (87.96%)",
-    "Housing Units having  Electricity": "117778 (91.47%)",
-    "Housing Units having Piped  Water": "73751 (57.28 %)",
-    "Housing Units using Gas for  Cooking": "72118 (56.00 %)",
-    "Tehsil": "01",
-    "CDA": "01",
-    "Mauzas": "132"
+  "Title": "ISLAMABAD DISTRICT AT A GLANCE ",
+  "Area": "906 Sq.Kms.",
+  "Population": { 
+		"1998": "805235" 
+	},
+  "Male": "75.09 %",
+  "Female": "48.78 %",
+  "Sex Ratio (males per 100  females)": "117.0",
+  "Populaltion Density": "888.8 per Sq. Km",
+  "Urban Population": "529180 (65.71 %)",
+  "Rural Population": "276055 (34.28 %)",
+  "Average Household Size": "6.2",
+  "Literacy Ratio (10 +)": "62.52 %",
+  "Population": { 
+		"1981": "340286" 
+	},
+  "Average Annual Growth Rate  (1981 - 98)": "5.19 %",
+  "Total Housing Units": "128753",
+  "Pacca Housing Units": "113263 (87.96%)",
+  "Housing Units having  Electricity": "117778 (91.47%)",
+  "Housing Units having Piped  Water": "73751 (57.28 %)",
+  "Housing Units using Gas for  Cooking": "72118 (56.00 %)",
+  "Tehsil": "01",
+  "CDA": "01",
+  "Mauzas": "132"
 }
