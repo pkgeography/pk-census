@@ -40,7 +40,7 @@
         "age": "10+",
         "percentage": "14.8"
     },
-    "average_growth_rate": {
+    "growth_rate": {
         "type": "average",
         "percentage": "0.40",
         "year": {
