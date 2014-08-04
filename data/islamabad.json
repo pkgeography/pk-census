@@ -1,27 +1,83 @@
 {
-  "Title": "ISLAMABAD DISTRICT AT A GLANCE ",
-  "Area": "906 Sq.Kms.",
-  "Population": { 
-		"1998": "805235" 
-	},
-  "Male": "75.09 %",
-  "Female": "48.78 %",
-  "Sex Ratio (males per 100  females)": "117.0",
-  "Populaltion Density": "888.8 per Sq. Km",
-  "Urban Population": "529180 (65.71 %)",
-  "Rural Population": "276055 (34.28 %)",
-  "Average Household Size": "6.2",
-  "Literacy Ratio (10 +)": "62.52 %",
-  "Population": { 
-		"1981": "340286" 
-	},
-  "Average Annual Growth Rate  (1981 - 98)": "5.19 %",
-  "Total Housing Units": "128753",
-  "Pacca Housing Units": "113263 (87.96%)",
-  "Housing Units having  Electricity": "117778 (91.47%)",
-  "Housing Units having Piped  Water": "73751 (57.28 %)",
-  "Housing Units using Gas for  Cooking": "72118 (56.00 %)",
-  "Tehsil": "01",
-  "CDA": "01",
-  "Mauzas": "132"
+    "title": "Islamabad District",
+    "area": {
+        "value": 906,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 340286
+        },
+        "gender": {
+            "male": {
+                "percentage": 75.09
+            },
+            "female": {
+                "percentage": 48.78
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 117
+        },
+        "density": {
+            "value": 888.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 65.71,
+            "value": 529180
+        },
+        "rural": {
+            "percentage": 34.28,
+            "value": 276055
+        }
+    },
+    "administration": {
+        "tehsils": 1,
+        "union_councils": 1,
+        "mauzas": 132
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 62.52
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 5.19,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.2
+    },
+    "housing": {
+        "units": {
+            "total": 128753,
+            "pacca": {
+                "value": 113263,
+                "percentage": 87.96
+            },
+            "have_utilities": {
+                "electricity": {
+                    "value": 117778,
+                    "percentage": 91.47
+                },
+                "water": {
+                    "type": "piped",
+                    "value": 73751,
+                    "percentage": 57.28
+                },
+                "gas": {
+                    "value": 72118,
+                    "percentage": 56
+                }
+            }
+        }
+    }
 }
