@@ -10,8 +10,14 @@
             "1981": "110353",
             "1998": "118173"
         },
-        "male": "23.16%",
-        "female": "5.60%",
+        "gender": {
+            "male": {
+                "percentage": "23.16"
+            },
+            "female": {
+                "percentage": "5.60"
+            }
+        },
         "ratio": {
             "type": "males per 100 females",
             "value": "110.4"
