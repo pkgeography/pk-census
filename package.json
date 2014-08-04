@@ -1,6 +1,6 @@
 {
   "name": "pk-census",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Collection of public census data",
   "main": "data/",
   "scripts": {
