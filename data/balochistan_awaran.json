@@ -1,27 +1,73 @@
 {
-    "Title": "AWARAN  DISTRICT AT A GLANCE ",
-    "Area": "29510 Sq.Kms.",
-    "Population": { 
-        "1998": "118173" 
+    "title": "Awaran District",
+    "area": {
+        "value": "29510",
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "23.16 %",
-    "Female": "5.60 %",
-    "Sex Ratio (males per 100  females)": "110.4",
-    "Populaltion Density": "4.0 per Sq. Km",
-    "Urban Population": "-",
-    "Rural Population": "118173 (100 %)",
-    "Average Household Size": "5.4",
-    "Literacy Ratio (10 +)": "14.8 %",
-    "Population": { 
-        "1981": "110353" 
+    "population": {
+        "year": {
+            "1981": "110353",
+            "1998": "118173"
+        },
+        "male": "23.16%",
+        "female": "5.60%",
+        "ratio": {
+            "type": "males per 100 females",
+            "value": "110.4"
+            },
+        "urban": {
+            "percentage": "0",
+            "value": "0"
+        },
+        "rural": {
+            "percentage": "100",
+            "value": "118173"
+        }
     },
-    "Average Annual Growth Rate  (1981 - 98)": "0.40 %",
-    "Total Housing Units": "21735",
-    "Pacca Housing Units": "338 (1.55 %)",
-    "Housing Units having  Electricity": "91 (0.42 %)",
-    "Housing Units having Piped  Water": "1529 (7.03 %)",
-    "Housing Units using Gas for  Cooking": "22 (0.10 %)",
-    "Sub-Divisions": "01",
-    "Union Councils": "08",
-    "Mauzas": "200"
+    "administration": {    
+        "sub_divisions": "1",
+        "union_councils": "8",
+        "mauzas": "200"
+    },
+    "literacy_ratio": {
+        "age": "10+",
+        "percentage": "14.8"
+    },
+    "average_growth_rate": {
+        "type": "average",
+        "percentage": "0.40",
+        "year": {
+            "from": "1981", 
+            "to": "1998"
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": "5.4"
+    },
+    "housing": {
+        "units": {
+            "total": "21735",
+            "pacca": {
+                "value": "338",
+                "percentage": "1.55"
+            },
+            "have_utilities": {
+                "electricity": {
+                    "value": "91",
+                    "percentage": "0.42"
+                },
+                "water": {
+                    "type": "piped",
+                    "value": "1529",
+                    "percentage": "7.03"
+                },
+                "gas": {
+                    "value": "22",
+                    "percentage": "0.10"
+                }
+            }
+        }
+    }
 }
