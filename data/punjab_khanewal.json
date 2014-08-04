@@ -1,0 +1,29 @@
+{
+    "Title": "KHANEWAL DISTRICT AT A GLANCE ",
+    "Area": "4349 Sq.Kms.",
+    "Population": { 
+        "1998": "2068490" 
+    },
+    "Male": "53.6 %",
+    "Female": "25.1 %",
+    "Sex Ratio (males per 100  females)": "107.7",
+    "Populaltion Density": "475.6 per Sq. Km",
+    "Urban Population": "364261 (17.61 %)",
+    "Rural Population": "1704229 (82.39 %)",
+    "Average Household Size": "7.1",
+    "Literacy Ratio (10 +)": "39.9 %",
+    "Population": { 
+        "1981": "1369766" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.45 %",
+    "Total Housing Units": "292796",
+    "Pacca Housing Units": "102955 (35.16 %)",
+    "Housing Units having  Electricity": "165200 (56.42 %)",
+    "Housing Units having Piped  Water": "35220 (12.03 %)",
+    "Housing Units using Gas for  Cooking": "27034 (9.23 %)",
+    "Tehsils": "04",
+    "Union Councils": "101",
+    "Mauzas": "670",
+    "Municipal Committees": "02",
+    "Town Committees": "06"
+}

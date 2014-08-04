@@ -1,0 +1,29 @@
+{
+    "Title": "TOBA TEK SINGH DISTRICT AT A GLANCE ",
+    "Area": "3252Sq.Kms.",
+    "Population": { 
+        "1998": "1621593" 
+    },
+    "Male": "61.3 %",
+    "Female": "39.1 %",
+    "Sex Ratio (males per 100  females)": "105.3",
+    "Populaltion Density": "498.6 per Sq. Km",
+    "Urban Population": "305411 (18.83%)",
+    "Rural Population": "1316182 (81.17 %)",
+    "Average Household Size": "7.1",
+    "Literacy Ratio (10 +)": "50.5%",
+    "Population": { 
+        "1981": "1134572" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.12%",
+    "Total Housing Units": "226946",
+    "Pacca Housing Units": "103114 (45.43%)",
+    "Housing Units having  Electricity": "179642 (79.16 %)",
+    "Housing Units having Piped  Water": "55313 (24.37 %)",
+    "Housing Units using Gas for  Cooking": "17187 (7.5 %)",
+    "Tehsils": "03",
+    "Union Councils": "82",
+    "Mauzas": "538",
+    "Municipal Committees": "03",
+    "Town Committees": "01"
+}

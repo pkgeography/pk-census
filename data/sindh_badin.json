@@ -1,0 +1,29 @@
+{
+    "Title": "BADIN  DISTRICT AT A GLANCE ",
+    "Area": "6726 Sq.Kms.",
+    "Population": { 
+        "1998": "1136044" 
+    },
+    "Male": "35.07 %",
+    "Female": "12.90 %",
+    "Sex Ratio (males per 100  females)": "111.0",
+    "Populaltion Density": "168.9 per Sq. Km",
+    "Urban Population": "186488 (16.42 %)",
+    "Rural Population": "949556 (83.58 %)",
+    "Average Household Size": "5.3",
+    "Literacy Ratio (10 +)": "24.6 %",
+    "Population": { 
+        "1981": "776614" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.26 %",
+    "Total Housing Units": "211354",
+    "Pacca Housing Units": "34201 (16.18 %)",
+    "Housing Units having  Electricity": "74268 (35.14 %)",
+    "Housing Units having Piped  Water": "27485 (13.00 %)",
+    "Housing Units using Gas for  Cooking": "7184 (3.40 %)",
+    "Talukas": "04",
+    "Union Councils": "49",
+    "Mauzas": "505",
+    "Municipal Committee": "02",
+    "Town Committees": "08"
+}

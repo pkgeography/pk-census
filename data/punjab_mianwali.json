@@ -1,0 +1,29 @@
+{
+    "Title": "MIANWALI DISTRICT AT A GLANCE ",
+    "Area": "5840Sq.Kms.",
+    "Population": { 
+        "1998": "1056620" 
+    },
+    "Male": "63.8 %",
+    "Female": "22.1 %",
+    "Sex Ratio (males per 100  females)": "100.8",
+    "Populaltion Density": "180.9 per Sq. Km",
+    "Urban Population": "220010 (20.82%)",
+    "Rural Population": "836610 (79.18 %)",
+    "Average Household Size": "7.1",
+    "Literacy Ratio (10 +)": "42.8%",
+    "Population": { 
+        "1981": "711529" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.35 %",
+    "Total Housing Units": "148837",
+    "Pacca Housing Units": "96232 (64.65%)",
+    "Housing Units having  Electricity": "97395 (65.44 %)",
+    "Housing Units having Piped  Water": "34587(23.24 %)",
+    "Housing Units using Gas for  Cooking": "5776 (3.88 %)",
+    "Tehsils": "03",
+    "Union Councils": "60",
+    "Mauzas": "255",
+    "Municipal Committees": "01",
+    "Town Committees": "07"
+}

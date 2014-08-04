@@ -1,1 +1,29 @@
-false
+{
+    "Title": "SWAT  DISTRICT AT A GLANCE ",
+    "Area": "5337 Sq.Kms.",
+    "Population": { 
+        "1998": "1257602" 
+    },
+    "Male": "43.16 %",
+    "Female": "13.45 %",
+    "Sex Ratio (males per 100  females)": "106.3",
+    "Populaltion Density": "235.6 per Sq. Km",
+    "Urban Population": "173868 (13.83 %)",
+    "Rural Population": "1083734 (86.17 %)",
+    "Average Household Size": "8.8",
+    "Literacy Ratio (10 +)": "28.75 %",
+    "Population": { 
+        "1981": "715938" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "3.37 %",
+    "Total Housing Units": "142311",
+    "Pacca Housing Units": "107180 (75.31 %)",
+    "Housing Units having  Electricity": "96546 (67.84 %)",
+    "Housing Units having Piped  Water": "34909 (24.53 %)",
+    "Housing Units using Gas for  Cooking": "4841 (3.40%)",
+    "Tehsils": "02",
+    "Union Councils": "65",
+    "Mauzas": "215",
+    "Municipal Committees": "01",
+    "Town Committees": "-"
+}

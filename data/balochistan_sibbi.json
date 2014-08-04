@@ -1,0 +1,29 @@
+{
+    "Title": "SIBI  DISTRICT AT A GLANCE ",
+    "Area": "7796 Sq.Kms.",
+    "Population": { 
+        "1998": "180398" 
+    },
+    "Male": "35.25 %",
+    "Female": "13.60 %",
+    "Sex Ratio (males per 100  females)": "117.2",
+    "Populaltion Density": "23.1 per Sq. Km",
+    "Urban Population": "57826 (32.05 %)",
+    "Rural Population": "122572 (67.95 %)",
+    "Average Household Size": "7.0",
+    "Literacy Ratio (10 +)": "25.47 %",
+    "Population": { 
+        "1981": "98482" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "3.62 %",
+    "Total Housing Units": "25700",
+    "Pacca Housing Units": "4368 (16.99 %)",
+    "Housing Units having  Electricity": "13867 (53.96 %)",
+    "Housing Units having Piped  Water": "8148 (31.70 %)",
+    "Housing Units using Gas for  Cooking": "2890 (11.25 %)",
+    "Sub-Divisions": "02",
+    "Union Councils": "28",
+    "Mauzas": "139",
+    "Municipal Committee": "01",
+    "Town Committee": "01"
+}

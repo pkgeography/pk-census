@@ -1,0 +1,30 @@
+{
+    "Title": "GUJRAT  DISTRICT AT A GLANCE ",
+    "Area": "3192Sq.Kms.",
+    "Population": { 
+        "1998": "2048008" 
+    },
+    "Male": "73.0 %",
+    "Female": "51.6%",
+    "Sex Ratio (males per 100  females)": "100.4",
+    "Populaltion Density": "641.6 per Sq. Km",
+    "Urban Population": "568172 (27.74 %)",
+    "Rural Population": "1479836 (72.25 %)",
+    "Average Household Size": "6.7",
+    "Literacy Ratio (10 +)": "62.2%",
+    "Population": { 
+        "1981": "1408585" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.22%",
+    "Total Housing Units": "305097",
+    "Pacca Housing Units": "278789 (91.37%)",
+    "Housing Units having  Electricity": "282005 (92.43 %)",
+    "Housing Units having Piped  Water": "64554 (21.15 %)",
+    "Housing Units using Gas for  Cooking": "57168 (18.73 %)",
+    "Tehsils": "03",
+    "Union Councils": "119",
+    "Mauzas": "1065",
+    "Municipal Committees": "04",
+    "Town Committees": "04",
+    "Cantonment": "01"
+}

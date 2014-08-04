@@ -1,0 +1,29 @@
+{
+    "Title": "KHAIRPUR DISTRICT AT A GLANCE ",
+    "Area": "15910 Sq.Kms.",
+    "Population": { 
+        "1998": "1546587" 
+    },
+    "Male": "49.7 %",
+    "Female": "19.7 %",
+    "Sex Ratio (males per 100  females)": "110.1",
+    "Populaltion Density": "97.2 per Sq. Km",
+    "Urban Population": "365216 (23.61 %)",
+    "Rural Population": "1181371 (76.38 %)",
+    "Average Household Size": "6.1",
+    "Literacy Ratio (10 +)": "35.5 %",
+    "Population": { 
+        "1981": "981190" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.71 %",
+    "Total Housing Units": "255261",
+    "Pacca Housing Units": "53751 (21.05 %)",
+    "Housing Units having  Electricity": "168173 (65.88 %)",
+    "Housing Units having Piped  Water": "40796 (15.98 %)",
+    "Housing Units using Gas for  Cooking": "24927 (9.76 %)",
+    "Talukas": "08",
+    "Union Councils": "89",
+    "Mauzas": "382",
+    "Municipal Committee": "02",
+    "Town Committees": "15"
+}

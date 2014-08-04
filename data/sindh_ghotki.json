@@ -1,0 +1,29 @@
+{
+    "Title": "GHOTKI  DISTRICT AT A GLANCE ",
+    "Area": "6083 Sq.Kms.",
+    "Population": { 
+        "1998": "970549" 
+    },
+    "Male": "44.21 %",
+    "Female": "11.85 %",
+    "Sex Ratio (males per 100  females)": "111.4",
+    "Populaltion Density": "159.6 per Sq. Km",
+    "Urban Population": "158501 (16.33 %)",
+    "Rural Population": "812048 (83.67 %)",
+    "Average Household Size": "505",
+    "Literacy Ratio (10 +)": "29.01 %",
+    "Population": { 
+        "1981": "562105" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "3.26 %",
+    "Total Housing Units": "177432",
+    "Pacca Housing Units": "53072 (29.91 %)",
+    "Housing Units having  Electricity": "105301 (59.35 %)",
+    "Housing Units having Piped  Water": "25589 (14.42 %)",
+    "Housing Units using Gas for  Cooking": "8995 (5.07 %)",
+    "Talukas": "05",
+    "Union Councils": "34",
+    "Mauzas": "284",
+    "Municipal Committee": "02",
+    "Town Committees": "03"
+}

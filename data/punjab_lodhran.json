@@ -1,0 +1,29 @@
+{
+    "Title": "LODHRAN DISTRICT AT A GLANCE ",
+    "Area": "2778Sq.Kms.",
+    "Population": { 
+        "1998": "1171800" 
+    },
+    "Male": "42.7 %",
+    "Female": "16.0 %",
+    "Sex Ratio (males per 100  females)": "108.3",
+    "Populaltion Density": "421.8 per Sq. Km",
+    "Urban Population": "170088 (14.51%)",
+    "Rural Population": "1001712 (85.48 %)",
+    "Average Household Size": "7.3",
+    "Literacy Ratio (10 +)": "29.9%",
+    "Population": { 
+        "1981": "739912" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.74 %",
+    "Total Housing Units": "161437",
+    "Pacca Housing Units": "54369 (33.67%)",
+    "Housing Units having  Electricity": "83988 (52.03 %)",
+    "Housing Units having Piped  Water": "21510(13.32 %)",
+    "Housing Units using Gas for  Cooking": "1866 (1.15 %)",
+    "Tehsils": "03",
+    "Union Councils": "75",
+    "Mauzas": "438",
+    "Municipal Committees": "02",
+    "Town Committees": "02"
+}

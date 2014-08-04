@@ -1,16 +1,20 @@
 {
     "Title": "RAJANPUR DISTRICT AT A GLANCE ",
     "Area": "12318Sq.Kms.",
-    "Population - 1998": "1103618 persons",
-    " Male": "29.0 %",
-    " Female": "11.3 %",
+    "Population": { 
+        "1998": "1103618" 
+    },
+    "Male": "29.0 %",
+    "Female": "11.3 %",
     "Sex Ratio (males per 100  females)": "111.1",
     "Populaltion Density": "89.6 per Sq. Km",
-    " Urban Population": "160155 (14.51 %)",
-    " Rural Population": "943463 (85.49 %)",
+    "Urban Population": "160155 (14.51 %)",
+    "Rural Population": "943463 (85.49 %)",
     "Average Household Size": "7.3",
     "Literacy Ratio (10 +)": "20.7%",
-    "Population - 1981": "638921 persons",
+    "Population": { 
+        "1981": "638921" 
+    },
     "Average Annual Growth Rate  (1981 - 98)": "3.27 %",
     "Total Housing Units": "151733",
     "Pacca Housing Units": "25598 (16.87%)",

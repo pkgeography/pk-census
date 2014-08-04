@@ -1,0 +1,29 @@
+{
+    "Title": "VEHARI  DISTRICT AT A GLANCE ",
+    "Area": "4364Sq.Kms.",
+    "Population": { 
+        "1998": "2090416" 
+    },
+    "Male": "49.40 %",
+    "Female": "23.18%",
+    "Sex Ratio (males per 100  females)": "107.7",
+    "Populaltion Density": "479.0 per Sq. Km",
+    "Urban Population": "335432 (16.05 %)",
+    "Rural Population": "1754984 (83.95 %)",
+    "Average Household Size": "6.9",
+    "Literacy Ratio (10 +)": "36.8%",
+    "Population": { 
+        "1981": "1328808" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.70%",
+    "Total Housing Units": "301201",
+    "Pacca Housing Units": "133031 (44.17%)",
+    "Housing Units having  Electricity": "191163 (63.47 %)",
+    "Housing Units having Piped  Water": "51888 (17.23 %)",
+    "Housing Units using Gas for  Cooking": "7640 (2.54 %)",
+    "Tehsils": "03",
+    "Union Councils": "89",
+    "Mauzas": "774",
+    "Municipal Committees": "03",
+    "Town Committees": "03"
+}

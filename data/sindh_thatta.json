@@ -1,0 +1,29 @@
+{
+    "Title": "THATTA  DISTRICT AT A GLANCE ",
+    "Area": "17355 Sq.Kms.",
+    "Population": { 
+        "1998": "1113194" 
+    },
+    "Male": "31.58 %",
+    "Female": "11.40 %",
+    "Sex Ratio (males per 100  females)": "112.5",
+    "Populaltion Density": "64.1 per Sq. Km",
+    "Urban Population": "124739 (11.20 %)",
+    "Rural Population": "988455 (88.79 %)",
+    "Average Household Size": "5.1",
+    "Literacy Ratio (10 +)": "22.1 %",
+    "Population": { 
+        "1981": "761039" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.26 %",
+    "Total Housing Units": "220068",
+    "Pacca Housing Units": "36841 (16.74 %)",
+    "Housing Units having  Electricity": "57069 (25.93 %)",
+    "Housing Units having Piped  Water": "32274 (14.66 %)",
+    "Housing Units using Gas for  Cooking": "6000 (2.72 %)",
+    "Talukas": "09",
+    "Union Councils": "55",
+    "Mauzas": "652",
+    "Municipal Committee": "01",
+    "Town Committees": "08"
+}

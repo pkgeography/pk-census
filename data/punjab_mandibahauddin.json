@@ -1,16 +1,20 @@
 {
     "Title": "MANDI BAHAUDDIN DISTRICT AT A GLANCE ",
     "Area": "7623Sq.Kms.",
-    "Population - 1998": "1160552 persons",
-    " Male": "58.77 %",
-    " Female": "35.64 %",
+    "Population": { 
+        "1998": "1160552" 
+    },
+    "Male": "58.77 %",
+    "Female": "35.64 %",
     "Sex Ratio (males per 100  females)": "104.9",
     "Populaltion Density": "434.2 per Sq. Km",
-    " Urban Population": "176421 (15.20 %)",
-    " Rural Population": "984131 (84.80 %)",
+    "Urban Population": "176421 (15.20 %)",
+    "Rural Population": "984131 (84.80 %)",
     "Average Household Size": "6.7",
     "Literacy Ratio (10 +)": "47.4%",
-    "Population - 1981": "846114 persons",
+    "Population": { 
+        "1981": "846114" 
+    },
     "Average Annual Growth Rate  (1981 - 98)": "1.88 %",
     "Total Housing Units": "173408",
     "Pacca Housing Units": "158291 (91.28%)",

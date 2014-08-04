@@ -1,16 +1,20 @@
 {
     "Title": "NAROWAL DISTRICT AT A GLANCE ",
     "Area": "2337 Sq.Kms.",
-    "Population - 1998": "1265097 persons",
-    " Male": "65.60 %",
-    " Female": "39.76 %",
+    "Population": { 
+        "1998": "1265097" 
+    },
+    "Male": "65.60 %",
+    "Female": "39.76 %",
     "Sex Ratio (males per 100  females)": "101.2",
     "Populaltion Density": "541.3 per Sq. Km",
-    " Urban Population": "154386 (12.20 %)",
-    " Rural Population": "1110711 (87.80 %)",
+    "Urban Population": "154386 (12.20 %)",
+    "Rural Population": "1110711 (87.80 %)",
     "Average Household Size": "7.4",
     "Literacy Ratio (10 +)": "52.6 %",
-    "Population - 1981": "908977 persons",
+    "Population": { 
+        "1981": "908977" 
+    },
     "Average Annual Growth Rate  (1981 - 98)": "1.96 %",
     "Total Housing Units": "170178",
     "Pacca Housing Units": "129519 (76.11 %)",

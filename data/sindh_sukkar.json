@@ -1,0 +1,31 @@
+{
+    "Title": "SUKKUR  DISTRICT AT A GLANCE ",
+    "Area": "5165 Sq.Kms.",
+    "Population": { 
+        "1998": "908373" 
+    },
+    "Male": "59.83 %",
+    "Female": "31.32 %",
+    "Sex Ratio (males per 100  females)": "113.7",
+    "Populaltion Density": "175.9 per Sq. Km",
+    "Urban Population": "462105 (50.87 %)",
+    "Rural Population": "446268 (49.12 %)",
+    "Average Household Size": "6.6",
+    "Literacy Ratio (10 +)": "46.6 %",
+    "Population": { 
+        "1981": "560566" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.88 %",
+    "Total Housing Units": "138553",
+    "Pacca Housing Units": "53926 (38.92 %)",
+    "Housing Units having  Electricity": "101853 (73.51 %)",
+    "Housing Units having Piped  Water": "52190 (37.67 %)",
+    "Housing Units using Gas for  Cooking": "41230 (29.76 %)",
+    "Talukas": "04",
+    "Union Councils": "46",
+    "Mauzas": "251",
+    "Municipal Corporation": "01",
+    "Municipal Committee": "01",
+    "Town Committees": "03",
+    "Cantonment": "01"
+}

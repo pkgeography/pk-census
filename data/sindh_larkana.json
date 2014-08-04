@@ -1,0 +1,30 @@
+{
+    "Title": "LARKANA DISTRICT AT A GLANCE ",
+    "Area": "7423 Sq.Kms.",
+    "Population": { 
+        "1998": "1927066" 
+    },
+    "Male": "48.56 %",
+    "Female": "20.48 %",
+    "Sex Ratio (males per 100  females)": "106.4",
+    "Populaltion Density": "259.6 per Sq. Km",
+    "Urban Population": "557012 (28.90 %)",
+    "Rural Population": "1370054 (71.09 %)",
+    "Average Household Size": "5.9",
+    "Literacy Ratio (10 +)": "34.9 %",
+    "Population": { 
+        "1981": "1138580" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "3.14 %",
+    "Total Housing Units": "328063",
+    "Pacca Housing Units": "74169 (22.61 %)",
+    "Housing Units having  Electricity": "275484 (83.97 %)",
+    "Housing Units having Piped  Water": "56055 (17.09 %)",
+    "Housing Units using Gas for  Cooking": "44173 (13.46 %)",
+    "Talukas": "07",
+    "Union Councils": "80",
+    "Mauzas": "467",
+    "Municipal Corporation": "01",
+    "Municipal Committees": "04",
+    "Town Committees": "06"
+}

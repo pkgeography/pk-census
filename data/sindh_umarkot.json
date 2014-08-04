@@ -1,0 +1,28 @@
+{
+    "Title": "UMERKOT DISTRICT AT A GLANCE ",
+    "Area": "5608 Sq.Kms.",
+    "Population": { 
+        "1998": "663095" 
+    },
+    "Male": "36.32 %",
+    "Female": "11.94 %",
+    "Sex Ratio (males per 100  females)": "111.6",
+    "Populaltion Density": "118.2 per Sq. Km",
+    "Urban Population": "111464 (16.81 %)",
+    "Rural Population": "551631 (83.19 %)",
+    "Average Household Size": "5.4",
+    "Literacy Ratio (10 +)": "24.8 %",
+    "Population": { 
+        "1981": "383018" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "3.28 %",
+    "Total Housing Units": "122335",
+    "Pacca Housing Units": "15945 (13.03 %)",
+    "Housing Units having  Electricity": "47857 (39.12 %)",
+    "Housing Units having Piped  Water": "14797 (12.09 %)",
+    "Housing Units using Gas for  Cooking": "734 (0.59 %)",
+    "Talukas": "04",
+    "Union Councils": "29",
+    "Mauzas": "228",
+    "Town Committees": "08"
+}

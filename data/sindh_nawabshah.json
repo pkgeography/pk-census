@@ -1,0 +1,29 @@
+{
+    "Title": "NAWABSHAH DISTRICT AT A GLANCE ",
+    "Area": "4502 Sq.Kms.",
+    "Population": { 
+        "1998": "1071533" 
+    },
+    "Male": "47.62 %",
+    "Female": "19.62 %",
+    "Sex Ratio (males per 100  females)": "107.7",
+    "Populaltion Density": "238 per Sq. Km",
+    "Urban Population": "282359 (26.35 %)",
+    "Rural Population": "789174 (83.19 %)",
+    "Average Household Size": "6.0",
+    "Literacy Ratio (10 +)": "34.13 %",
+    "Population": { 
+        "1981": "813534" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "1.63 %",
+    "Total Housing Units": "177522",
+    "Pacca Housing Units": "47339 (26.67 %)",
+    "Housing Units having  Electricity": "134053 (75.51 %)",
+    "Housing Units having Piped  Water": "41835 (23.57 %)",
+    "Housing Units using Gas for  Cooking": "23197 (13.07 %)",
+    "Talukas": "03",
+    "Union Councils": "50",
+    "Mauzas": "310",
+    "Municipal Committee": "01",
+    "Town Committees": "07"
+}

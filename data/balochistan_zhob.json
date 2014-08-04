@@ -1,0 +1,29 @@
+{
+    "Title": "ZHOB  DISTRICT AT A GLANCE ",
+    "Area": "20297 Sq.Kms.",
+    "Population": { 
+        "1998": "275142" 
+    },
+    "Male": "24.53 %",
+    "Female": "6.90 %",
+    "Sex Ratio (males per 100  females)": "119.5",
+    "Populaltion Density": "13.6 per Sq. Km",
+    "Urban Population": "43843 (15.93 %)",
+    "Rural Population": "231299 (84.07 %)",
+    "Average Household Size": "8.0",
+    "Literacy Ratio (10 +)": "16.8 %",
+    "Population": { 
+        "1981": "213285" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "1.51 %",
+    "Total Housing Units": "34294",
+    "Pacca Housing Units": "19379 (56.49 %)",
+    "Housing Units having  Electricity": "119306 (34.79 %)",
+    "Housing Units having Piped  Water": "6209 (18.10 %)",
+    "Housing Units using Gas for  Cooking": "374 (1.09 %)",
+    "Sub-Divisions": "03",
+    "Union Councils": "23",
+    "Mauzas": "289",
+    "Town Committees": "01",
+    "Cantonment": "01"
+}

@@ -1,0 +1,29 @@
+{
+    "Title": "SHIKAPUR DISTRICT AT A GLANCE ",
+    "Area": "2512 Sq.Kms.",
+    "Population": { 
+        "1998": "880438" 
+    },
+    "Male": "44.95 %",
+    "Female": "18.04 %",
+    "Sex Ratio (males per 100  females)": "107.7",
+    "Populaltion Density": "350.5 per Sq. Km",
+    "Urban Population": "211979 (24.08 %)",
+    "Rural Population": "668459 (75.42 %)",
+    "Average Household Size": "5.9",
+    "Literacy Ratio (10 +)": "31.9 %",
+    "Population": { 
+        "1981": "596409" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.32 %",
+    "Total Housing Units": "149758",
+    "Pacca Housing Units": "20849 (13.92 %)",
+    "Housing Units having  Electricity": "104794 (69.97 %)",
+    "Housing Units having Piped  Water": "30389 (20.29 %)",
+    "Housing Units using Gas for  Cooking": "20368 (13.60 %)",
+    "Talukas": "04",
+    "Union Councils": "47",
+    "Mauzas": "240",
+    "Municipal Committee": "01",
+    "Town Committees": "06"
+}

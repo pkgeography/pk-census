@@ -1,0 +1,30 @@
+{
+    "Title": "SIALKOT DISTRICT AT A GLANCE ",
+    "Area": "3016Sq.Kms.",
+    "Population": { 
+        "1998": "2723481" 
+    },
+    "Male": "65.96 %",
+    "Female": "51.52%",
+    "Sex Ratio (males per 100  females)": "105.2",
+    "Populaltion Density": "903.0 per Sq. Km",
+    "Urban Population": "713329 (26.19 %)",
+    "Rural Population": "2010152 (73.81 %)",
+    "Average Household Size": "7.4",
+    "Literacy Ratio (10 +)": "58.9%",
+    "Population": { 
+        "1981": "1802505" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.46%",
+    "Total Housing Units": "366251",
+    "Pacca Housing Units": "315998 (86.28%)",
+    "Housing Units having  Electricity": "346388 (94.57 %)",
+    "Housing Units having Piped  Water": "96412 (26.32 %)",
+    "Housing Units using Gas for  Cooking": "73293 (20.01 %)",
+    "Tehsils": "03",
+    "Union Councils": "122",
+    "Mauzas": "1543",
+    "Municipal Committees": "04",
+    "Town Committees": "06",
+    "Cantonment": "01"
+}

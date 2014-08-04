@@ -1,0 +1,30 @@
+{
+    "Title": "JHELUM  DISTRICT AT A GLANCE ",
+    "Area": "3587 Sq.Kms.",
+    "Population": { 
+        "1998": "936957" 
+    },
+    "Male": "77.66 %",
+    "Female": "50.47 %",
+    "Sex Ratio (males per 100  females)": "99.8",
+    "Populaltion Density": "261.2 per Sq. Km",
+    "Urban Population": "259330 (27.68 %)",
+    "Rural Population": "677627 (72.32 %)",
+    "Average Household Size": "6.2",
+    "Literacy Ratio (10 +)": "63.9 %",
+    "Population": { 
+        "1981": "659012" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.09 %",
+    "Total Housing Units": "150225",
+    "Pacca Housing Units": "126992 (84.53 %)",
+    "Housing Units having  Electricity": "124910 (83.14 %)",
+    "Housing Units having Piped  Water": "40862 (27.20 %)",
+    "Housing Units using Gas for  Cooking": "23124 (15.39 %)",
+    "Tehsils": "03",
+    "Union Councils": "53",
+    "Mauzas": "573",
+    "Municipal Committees": "02",
+    "Town Committees": "03",
+    "Cantonment": "02"
+}

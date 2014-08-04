@@ -1,0 +1,31 @@
+{
+    "Title": "RAWALPINDI DISTRICT AT A GLANCE ",
+    "Area": "5285 Sq.Kms.",
+    "Population": { 
+        "1998": "3363911" 
+    },
+    "Male": "81.19 %",
+    "Female": "59.18 %",
+    "Sex Ratio (males per 100  females)": "104.9",
+    "Populaltion Density": "636.5 per Sq. Km",
+    "Urban Population": "1788273 (53.16 %)",
+    "Rural Population": "1575638 (46.84 %)",
+    "Average Household Size": "6.5",
+    "Literacy Ratio (10 +)": "70.4 %",
+    "Population": { 
+        "1981": "2121450" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.75 %",
+    "Total Housing Units": "521507",
+    "Pacca Housing Units": "462724 (88.73 %)",
+    "Housing Units having  Electricity": "474471 (90.98 %)",
+    "Housing Units having Piped  Water": "215313 (41.29 %)",
+    "Housing Units using Gas for  Cooking": "275853 (52.89 %)",
+    "Tehsils": "06",
+    "Union Councils": "170",
+    "Mauzas": "1164",
+    "Miunicipal Corporation": "01",
+    "Municipal Committees": "03",
+    "Town Committees": "02",
+    "Cantonment": "04"
+}

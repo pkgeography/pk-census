@@ -1,0 +1,30 @@
+{
+    "Title": "FAISALABAD DISTRICT AT A GLANCE ",
+    "Area": "5856 Sq.Kms.",
+    "Population": { 
+        "1998": "5429547" 
+    },
+    "Male": "60.85 %",
+    "Female": "42.16 %",
+    "Sex Ratio (males per 100  females)": "108.6",
+    "Populaltion Density": "927.2 per Sq. Km",
+    "Urban Population": "2318433 (42.70 %)",
+    "Rural Population": "3111114 (52.30 %)",
+    "Average Household Size": "7.2",
+    "Literacy Ratio (10 +)": "51.9 %",
+    "Population": { 
+        "1981": "3561909" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.51 %",
+    "Total Housing Units": "750975",
+    "Pacca Housing Units": "524335 (68.49 %)",
+    "Housing Units having  Electricity": "650147 (86.57 %)",
+    "Housing Units having Piped  Water": "211240 (28.13 %)",
+    "Housing Units using Gas for  Cooking": "200931 (26.16 %)",
+    "Tehsils": "06",
+    "Union Councils": "287",
+    "Mauzas": "820",
+    "Municipal Corporation": "01",
+    "Municipal Committees": "03",
+    "Town Committees": "04"
+}

@@ -1,0 +1,29 @@
+{
+    "Title": "MIRPUR KHAS DISTRICT AT A GLANCE ",
+    "Area": "2925 Sq.Kms.",
+    "Population": { 
+        "1998": "905935" 
+    },
+    "Male": "45.99 %",
+    "Female": "25.05 %",
+    "Sex Ratio (males per 100  females)": "108.3",
+    "Populaltion Density": "309.7 per Sq. Km",
+    "Urban Population": "300175 (33.13 %)",
+    "Rural Population": "605760 (66.87 %)",
+    "Average Household Size": "6.1",
+    "Literacy Ratio (10 +)": "36.0 %",
+    "Population": { 
+        "1981": "287570" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.37 %",
+    "Total Housing Units": "148470",
+    "Pacca Housing Units": "46395 (31.25 %)",
+    "Housing Units having  Electricity": "82814 (55.78 %)",
+    "Housing Units having Piped  Water": "45140 (30.40 %)",
+    "Housing Units using Gas for  Cooking": "1722 (1.16 %)",
+    "Talukas": "03",
+    "Union Councils": "40",
+    "Mauzas": "369",
+    "Municipal Committee": "01",
+    "Town Committees": "06"
+}

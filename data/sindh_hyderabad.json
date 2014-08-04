@@ -1,0 +1,31 @@
+{
+    "Title": "HYDERABAD DISTRICT AT A GLANCE ",
+    "Area": "5519 Sq.Kms.",
+    "Population": { 
+        "1998": "2891488" 
+    },
+    "Male": "52.63 %",
+    "Female": "34.97 %",
+    "Sex Ratio (males per 100  females)": "109.5",
+    "Populaltion Density": "523.9 per Sq. Km",
+    "Urban Population": "1469101 (50.81 %)",
+    "Rural Population": "1422387 (49.19 %)",
+    "Average Household Size": "6.0",
+    "Literacy Ratio (10 +)": "44.2 %",
+    "Population": { 
+        "1981": "2059026" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.02 %",
+    "Total Housing Units": "476321",
+    "Pacca Housing Units": "259973 (54.58 %)",
+    "Housing Units having  Electricity": "145838 (56.55 %)",
+    "Housing Units having Piped  Water": "53399 (20.71 %)",
+    "Housing Units using Gas for  Cooking": "7476 (2.90 %)",
+    "Talukas": "08",
+    "Union Councils": "102",
+    "Mauzas": "410",
+    "Municipal Corporation": "03",
+    "Municipal Committees": "04",
+    "Town Committees": "08",
+    "Cantonment": "01"
+}

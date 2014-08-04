@@ -1,1 +1,29 @@
-false
+{
+    "Title": "MANSEHRA DISTRICT AT A GLANCE ",
+    "Area": "4579 Sq.Kms.",
+    "Population": { 
+        "1998": "1152839" 
+    },
+    "Male": "50.90%",
+    "Female": "22.71 %",
+    "Sex Ratio (males per 100  females)": "98.4",
+    "Populaltion Density": "251.8 per Sq. Km",
+    "Urban Population": "61376 (5.32 %)",
+    "Rural Population": "1091463 (94.68 %)",
+    "Average Household Size": "6.7",
+    "Literacy Ratio (10 +)": "36.32 %",
+    "Population": { 
+        "1981": "770235" 
+    },
+    "Average Annual Growth Rate  (1981 - 98)": "2.40 %",
+    "Total Housing Units": "172040",
+    "Pacca Housing Units": "106476 (61.89 %)",
+    "Housing Units having  Electricity": "84478 (49.10 %)",
+    "Housing Units having Piped  Water": "45201 (26.27 %)",
+    "Housing Units using Gas for  Cooking": "5891 (3.42 %)",
+    "Tehsils": "03",
+    "Union Councils": "0",
+    "Mauzas": "492",
+    "Municipal Committees": "01",
+    "Town Committees": "01"
+}
