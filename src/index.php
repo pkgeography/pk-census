@@ -78,8 +78,8 @@ define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 // $filename = '/nwfp_shangla.json';
 // $url = 'http://census.gov.pk/NWFP/SHANGLA.htm';
 
-// #$filename = '/nwfp_swat.json';
-// #$url = 'http://census.gov.pk/NWFP/SWAT.htm';
+#$filename = '/nwfp_swat.json';
+#$url = 'http://census.gov.pk/NWFP/SWAT.htm';
 
 // $filename = '/nwfp_upper_dir.json';
 // $url = 'http://census.gov.pk/NWFP/LOWER%20DIR.htm';
@@ -96,8 +96,8 @@ define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 // $filename = '/punjab_dera_ghazi_khan.json';
 // $url = 'http://census.gov.pk/PUNJAB/DERA%20GHAZI%20KHAN.htm';
 
-$filename = '/punjab_gujranwala.json';
-$url = 'http://census.gov.pk/PUNJAB/GUJRANWALA.htm';
+// $filename = '/punjab_gujranwala.json';
+// $url = 'http://census.gov.pk/PUNJAB/GUJRANWALA.htm';
 
 // $filename = '/punjab_jhang.json';
 // $url = 'http://census.gov.pk/PUNJAB/JHANG.htm';
@@ -111,29 +111,29 @@ $url = 'http://census.gov.pk/PUNJAB/GUJRANWALA.htm';
 // $filename = '/punjab_layyah.json';
 // $url = 'http://census.gov.pk/PUNJAB/LAYYAH.htm';
 
-#$filename = '/punjab_mandibahauddin.json';
-#$url = 'http://census.gov.pk/PUNJAB/MANDI%20BAHAUDDIN.htm';
+// $filename = '/punjab_mandibahauddin.json';
+// $url = 'http://census.gov.pk/PUNJAB/MANDI%20BAHAUDDIN.htm';
 
-#$filename = '/punjab_multan.json';
-#$url = 'http://census.gov.pk/PUNJAB/MULTAN.htm';
+// $filename = '/punjab_multan.json';
+// $url = 'http://census.gov.pk/PUNJAB/MULTAN.htm';
 
-#$filename = '/punjab_narowal.json';
-#$url = 'http://census.gov.pk/PUNJAB/NAROWAL.htm';
+// $filename = '/punjab_narowal.json';
+// $url = 'http://census.gov.pk/PUNJAB/NAROWAL.htm';
 
-#$filename = '/punjab_pakpattan.json';
-#$url = 'http://census.gov.pk/PUNJAB/PAKPATTAN.htm';
+// $filename = '/punjab_pakpattan.json';
+// $url = 'http://census.gov.pk/PUNJAB/PAKPATTAN.htm';
 
-#$filename = '/punjab_rajanpur.json';
-#$url = 'http://census.gov.pk/PUNJAB/RAJANPUR.htm';
+// $filename = '/punjab_rajanpur.json';
+// $url = 'http://census.gov.pk/PUNJAB/RAJANPUR.htm';
 
-#$filename = '/punjab_sargodha.json';
-#$url = 'http://census.gov.pk/PUNJAB/SARGODHA.htm';
+// $filename = '/punjab_sargodha.json';
+// $url = 'http://census.gov.pk/PUNJAB/SARGODHA.htm';
 
-#$filename = '/punjab_sheikhupura.json';
-#$url = 'http://census.gov.pk/PUNJAB/SHEIKHUPURA.htm';
+// $filename = '/punjab_sheikhupura.json';
+// $url = 'http://census.gov.pk/PUNJAB/SHEIKHUPURA.htm';
 
-#$filename = '/punjab_toba_tek_singh.json';
-#$url = 'http://census.gov.pk/PUNJAB/TOBA TEK SINGH.htm';
+$filename = '/punjab_toba_tek_singh.json';
+$url = 'http://census.gov.pk/PUNJAB/TOBA%20TEK%20SINGH.htm';
 
 #$filename = '/punjab_hafizabad.json';
 #$url = 'http://census.gov.pk/PUNJAB/HAFIZABAD.htm';
