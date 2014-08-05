@@ -311,11 +311,11 @@ define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 // $filename = '/balochistan_bolan.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/BOLAN.htm';
 
-// $filename = '/balochistan_barkha.json';
-// $url = 'http://census.gov.pk/BALOCHISTAN/BARKHAN.htm';
+$filename = '/balochistan_barkha.json';
+$url = 'http://census.gov.pk/BALOCHISTAN/BARKHAN.htm';
 
-$filename = '/balochistan_awara.json';
-$url = 'http://census.gov.pk/BALOCHISTAN/AWARAN.htm';
+// $filename = '/balochistan_awara.json';
+// $url = 'http://census.gov.pk/BALOCHISTAN/AWARAN.htm';
 
 $html = file_get_html($url);
 

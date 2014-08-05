@@ -1,83 +1,24 @@
 {
-    "title": "Barkhan District",
-    "area": {
-        "value": 3514,
-        "unit_long": "square kilometers",
-        "unit_short": "Sq. Kms"
-    },
-    "population": {
-        "year": {
-            "1981": 61686
-        },
-        "gender": {
-            "male": {
-                "percentage": 23.69
-            },
-            "female": {
-                "percentage": 6.41
-            }
-        },
-        "ratio": {
-            "type": "males per 100 females",
-            "value": 110.5
-        },
-        "density": {
-            "value": 29.5,
-            "unit_long": "per square kilometers",
-            "unit_short": "per Sq. Kms"
-        },
-        "urban": {
-            "percentage": 7.41,
-            "value": 7670
-        },
-        "rural": {
-            "percentage": 92.59,
-            "value": 95875
-        }
-    },
-    "administration": {
-        "tehsils": 1,
-        "union_councils": 1,
-        "mauzas": 131
-    },
-    "litracy_ratio": {
-        "age": "10+",
-        "percentage": 15.7
-    },
-    "growth_rate": {
-        "type": "average",
-        "percentage": 3.09,
-        "year": {
-            "from": 1981,
-            "to": 1998
-        }
-    },
-    "household": {
-        "type": "average",
-        "size": 7.1
-    },
-    "housing": {
-        "units": {
-            "total": 14625,
-            "pacca": {
-                "value": 2489,
-                "percentage": 17.02
-            },
-            "have_utilities": {
-                "electricity": {
-                    "value": 5392,
-                    "percentage": 36.87
-                },
-                "water": {
-                    "type": "piped",
-                    "value": 1422,
-                    "percentage": 9.72
-                },
-                "gas": {
-                    "value": 132,
-                    "percentage": 0.9
-                }
-            }
-        }
-    }
+    "Title": "BARKHAN DISTRICT AT A GLANCE ",
+    "Area": "3514 Sq.Kms.",
+    "Population - 1998": "103545 persons",
+    " Male": "23.69 %",
+    " Female": "6.41 %",
+    "Sex Ratio (males per 100  females)": "110.5",
+    "Populaltion Density": "29.5 per Sq. Km",
+    " Urban Population": "7670 (7.41 %)",
+    " Rural Population": "95875 (92.59 %)",
+    "Average Household Size": "7.1",
+    "Literacy Ratio (10 +)": "15.7 %",
+    "Population - 1981": "61686 persons",
+    "Average Annual Growth Rate  (1981 - 98)": "3.09 %",
+    "Total Housing Units": "14625",
+    "Pacca Housing Units": "2489 (17.02 %)",
+    "Housing Units having  Electricity": "5392 (36.87 %)",
+    "Housing Units having Piped  Water": "1422 (9.72 %)",
+    "Housing Units using Gas for  Cooking": "132 (0.90 %)",
+    "Sub-Divisions": "01",
+    "Union Councils": "08",
+    "Mauzas": "131",
+    "Town Committees": "01"
 }
