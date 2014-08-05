@@ -1,27 +1,85 @@
 {
-    "Title": "GWADAR  DISTRICT AT A GLANCE ",
-    "Area": "12637 Sq.Kms.",
-    "Population": { 
-        "1981": "87830",
-        "1998": "185498" 
+    "title": "Gwadar District",
+    "area": {
+        "value": 12637,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "35.52 %",
-    "Female": "13.81 %",
-    "Sex Ratio (males per 100  females)": "115.5",
-    "population Density": "14.7 per Sq. Km",
-    "Urban Population": "100152 (54.00 %)",
-    "Rural Population": "85346 (46.00 %)",
-    "Average Household Size": "5.5",
-    "Literacy Ratio (10 +)": "25.5 %",
-    "Average Annual Growth Rate  (1981 - 98)": "-0.09 %",
-    "Total Housing Units": "33680",
-    "Pacca Housing Units": "6289 (18.67 %)",
-    "Housing Units having  Electricity": "11716 (34.78 %)",
-    "Housing Units having Piped  Water": "15300 (45.43 %)",
-    "Housing Units using Gas for  Cooking": "291 (0.86 %)",
-    "sub-divisions": "02",
-    "Union Councils": "13",
-    "Mauzas": "77",
-    "Municipal Committees": "02",
-    "Town Committees": "02"
+    "population": {
+        "year": {
+            "1981": 87830,
+            "1998": 185498
+        },
+        "gender": {
+            "male": {
+                "percentage": 35.52
+            },
+            "female": {
+                "percentage": 13.81
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 115.5
+        },
+        "density": {
+            "value": 14.7,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 54,
+            "value": 100152
+        },
+        "rural": {
+            "percentage": 46,
+            "value": 85346
+        }
+    },
+    "administration": {
+        "union_councils": 13,
+        "town_committees": 2,
+        "tehsils": 2,
+        "mauzas": 77
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 25.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 0,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.5
+    },
+    "housing": {
+        "units": {
+            "total": 33680,
+            "pacca": {
+                "value": 6289,
+                "percentage": 18.67
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 11716,
+                "percentage": 34.78
+            },
+            "water": {
+                "type": "piped",
+                "value": 15300,
+                "percentage": 45.43
+            },
+            "gas": {
+                "value": 291,
+                "percentage": 0.86
+            }
+        }
+    }
 }

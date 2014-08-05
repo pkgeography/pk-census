@@ -1,27 +1,86 @@
 {
-    "Title": "ZHOB  DISTRICT AT A GLANCE ",
-    "Area": "20297 Sq.Kms.",
-    "Population": { 
-        "1981": "213285",
-        "1998": "275142" 
+    "title": "Zhob District",
+    "area": {
+        "value": 20297,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "24.53 %",
-    "Female": "6.90 %",
-    "Sex Ratio (males per 100  females)": "119.5",
-    "population Density": "13.6 per Sq. Km",
-    "Urban Population": "43843 (15.93 %)",
-    "Rural Population": "231299 (84.07 %)",
-    "Average Household Size": "8.0",
-    "Literacy Ratio (10 +)": "16.8 %",
-    "Average Annual Growth Rate  (1981 - 98)": "1.51 %",
-    "Total Housing Units": "34294",
-    "Pacca Housing Units": "19379 (56.49 %)",
-    "Housing Units having  Electricity": "119306 (34.79 %)",
-    "Housing Units having Piped  Water": "6209 (18.10 %)",
-    "Housing Units using Gas for  Cooking": "374 (1.09 %)",
-    "sub-divisions": "03",
-    "Union Councils": "23",
-    "Mauzas": "289",
-    "Town Committees": "01",
-    "Cantonment": "01"
+    "population": {
+        "year": {
+            "1981": 213285,
+            "1998": 275142
+        },
+        "gender": {
+            "male": {
+                "percentage": 24.53
+            },
+            "female": {
+                "percentage": 6.9
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 119.5
+        },
+        "density": {
+            "value": 13.6,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 15.93,
+            "value": 43843
+        },
+        "rural": {
+            "percentage": 84.07,
+            "value": 231299
+        }
+    },
+    "administration": {
+        "union_councils": 23,
+        "town_committees": 1,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 289
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 16.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 1.51,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 8
+    },
+    "housing": {
+        "units": {
+            "total": 34294,
+            "pacca": {
+                "value": 19379,
+                "percentage": 56.49
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 119306,
+                "percentage": 34.79
+            },
+            "water": {
+                "type": "piped",
+                "value": 6209,
+                "percentage": 18.1
+            },
+            "gas": {
+                "value": 374,
+                "percentage": 1.09
+            }
+        }
+    }
 }

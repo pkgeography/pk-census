@@ -1,26 +1,84 @@
 {
-    "Title": "ZIARAT  DISTRICT AT A GLANCE ",
-    "Area": "1489 Sq.Kms.",
-    "Population": { 
-        "1981": "32196",
-        "1998": "33340" 
+    "title": "Ziarat District",
+    "area": {
+        "value": 1489,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "51.38 %",
-    "Female": "17.02 %",
-    "Sex Ratio (males per 100  females)": "107.9",
-    "population Density": "22.4 per Sq. Km",
-    "Urban Population": "636 (1.91 %)",
-    "Rural Population": "32704 (98.09 %)",
-    "Average Household Size": "7.4",
-    "Literacy Ratio (10 +)": "34.3 %",
-    "Average Annual Growth Rate  (1981 - 98)": "0.21 %",
-    "Total Housing Units": "4503",
-    "Pacca Housing Units": "686 (15.23 %)",
-    "Housing Units having  Electricity": "3686 (81.86 %)",
-    "Housing Units having Piped  Water": "595 (13.21 %)",
-    "Housing Units using Gas for  Cooking": "112 (2.49 %)",
-    "sub-divisions": "01",
-    "Union Councils": "13",
-    "Mauzas": "29",
-    "Municipal Committees": "01"
+    "population": {
+        "year": {
+            "1981": 32196,
+            "1998": 33340
+        },
+        "gender": {
+            "male": {
+                "percentage": 51.38
+            },
+            "female": {
+                "percentage": 17.02
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107.9
+        },
+        "density": {
+            "value": 22.4,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 1.91,
+            "value": 636
+        },
+        "rural": {
+            "percentage": 98.09,
+            "value": 32704
+        }
+    },
+    "administration": {
+        "union_councils": 13,
+        "tehsils": 1,
+        "mauzas": 29
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 34.3
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 0.21,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.4
+    },
+    "housing": {
+        "units": {
+            "total": 4503,
+            "pacca": {
+                "value": 686,
+                "percentage": 15.23
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 3686,
+                "percentage": 81.86
+            },
+            "water": {
+                "type": "piped",
+                "value": 595,
+                "percentage": 13.21
+            },
+            "gas": {
+                "value": 112,
+                "percentage": 2.49
+            }
+        }
+    }
 }

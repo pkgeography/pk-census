@@ -1,26 +1,85 @@
 {
-    "Title": "LASBELA DISTRICT AT A GLANCE ",
-    "Area": "15153 Sq.Kms.",
-    "Population": { 
-        "1981": "188139",
-        "1998": "312695" 
+    "title": "Lasbela District",
+    "area": {
+        "value": 15153,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "32.16 %",
-    "Female": "10.46 %",
-    "Sex Ratio (males per 100  females)": "115.3",
-    "population Density": "20.6 per Sq. Km",
-    "Urban Population": "115424 (36.92 %)",
-    "Rural Population": "197271 (63.08 %)",
-    "Average Household Size": "6.4",
-    "Literacy Ratio (10 +)": "22.3 %",
-    "Average Annual Growth Rate  (1981 - 98)": "3.03 %",
-    "Total Housing Units": "49171",
-    "Pacca Housing Units": "11268 (22.92 %)",
-    "Housing Units having  Electricity": "14218 (28.91 %)",
-    "Housing Units having Piped  Water": "6321 (12.85 %)",
-    "Housing Units using Gas for  Cooking": "2489 (5.06 %)",
-    "sub-divisions": "04",
-    "Union Councils": "21",
-    "Mauzas": "288",
-    "Town Committees": "05"
+    "population": {
+        "year": {
+            "1981": 188139,
+            "1998": 312695
+        },
+        "gender": {
+            "male": {
+                "percentage": 32.16
+            },
+            "female": {
+                "percentage": 10.46
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 115.3
+        },
+        "density": {
+            "value": 20.6,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 36.92,
+            "value": 115424
+        },
+        "rural": {
+            "percentage": 63.08,
+            "value": 197271
+        }
+    },
+    "administration": {
+        "union_councils": 21,
+        "town_committees": 5,
+        "tehsils": 4,
+        "mauzas": 288
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 22.3
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.03,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.4
+    },
+    "housing": {
+        "units": {
+            "total": 49171,
+            "pacca": {
+                "value": 11268,
+                "percentage": 22.92
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 14218,
+                "percentage": 28.91
+            },
+            "water": {
+                "type": "piped",
+                "value": 6321,
+                "percentage": 12.85
+            },
+            "gas": {
+                "value": 2489,
+                "percentage": 5.06
+            }
+        }
+    }
 }

@@ -2,7 +2,7 @@
 
 define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 
-$filename = DATAPATH . '/balochistan/barkhan.json';
+$filename = DATAPATH . '/balochistan/ziarat.json';
 
 $file = file_get_contents($filename);
 
@@ -22,9 +22,9 @@ $file = str_replace(' (males_per 100 females)', '', $file);
 
 $file = str_replace(' (10 +)', '', $file);
 
-$file = str_replace('sub_divisions', 'tehsil', $file);
+$file = str_replace('sub_divisions', 'tehsils', $file);
 
-$file = str_replace('town_committees', 'cda', $file);
+$file = str_replace('cda', 'town_committees', $file);
 
 $file = preg_replace('/(rate) \(([0-9]+) [-_] ([0-9]+)\)/', '$1', $file);
 
@@ -45,7 +45,9 @@ $o['area']['unit_short'] = 'Sq. Kms';
 
 $population = (array) $data->population;
 
-$o['population']['year'][array_keys($population)[0]] = intval(array_values($population)[0]);
+foreach ($population as $key => $value) {
+	$o['population']['year'][$key] = intval($value);
+}
 
 $o['population']['gender']['male']['percentage'] = floatval($data->male);
 $o['population']['gender']['female']['percentage'] = floatval($data->female);
@@ -69,8 +71,16 @@ $rural_per = preg_match('/\(([0-9\.]+)%\)/', $data->rural_population, $rural_per
 $o['population']['rural']['percentage'] = floatval($rural_per_match[1]);
 $o['population']['rural']['value'] = intval($rural_pop_match[0]);
 
-$o['administration']['tehsils'] = intval($data->tehsil);
-$o['administration']['union_councils'] = intval($data->cda);
+if (property_exists($data, 'union_councils'))
+	$o['administration']['union_councils'] = intval($data->union_councils);
+
+if (property_exists($data, 'town_committees'))
+	$o['administration']['town_committees'] = intval($data->town_committees);
+
+if (property_exists($data, 'cantonment'))
+	$o['administration']['cantonment'] = intval($data->cantonment);
+
+$o['administration']['tehsils'] = intval($data->tehsils);
 $o['administration']['mauzas'] = intval($data->mauzas);
 
 $o['litracy_ratio']['age'] = '10+';
@@ -95,21 +105,24 @@ $o['housing']['units']['pacca']['percentage'] = floatval($pacca_per_match[1]);
 $electric_val = preg_match('/([0-9]+) \(/', $data->housing_units_having_electricity, $electric_val_match);
 $electric_per = preg_match('/\(([0-9\.]+)%\)/', $data->housing_units_having_electricity, $electric_per_match);
 
-$o['housing']['units']['have_utilities']['electricity']['value'] = intval($electric_val_match[1]);
-$o['housing']['units']['have_utilities']['electricity']['percentage'] = floatval($electric_per_match[1]);
+$o['housing']['have_utilities']['electricity']['value'] = intval($electric_val_match[1]);
+$o['housing']['have_utilities']['electricity']['percentage'] = floatval($electric_per_match[1]);
 
 $water_val = preg_match('/([0-9]+) \(/', $data->housing_units_having_piped_water, $water_val_match);
 $water_per = preg_match('/\(([0-9\.]+)%\)/', $data->housing_units_having_piped_water, $water_per_match);
 
-$o['housing']['units']['have_utilities']['water']['type'] = 'piped';
-$o['housing']['units']['have_utilities']['water']['value'] = intval($water_val_match[1]);
-$o['housing']['units']['have_utilities']['water']['percentage'] = floatval($water_per_match[1]);
+$o['housing']['have_utilities']['water']['type'] = 'piped';
+$o['housing']['have_utilities']['water']['value'] = intval($water_val_match[1]);
+$o['housing']['have_utilities']['water']['percentage'] = floatval($water_per_match[1]);
 
 $gas_val = preg_match('/([0-9]+) \(/', $data->housing_units_using_gas_for_cooking, $gas_val_match);
 $gas_per = preg_match('/\(([0-9\.]+)%\)/', $data->housing_units_using_gas_for_cooking, $gas_per_match);
 
-$o['housing']['units']['have_utilities']['gas']['value'] = intval($gas_val_match[1]);
-$o['housing']['units']['have_utilities']['gas']['percentage'] = floatval($gas_per_match[1]);
+$o['housing']['have_utilities']['gas']['value'] = intval($gas_val_match[1]);
+$o['housing']['have_utilities']['gas']['percentage'] = floatval($gas_per_match[1]);
 
 header('Content-Type: application/json');
-echo json_encode($o, JSON_PRETTY_PRINT);
+
+// file_put_contents($filename, json_encode($o, JSON_PRETTY_PRINT));
+
+echo file_get_contents($filename);

@@ -1,28 +1,86 @@
 {
-    "Title": "LORALAI DISTRICT AT A GLANCE ",
-    "Area": "9830 Sq.Kms.",
-    "Population": { 
-        "1981": "235038",
-        "1998": "297555" 
+    "title": "Loralai District",
+    "area": {
+        "value": 9830,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "30.12 %",
-    "Female": "9.24 %",
-    "Sex Ratio (males per 100  females)": "113.5",
-    "population Density": "30.3 per Sq. Km",
-    "Urban Population": "34984 (11.76 %)",
-    "Rural Population": "262571 (88.24 %)",
-    "Average Household Size": "7.4",
-    "Literacy Ratio (10 +)": "20.5 %",
-    "Average Annual Growth Rate  (1981 - 98)": "1.40 %",
-    "Total Housing Units": "40073",
-    "Pacca Housing Units": "2439 (6.08 %)",
-    "Housing Units having  Electricity": "24289 (60.61 %)",
-    "Housing Units having Piped  Water": "8736 (21.80 %)",
-    "Housing Units using Gas for  Cooking": "506 (1.26 %)",
-    "sub-divisions": "03",
-    "Union Councils": "30",
-    "Mauzas": "324",
-    "Municipal Committees": "01",
-    "Town Committees": "01",
-    "Cantonment": "01"
+    "population": {
+        "year": {
+            "1981": 235038,
+            "1998": 297555
+        },
+        "gender": {
+            "male": {
+                "percentage": 30.12
+            },
+            "female": {
+                "percentage": 9.24
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 113.5
+        },
+        "density": {
+            "value": 30.3,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 11.76,
+            "value": 34984
+        },
+        "rural": {
+            "percentage": 88.24,
+            "value": 262571
+        }
+    },
+    "administration": {
+        "union_councils": 30,
+        "town_committees": 1,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 324
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 20.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 1.4,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.4
+    },
+    "housing": {
+        "units": {
+            "total": 40073,
+            "pacca": {
+                "value": 2439,
+                "percentage": 6.08
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 24289,
+                "percentage": 60.61
+            },
+            "water": {
+                "type": "piped",
+                "value": 8736,
+                "percentage": 21.8
+            },
+            "gas": {
+                "value": 506,
+                "percentage": 1.26
+            }
+        }
+    }
 }
