@@ -1,23 +1,84 @@
 {
-    "Title": "AWARAN  DISTRICT AT A GLANCE ",
-    "Area": "29510 Sq.Kms.",
-    "Population - 1998": "118173 persons",
-    " Male": "23.16 %",
-    " Female": "5.60 %",
-    "Sex Ratio (males per 100  females)": "110.4",
-    "Populaltion Density": "4.0 per Sq. Km",
-    " Urban Population": "-",
-    " Rural Population": "118173 (100 %)",
-    "Average Household Size": "5.4",
-    "Literacy Ratio (10 +)": "14.8 %",
-    "Population - 1981": "110353 persons",
-    "Average Annual Growth Rate  (1981 - 98)": "0.40 %",
-    "Total Housing Units": "21735",
-    "Pacca Housing Units": "338 (1.55 %)",
-    "Housing Units having  Electricity": "91 (0.42 %)",
-    "Housing Units having Piped  Water": "1529 (7.03 %)",
-    "Housing Units using Gas for  Cooking": "22 (0.10 %)",
-    "Sub-Divisions": "01",
-    "Union Councils": "08",
-    "Mauzas": "200"
+    "title": "Awaran District",
+    "area": {
+        "value": 29510,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 110353,
+            "1998": 118173
+        },
+        "gender": {
+            "male": {
+                "percentage": 23.16
+            },
+            "female": {
+                "percentage": 5.6
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 110.4
+        },
+        "density": {
+            "value": 4,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 0,
+            "value": 0
+        },
+        "rural": {
+            "percentage": 100,
+            "value": 118173
+        }
+    },
+    "administration": {
+        "union_councils": 8,
+        "tehsils": 1,
+        "mauzas": 200
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 14.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 0.4,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.4
+    },
+    "housing": {
+        "units": {
+            "total": 21735,
+            "pacca": {
+                "value": 338,
+                "percentage": 1.55
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 91,
+                "percentage": 0.42
+            },
+            "water": {
+                "type": "piped",
+                "value": 1529,
+                "percentage": 7.03
+            },
+            "gas": {
+                "value": 22,
+                "percentage": 0.1
+            }
+        }
+    }
 }

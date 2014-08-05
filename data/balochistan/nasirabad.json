@@ -2,6 +2,7 @@
     "Title": "NASIRABAD DISTRICT AT A GLANCE ",
     "Area": "3387 Sq.Kms.",
     "Population": { 
+        "1981": "129112",
         "1998": "245894" 
     },
     "Male": "12.3 %",
@@ -12,16 +13,13 @@
     "Rural Population": "207463 (84.37 %)",
     "Average Household Size": "6.4",
     "Literacy Ratio (10 +)": "12.7 %",
-    "Population": { 
-        "1981": "129112" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.86 %",
     "Total Housing Units": "38605",
     "Pacca Housing Units": "2127 (5.51 %)",
     "Housing Units having  Electricity": "23402 (60.62 %)",
     "Housing Units having Piped  Water": "5873 (15.21 %)",
     "Housing Units using Gas for  Cooking": "2101 (5.44 %)",
-    "Sub-Divisions": "02",
+    "sub-divisions": "02",
     "Union Councils": "18",
     "Mauzas": "160",
     "Town Committees": "01"

@@ -2,6 +2,7 @@
     "Title": "KILLA SAIFULLAH DISTRICT AT A GLANCE ",
     "Area": "6831 Sq.Kms.",
     "Population": { 
+        "1981": "148362",
         "1998": "193553" 
     },
     "Male": "24.98 %",
@@ -12,16 +13,13 @@
     "Rural Population": "168254 (86.93 %)",
     "Average Household Size": "7.1",
     "Literacy Ratio (10 +)": "17.6 %",
-    "Population": { 
-        "1981": "148362" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "1.58 %",
     "Total Housing Units": "27434",
     "Pacca Housing Units": "3507 (12.78 %)",
     "Housing Units having  Electricity": "11293 (41.16 %)",
     "Housing Units having Piped  Water": "3710 (13.52 %)",
     "Housing Units using Gas for  Cooking": "276 (1.00 %)",
-    "Sub-Divisions": "02",
+    "sub-divisions": "02",
     "Union Councils": "15",
     "Mauzas": "149",
     "Town Committees": "02"

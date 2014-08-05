@@ -1,7 +1,8 @@
 {
     "Title": "CHAGAI  DISTRICT AT A GLANCE ",
     "Area": "50545 Sq.Kms.",
-    "Population": { 
+    "Population": {
+        "1981": "120455",
         "1998": "202564" 
     },
     "Male": "38.00 %",
@@ -12,16 +13,13 @@
     "Rural Population": "166668 (82.28 %)",
     "Average Household Size": "6.8",
     "Literacy Ratio (10 +)": "27.0 %",
-    "Population": { 
-        "1981": "120455" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.10 %",
     "Total Housing Units": "29746",
     "Pacca Housing Units": "1820 (6.12 %)",
     "Housing Units having  Electricity": "9026 (30.34 %)",
     "Housing Units having Piped  Water": "8273 (27.81 %)",
     "Housing Units using Gas for  Cooking": "294 (0.99 %)",
-    "Sub-Divisions": "03",
+    "sub-divisions": "03",
     "Union Councils": "19",
     "Mauzas": "92",
     "Town Committees": "02"

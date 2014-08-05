@@ -2,6 +2,7 @@
     "Title": "JAFFARABAD DISTRICT AT A GLANCE ",
     "Area": "2445 Sq.Kms.",
     "Population": { 
+        "1981": "265342",
         "1998": "432817" 
     },
     "Male": "27.50 %",
@@ -12,18 +13,15 @@
     "Rural Population": "347294 (80.24 %)",
     "Average Household Size": "7.1",
     "Literacy Ratio (10 +)": "18.5 %",
-    "Population": { 
-        "1981": "265342" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.92 %",
     "Total Housing Units": "60864",
     "Pacca Housing Units": "5420 (8.91 %)",
     "Housing Units having  Electricity": "39384 (64.71 %)",
     "Housing Units having Piped  Water": "10395 (17.08 %)",
     "Housing Units using Gas for  Cooking": "4144 (6.81 %)",
-    "Sub-Division": "02",
+    "sub-divisions": "02",
     "Union Councils": "33",
     "Mauzas": "229",
-    "Municical Committees": "02",
-    "Town Committee": "01"
+    "Municipal Committeess": "02",
+    "Town Committees": "01"
 }

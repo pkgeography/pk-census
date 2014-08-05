@@ -2,6 +2,7 @@
     "Title": "GWADAR  DISTRICT AT A GLANCE ",
     "Area": "12637 Sq.Kms.",
     "Population": { 
+        "1981": "87830",
         "1998": "185498" 
     },
     "Male": "35.52 %",
@@ -12,16 +13,13 @@
     "Rural Population": "85346 (46.00 %)",
     "Average Household Size": "5.5",
     "Literacy Ratio (10 +)": "25.5 %",
-    "Population": { 
-        "1981": "87830" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "-0.09 %",
     "Total Housing Units": "33680",
     "Pacca Housing Units": "6289 (18.67 %)",
     "Housing Units having  Electricity": "11716 (34.78 %)",
     "Housing Units having Piped  Water": "15300 (45.43 %)",
     "Housing Units using Gas for  Cooking": "291 (0.86 %)",
-    "Sub-Divisions": "02",
+    "sub-divisions": "02",
     "Union Councils": "13",
     "Mauzas": "77",
     "Municipal Committees": "02",

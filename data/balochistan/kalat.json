@@ -2,6 +2,7 @@
     "Title": "KALAT  DISTRICT AT A GLANCE ",
     "Area": "6622 Sq.Kms.",
     "Population": { 
+        "1981": "209149",
         "1998": "237834" 
     },
     "Male": "29.24 %",
@@ -12,16 +13,13 @@
     "Rural Population": "204040 (85.79 %)",
     "Average Household Size": "6.9",
     "Literacy Ratio (10 +)": "19.9 %",
-    "Population": { 
-        "1981": "209149" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "0.76 %",
     "Total Housing Units": "34410",
     "Pacca Housing Units": "909 (2.64 %)",
     "Housing Units having  Electricity": "15539 (45.16 %)",
     "Housing Units having Piped  Water": "4551 (13.22 %)",
     "Housing Units using Gas for  Cooking": "157 (0.45 %)",
-    "Sub-Divisions": "02",
+    "sub-divisions": "02",
     "Union Councils": "18",
     "Mauzas": "636",
     "Town Committees": "02"

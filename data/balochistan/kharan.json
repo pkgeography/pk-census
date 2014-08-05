@@ -2,6 +2,7 @@
     "Title": "KHARAN  DISTRICT AT A GLANCE ",
     "Area": "48051 Sq.Kms.",
     "Population": { 
+        "1981": "128040",
         "1998": "206909" 
     },
     "Male": "23.73 %",
@@ -12,16 +13,13 @@
     "Rural Population": "179103 (86.56 %)",
     "Average Household Size": "5.8",
     "Literacy Ratio (10 +)": "15.1 %",
-    "Population": { 
-        "1981": "128040" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.86 %",
     "Total Housing Units": "35630",
     "Pacca Housing Units": "1239 (3.47 %)",
     "Housing Units having  Electricity": "71239 (3.47 %)",
     "Housing Units having Piped  Water": "3341 (9.37 %)",
     "Housing Units using Gas for  Cooking": "176 (0.49 %)",
-    "Sub-Divisions": "03",
+    "sub-divisions": "03",
     "Union Councils": "16",
     "Mauzas": "394",
     "Town Committees": "01"

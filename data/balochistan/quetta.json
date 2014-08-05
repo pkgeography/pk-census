@@ -2,6 +2,7 @@
     "Title": "QUETTA  DISTRICT AT A GLANCE ",
     "Area": "2653 Sq.Kms.",
     "Population": { 
+        "1981": "381566",
         "1998": "759941" 
     },
     "Male": "67.27 %",
@@ -12,16 +13,13 @@
     "Rural Population": "194804 (25.64 %)",
     "Average Household Size": "8.5",
     "Literacy Ratio (10 +)": "57.1 %",
-    "Population": { 
-        "1981": "381566" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "4.13 %",
     "Total Housing Units": "87091",
     "Pacca Housing Units": "44249 (50.81 %)",
     "Housing Units having  Electricity": "81923 (94.07 %)",
     "Housing Units having Piped  Water": "69453 (79.75 %)",
     "Housing Units using Gas for  Cooking": "67522 (77.53 %)",
-    "Sub-Divisions": "02",
+    "sub-divisions": "02",
     "Union Councils": "66",
     "Mauzas": "45",
     "Municipal Corporation": "01",
