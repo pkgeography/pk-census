@@ -2,6 +2,7 @@
 	"Title": "LAKKI MARWAT DISTRICT AT A GLANCE ",
 	"Area": "3164 Sq.Kms.",
 	"Population": { 
+		"1981": "288759",
 		"1998": "490025" 
 	},
 	"Male": "50.3 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "443147 (90.43 %)",
 	"Average Household Size": "9.2",
 	"Literacy Ratio (10 +)": "29.7 %",
-	"Population": { 
-		"1981": "288759" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "3.16 %",
 	"Total Housing Units": "53302",
 	"Pacca Housing Units": "7755 (14.55%)",

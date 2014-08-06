@@ -2,6 +2,7 @@
 	"Title": "SWABI DISTRICT AT A GLANCE ",
 	"Area": "1543 Sq.Kms.",
 	"Population": { 
+		"1981": "625035",
 		"1998": "1026804" 
 	},
 	"Male": "54.0 %",
@@ -12,9 +13,7 @@
 	"Rural Population": "847590 (82.55 %)",
 	"Average Household Size": "7.7",
 	"Literacy Ratio (10 +)": "36.0%",
-	"Population": { 
-		"1981": "625035" 
-	},
+	
 	"Average Annual Growth Rate  (1981 - 98)": "2.96 %",
 	"Total Housing Units": "133234",
 	"Pacca Housing Units": "90603 (68.00%)",

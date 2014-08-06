@@ -2,6 +2,7 @@
 	"Title": "ATTOCK DISTRICT AT A GLANCE ",
 	"Area": "6857Sq.Kms.",
 	"Population": { 
+		"1981": "876667",
 		"1998": "1274935" 
 	},
 	"Male": "66.94 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "1003843 (78.74 %)",
 	"Average Household Size": "6.2",
 	"Literacy Ratio (10 +)": "49.3%",
-	"Population": { 
-		"1981": "876667" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "2.23 %",
 	"Total Housing Units": "206678",
 	"Pacca Housing Units": "158641 (76.76%)",

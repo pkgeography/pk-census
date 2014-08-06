@@ -1,7 +1,10 @@
 {
 	"Title":"DERA GHAZI KHAN DISTRICT AT A GLANCE ",
 	"Area":"11922 Sq.Kms.",
-	"Population - 1998":"1643118 persons",
+	"Population": {
+		"1981": "943663",
+		"1998": "1643118"
+	},
 	"Male":"42.1 %",
 	"Female":"18.1 %",
 	"Sex Ratio (males per 100  females)":"108.2",
@@ -10,7 +13,6 @@
 	"Rural Population":"1414279 (86.07 %)",
 	"Average Household Size":"7.9",
 	"Literacy Ratio (10 +)":"30.6 %",
-	"Population - 1981":"943663 persons",
 	"Average Annual Growth Rate  (1981 - 98)":"3.31 %",
 	"Total Housing Units":"209255",
 	"Pacca Housing Units":"59228 (28.30 %)",

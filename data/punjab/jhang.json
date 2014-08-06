@@ -1,7 +1,10 @@
 {
 	"Title":"JHANG DISTRICT AT A GLANCE ",
 	"Area":"8809Sq.Kms.",
-	"Population - 1998":"2834545 persons",
+	"Population": {
+		"1981": "1970944",
+		"1998": "2834545"
+	},
 	"Male":"51.53 %",
 	"Female":"21.43%",
 	"Sex Ratio (males per 100 females)":"108.4",
@@ -10,7 +13,6 @@
 	"Rural Population":"2171555 (76.61 %)",
 	"Average Household Size":"6.5",
 	"Literacy Ratio (10 +)":"37.1%",
-	"Population - 1981":"1970944 persons",
 	"Average Annual Growth Rate (1981 - 98)":"2.16%",
 	"Total Housing Units":"434495",
 	"Pacca Housing Units":"162894 (37.49%)",

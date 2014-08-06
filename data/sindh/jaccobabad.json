@@ -2,6 +2,7 @@
     "Title": "JACCOBABAD DISTRICT AT A GLANCE ",
     "Area": "5278 Sq.Kms.",
     "Population": { 
+        "1981": "1011212",
         "1998": "1425572" 
     },
     "Male": "34.08 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1078181 (75.63 %)",
     "Average Household Size": "5.6",
     "Literacy Ratio (10 +)": "23.7 %",
-    "Population": { 
-        "1981": "1011212" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.04 %",
     "Total Housing Units": "252713",
     "Pacca Housing Units": "50836 (20.11 %)",

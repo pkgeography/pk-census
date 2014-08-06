@@ -2,6 +2,7 @@
     "Title": "BADIN  DISTRICT AT A GLANCE ",
     "Area": "6726 Sq.Kms.",
     "Population": { 
+        "1981": "776614",
         "1998": "1136044" 
     },
     "Male": "35.07 %",
@@ -12,9 +13,6 @@
     "Rural Population": "949556 (83.58 %)",
     "Average Household Size": "5.3",
     "Literacy Ratio (10 +)": "24.6 %",
-    "Population": { 
-        "1981": "776614" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.26 %",
     "Total Housing Units": "211354",
     "Pacca Housing Units": "34201 (16.18 %)",

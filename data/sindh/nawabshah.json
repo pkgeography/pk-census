@@ -2,6 +2,7 @@
     "Title": "NAWABSHAH DISTRICT AT A GLANCE ",
     "Area": "4502 Sq.Kms.",
     "Population": { 
+        "1981": "813534",
         "1998": "1071533" 
     },
     "Male": "47.62 %",
@@ -12,9 +13,6 @@
     "Rural Population": "789174 (83.19 %)",
     "Average Household Size": "6.0",
     "Literacy Ratio (10 +)": "34.13 %",
-    "Population": { 
-        "1981": "813534" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "1.63 %",
     "Total Housing Units": "177522",
     "Pacca Housing Units": "47339 (26.67 %)",

@@ -2,6 +2,7 @@
     "Title": "SIALKOT DISTRICT AT A GLANCE ",
     "Area": "3016Sq.Kms.",
     "Population": { 
+        "1981": "1802505",
         "1998": "2723481" 
     },
     "Male": "65.96 %",
@@ -12,9 +13,6 @@
     "Rural Population": "2010152 (73.81 %)",
     "Average Household Size": "7.4",
     "Literacy Ratio (10 +)": "58.9%",
-    "Population": { 
-        "1981": "1802505" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.46%",
     "Total Housing Units": "366251",
     "Pacca Housing Units": "315998 (86.28%)",

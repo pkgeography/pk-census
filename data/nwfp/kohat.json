@@ -2,6 +2,7 @@
 	"Title": "KOHAT DISTRICT AT A GLANCE ",
 	"Area": "2545 Sq.Kms.",
 	"Population": { 
+		"1981": "326617",
 		"1998": "562644" 
 	},
 	"Male": "65.0 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "410731 (73.00%)",
 	"Average Household Size": "7.5",
 	"Literacy Ratio (10 +)": "44.1%",
-	"Population": { 
-		"1981": "326617" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "3.25 %",
 	"Total Housing Units": "74695",
 	"Pacca Housing Units": "46314 (62.00 %)",

@@ -2,6 +2,7 @@
     "Title": "MIANWALI DISTRICT AT A GLANCE ",
     "Area": "5840Sq.Kms.",
     "Population": { 
+        "1981": "711529",
         "1998": "1056620" 
     },
     "Male": "63.8 %",
@@ -12,9 +13,6 @@
     "Rural Population": "836610 (79.18 %)",
     "Average Household Size": "7.1",
     "Literacy Ratio (10 +)": "42.8%",
-    "Population": { 
-        "1981": "711529" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.35 %",
     "Total Housing Units": "148837",
     "Pacca Housing Units": "96232 (64.65%)",

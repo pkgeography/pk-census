@@ -2,6 +2,7 @@
     "Title": "FAISALABAD DISTRICT AT A GLANCE ",
     "Area": "5856 Sq.Kms.",
     "Population": { 
+        "1981": "3561909",
         "1998": "5429547" 
     },
     "Male": "60.85 %",
@@ -12,9 +13,6 @@
     "Rural Population": "3111114 (52.30 %)",
     "Average Household Size": "7.2",
     "Literacy Ratio (10 +)": "51.9 %",
-    "Population": { 
-        "1981": "3561909" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.51 %",
     "Total Housing Units": "750975",
     "Pacca Housing Units": "524335 (68.49 %)",

@@ -2,7 +2,7 @@
 
 define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 
-$filename = DATAPATH . '/balochistan/ziarat.json';
+$filename = DATAPATH . '/nwfp/abbottabad.json';
 
 $file = file_get_contents($filename);
 
@@ -77,6 +77,9 @@ if (property_exists($data, 'union_councils'))
 if (property_exists($data, 'town_committees'))
 	$o['administration']['town_committees'] = intval($data->town_committees);
 
+if (property_exists($data, 'municipal_committees'))
+	$o['administration']['municipal_committees'] = intval($data->municipal_committees);
+
 if (property_exists($data, 'cantonment'))
 	$o['administration']['cantonment'] = intval($data->cantonment);
 
@@ -125,4 +128,5 @@ header('Content-Type: application/json');
 
 // file_put_contents($filename, json_encode($o, JSON_PRETTY_PRINT));
 
-echo file_get_contents($filename);
+// echo file_get_contents($filename);
+echo json_encode($o, JSON_PRETTY_PRINT);

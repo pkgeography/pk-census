@@ -2,6 +2,7 @@
 	"Title": "KARAK DISTRICT AT A GLANCE ",
 	"Area": "3372 Sq.Kms.",
 	"Population": { 
+		"1981": "249681",
 		"1998": "430796" 
 	},
 	"Male": "68.2 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "402903 (93.52 %)",
 	"Average Household Size": "10.0",
 	"Literacy Ratio (10 +)": "41.9 %",
-	"Population": { 
-		"1981": "249681" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "3.26 %",
 	"Total Housing Units": "43170",
 	"Pacca Housing Units": "20652 (47.84%)",

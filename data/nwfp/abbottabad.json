@@ -2,8 +2,9 @@
   "Title": "ABBOTTABAD DISTRICT AT A GLANCE ",
   "Area": "1967 Sq.Kms.",
   "Population": { 
-		"1998": "880666" 
-	},
+		"1981": "647635",
+        "1998": "880666" 
+    },
   "Male": "74.52 %",
   "Female": "39.11 %",
   "Sex Ratio (males per 100  females)": "100.2",
@@ -12,9 +13,6 @@
   "Rural Population": "722762 (82.07%)",
   "Average Household Size": "6.5",
   "Literacy Ratio (10 +)": "56.6%",
-  "Population": { 
-		"1981": "647635" 
-	},
   "Average Annual Growth Rate  (1981 - 98)": "1.82 %",
   "Total Housing Units": "135575",
   "Pacca Housing Units": "88908 (65.58 %)",

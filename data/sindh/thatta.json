@@ -2,6 +2,7 @@
     "Title": "THATTA  DISTRICT AT A GLANCE ",
     "Area": "17355 Sq.Kms.",
     "Population": { 
+        "1981": "761039",
         "1998": "1113194" 
     },
     "Male": "31.58 %",
@@ -12,9 +13,6 @@
     "Rural Population": "988455 (88.79 %)",
     "Average Household Size": "5.1",
     "Literacy Ratio (10 +)": "22.1 %",
-    "Population": { 
-        "1981": "761039" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.26 %",
     "Total Housing Units": "220068",
     "Pacca Housing Units": "36841 (16.74 %)",

@@ -2,6 +2,7 @@
 	"Title": "UPPER DIR DISTRICT AT A GLANCE ",
 	"Area": "3699 Sq.Kms.",
 	"Population": { 
+		"1981": "362565",
 		"1998": "575852" 
 	},
 	"Male": "36.10 %",
@@ -12,9 +13,7 @@
 	"Rural Population": "552957 (96.02 %)",
 	"Average Household Size": "8.0",
 	"Literacy Ratio (10 +)": "21.21 %",
-	"Population": { 
-		"1981": "362565" 
-	},
+	
 	"Average Annual Growth Rate  (1981 - 98)": "2.76 %",
 	"Total Housing Units": "71705",
 	"Pacca Housing Units": "59580 (83.09 %)",

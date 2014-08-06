@@ -2,6 +2,7 @@
     "Title": "SHEIKHUPURA DISTRICT AT A GLANCE ",
     "Area": "5960 Sq.Kms.",
     "Population": { 
+        "1981": "2110153",
         "1998": "3321029" 
     },
     "Male": "53.28 %",
@@ -12,9 +13,6 @@
     "Rural Population": "2450213 (73.78 %)",
     "Average Household Size": "7.3",
     "Literacy Ratio (10 +)": "47.8 %",
-    "Population": { 
-        "1981": "2110153" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.70 %",
     "Total Housing Units": "453248",
     "Pacca Housing Units": "328274 (72.43 %)",

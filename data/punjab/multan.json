@@ -2,6 +2,7 @@
     "Title": "MULTAN  DISTRICT AT A GLANCE ",
     "Area": "3720Sq.Kms.",
     "Population": { 
+        "1981": "1970075",
         "1998": "3116851" 
     },
     "Male": "53.25 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1802103 (57.82 %)",
     "Average Household Size": "7.2",
     "Literacy Ratio (10 +)": "43.4%",
-    "Population": { 
-        "1981": "1970075" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.73%",
     "Total Housing Units": "433362",
     "Pacca Housing Units": "215429 (49.71%)",

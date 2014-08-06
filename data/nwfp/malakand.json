@@ -2,6 +2,7 @@
 	"Title": "MALAKAND PROTECTED  AREA DISTRICT AT A GLANCE ",
 	"Area": "952 Sq.Kms.",
 	"Population": { 
+		"1981": "257797",
 		"1998": "452291" 
 	},
 	"Male": "55.21 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "409112 (90.45 %)",
 	"Average Household Size": "9.1",
 	"Literacy Ratio (10 +)": "39.50 %",
-	"Population": { 
-		"1981": "257797" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "3.36 %",
 	"Total Housing Units": "49330",
 	"Pacca Housing Units": "29723 (60.25 %)",

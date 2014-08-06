@@ -1,7 +1,10 @@
 {
 	"Title": "PESHAWAR DISTRICT AT A GLANCE ",
 	"Area": "1257 Sq.Kms.",
-	"Population - 1998": " 2026851 persons",
+	"Population": {
+		"1981": "1113303", 
+		"1998": " 2026851"
+	},
 	"Male": "55.97 %",
 	"Female": "25.85 %",
 	"Sex Ratio (males per 100  females)": "110.8",
@@ -10,9 +13,7 @@
 	"Rural Population": "1044035 (51.51 %)",
 	"Average Household Size": "8.6",
 	"Literacy Ratio (10 +)": "41.7 %",
-	"Population": { 
-		"1981": "1113303" 
-	},
+	
 	"Average Annual Growth Rate  (1981 - 98)": "3.58 %",
 	"Total Housing Units": "235215",
 	"Pacca Housing Units": "122685 (52.16 %)",

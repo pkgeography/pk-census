@@ -2,6 +2,7 @@
     "Title": "SANGHAR DISTRICT AT A GLANCE ",
     "Area": "10608 Sq.Kms.",
     "Population": { 
+        "1981": "893047",
         "1998": "1421977" 
     },
     "Male": "42.88 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1090661 (76.70 %)",
     "Average Household Size": "5.8",
     "Literacy Ratio (10 +)": "31.0 %",
-    "Population": { 
-        "1981": "893047" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.77 %",
     "Total Housing Units": "245479",
     "Pacca Housing Units": "69264 (28.22 %)",

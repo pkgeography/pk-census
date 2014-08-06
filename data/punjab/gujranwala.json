@@ -1,7 +1,10 @@
 {
 	"Title":"GUJRANWALA DISTRICT AT A GLANCE ",
 	"Area":"3622Sq.Kms.",
-	"Population - 1998":"3400940 persons",
+	"Population": {
+		"1981": "2108365",
+		"1998": "3400940"
+	},
 	"Male":"63.60 %",
 	"Female":"48.80%",
 	"Sex Ratio (males per 100  females)":"108.6",
@@ -10,7 +13,6 @@
 	"Rural Population":"1681902 (49.45 %)",
 	"Average Household Size":"7.6",
 	"Literacy Ratio (10 +)":"56.5%",
-	"Population - 1981":"2108365 persons",
 	"Average Annual Growth Rate  (1981 - 98)":"2.85%",
 	"Total Housing Units":"448818",
 	"Pacca Housing Units":"406319 (90.53%)",

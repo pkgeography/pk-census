@@ -2,6 +2,7 @@
 	"Title": "MARDAN DISTRICT AT A GLANCE ",	
 	"Area": "1632 Sq.Kms.",
 	"Population": { 
+		"1981": "881465",
 		"1998": "1460100" 
 	},
 	"Male": "53.50%",
@@ -12,9 +13,6 @@
 	"Rural Population": "1164972 (79.78 %)",
 	"Average Household Size": "8.4",
 	"Literacy Ratio (10 +)": "36.5 %",
-	"Population": { 
-		"1981": "881465" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "3.01 %",
 	"Total Housing Units": "173088",
 	"Pacca Housing Units": "84595 ( %)",

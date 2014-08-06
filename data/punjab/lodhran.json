@@ -2,6 +2,7 @@
     "Title": "LODHRAN DISTRICT AT A GLANCE ",
     "Area": "2778Sq.Kms.",
     "Population": { 
+        "1981": "739912",
         "1998": "1171800" 
     },
     "Male": "42.7 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1001712 (85.48 %)",
     "Average Household Size": "7.3",
     "Literacy Ratio (10 +)": "29.9%",
-    "Population": { 
-        "1981": "739912" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.74 %",
     "Total Housing Units": "161437",
     "Pacca Housing Units": "54369 (33.67%)",

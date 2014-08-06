@@ -2,6 +2,7 @@
 	"Title": "TANK DISTRICT AT A GLANCE ",
 	"Area": "1679 Sq.Kms.",
 	"Population": { 
+		"1981": "141062",
 		"1998": "238216" 
 	},
 	"Male": "42.44 %",
@@ -12,9 +13,7 @@
 	"Rural Population": "202475 (84.99 %)",
 	"Average Household Size": "9.4",
 	"Literacy Ratio (10 +)": "26.2 %",
-	"Population": { 
-		"1981": "141062" 
-	},
+	
 	"Average Annual Growth Rate  (1981 - 98)": "3.13 %",
 	"Total Housing Units": "25423",
 	"Pacca Housing Units": "3660 (41.39 %)",

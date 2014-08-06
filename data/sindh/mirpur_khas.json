@@ -2,6 +2,7 @@
     "Title": "MIRPUR KHAS DISTRICT AT A GLANCE ",
     "Area": "2925 Sq.Kms.",
     "Population": { 
+        "1981": "287570",
         "1998": "905935" 
     },
     "Male": "45.99 %",
@@ -12,9 +13,6 @@
     "Rural Population": "605760 (66.87 %)",
     "Average Household Size": "6.1",
     "Literacy Ratio (10 +)": "36.0 %",
-    "Population": { 
-        "1981": "287570" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.37 %",
     "Total Housing Units": "148470",
     "Pacca Housing Units": "46395 (31.25 %)",

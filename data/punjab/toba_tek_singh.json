@@ -2,6 +2,7 @@
     "Title": "TOBA TEK SINGH DISTRICT AT A GLANCE ",
     "Area": "3252Sq.Kms.",
     "Population": { 
+        "1981": "1134572",
         "1998": "1621593" 
     },
     "Male": "61.3 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1316182 (81.17 %)",
     "Average Household Size": "7.1",
     "Literacy Ratio (10 +)": "50.5%",
-    "Population": { 
-        "1981": "1134572" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.12%",
     "Total Housing Units": "226946",
     "Pacca Housing Units": "103114 (45.43%)",

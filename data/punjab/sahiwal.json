@@ -2,6 +2,7 @@
     "Title": "SHAIWAL DISTRICT AT A GLANCE ",
     "Area": "3201 Sq.Kms.",
     "Population": { 
+        "1981": "1281526",
         "1998": "1843194" 
     },
     "Male": "54.72 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1541204 (83.62 %)",
     "Average Household Size": "6.9",
     "Literacy Ratio (10 +)": "43.90 %",
-    "Population": { 
-        "1981": "1281526" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.16 %",
     "Total Housing Units": "Pacca Housing Units",
     " (32.57%)": "Housing Units having  Electricity",

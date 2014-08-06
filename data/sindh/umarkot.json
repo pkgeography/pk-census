@@ -2,6 +2,7 @@
     "Title": "UMERKOT DISTRICT AT A GLANCE ",
     "Area": "5608 Sq.Kms.",
     "Population": { 
+        "1981": "383018",
         "1998": "663095" 
     },
     "Male": "36.32 %",
@@ -12,9 +13,6 @@
     "Rural Population": "551631 (83.19 %)",
     "Average Household Size": "5.4",
     "Literacy Ratio (10 +)": "24.8 %",
-    "Population": { 
-        "1981": "383018" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.28 %",
     "Total Housing Units": "122335",
     "Pacca Housing Units": "15945 (13.03 %)",

@@ -2,6 +2,7 @@
     "Title": "HAFIZABAD DISTRICT AT A GLANCE ",
     "Area": "2367Sq.Kms.",
     "Population": { 
+        "1981": "567572",
         "1998": "832980" 
     },
     "Male": "51.8 %",
@@ -12,9 +13,6 @@
     "Rural Population": "605865 (72.74 %)",
     "Average Household Size": "7.1",
     "Literacy Ratio (10 +)": "40.7%",
-    "Population": { 
-        "1981": "567572" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.28 %",
     "Total Housing Units": "117354",
     "Pacca Housing Units": "77094 (65.69%)",

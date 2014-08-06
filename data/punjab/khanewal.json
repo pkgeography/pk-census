@@ -2,6 +2,7 @@
     "Title": "KHANEWAL DISTRICT AT A GLANCE ",
     "Area": "4349 Sq.Kms.",
     "Population": { 
+        "1981": "1369766",
         "1998": "2068490" 
     },
     "Male": "53.6 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1704229 (82.39 %)",
     "Average Household Size": "7.1",
     "Literacy Ratio (10 +)": "39.9 %",
-    "Population": { 
-        "1981": "1369766" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.45 %",
     "Total Housing Units": "292796",
     "Pacca Housing Units": "102955 (35.16 %)",

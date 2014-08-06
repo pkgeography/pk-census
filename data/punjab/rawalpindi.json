@@ -2,6 +2,7 @@
     "Title": "RAWALPINDI DISTRICT AT A GLANCE ",
     "Area": "5285 Sq.Kms.",
     "Population": { 
+        "1981": "2121450",
         "1998": "3363911" 
     },
     "Male": "81.19 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1575638 (46.84 %)",
     "Average Household Size": "6.5",
     "Literacy Ratio (10 +)": "70.4 %",
-    "Population": { 
-        "1981": "2121450" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.75 %",
     "Total Housing Units": "521507",
     "Pacca Housing Units": "462724 (88.73 %)",

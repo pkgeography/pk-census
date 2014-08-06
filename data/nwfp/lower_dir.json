@@ -2,6 +2,7 @@
 	"Title": "LOWER DIR DISTRICT AT A GLANCE ",
 	"Area": "1583 Sq.Kms.",
 	"Population": { 
+		"1981": "404844",
 		"1998": "717649" 
 	},
 	"Male": "48.76 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "673314 (93.82 %)",
 	"Average Household Size": "9.3",
 	"Literacy Ratio (10 +)": "29.90 %",
-	"Population": { 
-		"1981": "404844" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "3.42 %",
 	"Total Housing Units": "76531",
 	"Pacca Housing Units": "60298 (78.78 %)",

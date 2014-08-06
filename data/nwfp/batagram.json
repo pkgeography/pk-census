@@ -2,19 +2,17 @@
 	"Title": "BATAGRAM DISTRICT AT A GLANCE ",
 	"Area": "1301 Sq.Kms.",
 	"Population": { 
-		"1998": "307278" 
-	},
-	"Male": "29.40 %",
-	"Female": "6.48 %",
-	"Sex Ratio (males per 100  females)": "106.6",
-	"population Density": "236.2 per Sq. Km",
-	"Urban Population": "-",
-	"Rural Population": "307278 (100 %)",
-	"Average Household Size": "6.6",
-	"Literacy Ratio (10 +)": "18.31 %",
-	"Population": { 
-		"1981": "339119" 
-	},
+		"1981": "339119",
+        "1998": "307278" 
+    },
+    "Male": "29.40 %",
+    "Female": "6.48 %",
+    "Sex Ratio (males per 100  females)": "106.6",
+    "population Density": "236.2 per Sq. Km",
+    "Urban Population": "-",
+    "Rural Population": "307278 (100 %)",
+    "Average Household Size": "6.6",
+    "Literacy Ratio (10 +)": "18.31 %",
 	"Average Annual Growth Rate  (1981 - 98)": "-0.58 %",
 	"Total Housing Units": "46438",
 	"Pacca Housing Units": "30059 (64.72 %)",

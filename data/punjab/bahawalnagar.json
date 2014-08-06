@@ -2,6 +2,7 @@
     "Title": "BAHAWALNAGAR DISTRICT AT A GLANCE ",
     "Area": "8878Sq.Kms.",
     "Population": { 
+        "1981": "1373747",
         "1998": "2061447" 
     },
     "Male": "45.52 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1668646 (80.95 %)",
     "Average Household Size": "6.7",
     "Literacy Ratio (10 +)": "35.1%",
-    "Population": { 
-        "1981": "1373747" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.41 %",
     "Total Housing Units": "307133",
     "Pacca Housing Units": "116901 (38.06%)",

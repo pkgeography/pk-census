@@ -2,6 +2,7 @@
     "Title": "SUKKUR  DISTRICT AT A GLANCE ",
     "Area": "5165 Sq.Kms.",
     "Population": { 
+        "1981": "560566",
         "1998": "908373" 
     },
     "Male": "59.83 %",
@@ -12,9 +13,6 @@
     "Rural Population": "446268 (49.12 %)",
     "Average Household Size": "6.6",
     "Literacy Ratio (10 +)": "46.6 %",
-    "Population": { 
-        "1981": "560566" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.88 %",
     "Total Housing Units": "138553",
     "Pacca Housing Units": "53926 (38.92 %)",

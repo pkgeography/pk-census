@@ -2,6 +2,7 @@
     "Title": "RAHIM YAR KHAN DISTRICT AT A  GLANCE ",
     "Area": "11880Sq.Kms.",
     "Population": { 
+        "1981": "1841451",
         "1998": "3141053" 
     },
     "Male": "43.40 %",
@@ -12,9 +13,6 @@
     "Rural Population": "2524471 (80.37 %)",
     "Average Household Size": "7.5",
     "Literacy Ratio (10 +)": "33.1%",
-    "Population": { 
-        "1981": "1841451" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.19%",
     "Total Housing Units": "416215",
     "Pacca Housing Units": "185771 (44.63%)",

@@ -2,6 +2,7 @@
     "Title": "THARPARKAR DISTRICT AT A GLANCE ",
     "Area": "19638 Sq.Kms.",
     "Population": { 
+        "1981": "540985",
         "1998": "914291" 
     },
     "Male": "28.33 %",
@@ -12,9 +13,6 @@
     "Rural Population": "874464 (95.64 %)",
     "Average Household Size": "5.6",
     "Literacy Ratio (10 +)": "18.3 %",
-    "Population": { 
-        "1981": "540985" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.13 %",
     "Total Housing Units": "163147",
     "Pacca Housing Units": "11509 (7.05 %)",

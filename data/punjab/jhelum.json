@@ -2,6 +2,7 @@
     "Title": "JHELUM  DISTRICT AT A GLANCE ",
     "Area": "3587 Sq.Kms.",
     "Population": { 
+        "1981": "659012",
         "1998": "936957" 
     },
     "Male": "77.66 %",
@@ -12,9 +13,6 @@
     "Rural Population": "677627 (72.32 %)",
     "Average Household Size": "6.2",
     "Literacy Ratio (10 +)": "63.9 %",
-    "Population": { 
-        "1981": "659012" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.09 %",
     "Total Housing Units": "150225",
     "Pacca Housing Units": "126992 (84.53 %)",

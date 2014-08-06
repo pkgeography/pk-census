@@ -2,7 +2,8 @@
 	"Title": "HARIPUR DISTRICT AT A GLANCE ",
 	"Area": "1725 Sq.Kms.",
 	"Population": { 
-		"1998": "692228" 
+		"1981": "479031",
+		"1998": "692228"
 	},
 	"Male": "70.5 %",
 	"Female": "37.4 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "609493 (88.05 %)",
 	"Average Household Size": "6.6",
 	"Literacy Ratio (10 +)": "53.7 %",
-	"Population": { 
-		"1981": "479031" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "2.19 %",
 	"Total Housing Units": "104407",
 	"Pacca Housing Units": "86567 (82.91 %)",

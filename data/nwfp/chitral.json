@@ -2,6 +2,7 @@
 	"Title": "CHITRAL DISTRICT AT A GLANCE ",
 	"Area": "14850 Sq.Kms.",
 	"Population": { 
+		"1981": "208560",
 		"1998": "318689" 
 	},
 	"Male": "58.02 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "288067 (90.39 %)",
 	"Average Household Size": "7.9",
 	"Literacy Ratio (10 +)": "40.30 %",
-	"Population": { 
-		"1981": "208560" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "2.52 %",
 	"Total Housing Units": "40060",
 	"Pacca Housing Units": "12802 (31.95 %)",

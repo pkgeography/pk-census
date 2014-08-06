@@ -2,6 +2,7 @@
     "Title": "LARKANA DISTRICT AT A GLANCE ",
     "Area": "7423 Sq.Kms.",
     "Population": { 
+        "1981": "1138580",
         "1998": "1927066" 
     },
     "Male": "48.56 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1370054 (71.09 %)",
     "Average Household Size": "5.9",
     "Literacy Ratio (10 +)": "34.9 %",
-    "Population": { 
-        "1981": "1138580" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.14 %",
     "Total Housing Units": "328063",
     "Pacca Housing Units": "74169 (22.61 %)",

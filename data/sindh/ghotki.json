@@ -2,6 +2,7 @@
     "Title": "GHOTKI  DISTRICT AT A GLANCE ",
     "Area": "6083 Sq.Kms.",
     "Population": { 
+        "1981": "562105",
         "1998": "970549" 
     },
     "Male": "44.21 %",
@@ -12,9 +13,6 @@
     "Rural Population": "812048 (83.67 %)",
     "Average Household Size": "505",
     "Literacy Ratio (10 +)": "29.01 %",
-    "Population": { 
-        "1981": "562105" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.26 %",
     "Total Housing Units": "177432",
     "Pacca Housing Units": "53072 (29.91 %)",

@@ -2,6 +2,7 @@
 	"Title": "BHAKKAR DISTRICT AT A GLANCE ",
 	"Area": "8153Sq.Kms.",
 	"Population": { 
+		"1981": "665884",
 		"1998": "1051456" 
 	},
 	"Male": "49.7 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "882782 (83.96 %)",
 	"Average Household Size": "6.6",
 	"Literacy Ratio (10 +)": "34.2%",
-	"Population": { 
-		"1981": "665884" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "2.72 %",
 	"Total Housing Units": "158055",
 	"Pacca Housing Units": "51484 (32.57%)",

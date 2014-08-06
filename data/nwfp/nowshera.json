@@ -2,6 +2,7 @@
 	"Title": "NOWSHERA DISTRICT AT A GLANCE ",
 	"Area": "1748 Sq.Kms.",
 	"Population": { 
+		"1981": "537638",
 		"1998": "874373" 
 	},
 	"Male": "60.55 %",
@@ -12,9 +13,7 @@
 	"Rural Population": "647343 (74.04 %)",
 	"Average Household Size": "7.7",
 	"Literacy Ratio (10 +)": "42.50 %",
-	"Population": { 
-		"1981": "537638" 
-	},
+	
 	"Average Annual Growth Rate  (1981 - 98)": "2.90 %",
 	"Total Housing Units": "112042",
 	"Pacca Housing Units": "74825 (66.78 %)",

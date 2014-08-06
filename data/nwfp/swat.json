@@ -2,6 +2,7 @@
     "Title": "SWAT  DISTRICT AT A GLANCE ",
     "Area": "5337 Sq.Kms.",
     "Population": { 
+        "1981": "715938",
         "1998": "1257602" 
     },
     "Male": "43.16 %",
@@ -13,7 +14,6 @@
     "Average Household Size": "8.8",
     "Literacy Ratio (10 +)": "28.75 %",
     "Population": { 
-        "1981": "715938" 
     },
     "Average Annual Growth Rate  (1981 - 98)": "3.37 %",
     "Total Housing Units": "142311",

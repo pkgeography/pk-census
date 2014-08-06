@@ -2,6 +2,7 @@
 	"Title": "CHARSADDA DISTRICT AT A GLANCE ",
 	"Area": "996 Sq.Kms.",
 	"Population": { 
+		"1981": "630811",
 		"1998": "1022364" 
 	},
 	"Male": "46.9 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "829513 (81.14 %)",
 	"Average Household Size": "8.0",
 	"Literacy Ratio (10 +)": "31.1%",
-	"Population": { 
-		"1981": "630811" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "2.88 %",
 	"Total Housing Units": "128158",
 	"Pacca Housing Units": "35719 (27.87%)",

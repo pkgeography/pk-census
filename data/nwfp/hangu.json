@@ -2,6 +2,7 @@
 	"Title": "HANGU DISTRICT AT A GLANCE ",
 	"Area": "1097 Sq.Kms.",
 	"Population": { 
+		"1981": "182474",
 		"1998": "314529" 
 	},
 	"Male": "53.48 %",
@@ -12,9 +13,6 @@
 	"Rural Population": "250312 (79.58 %)",
 	"Average Household Size": "10.5",
 	"Literacy Ratio (10 +)": "30.5 %",
-	"Population": { 
-		"1981": "182474" 
-	},
 	"Average Annual Growth Rate  (1981 - 98)": "3.25 %",
 	"Total Housing Units": "29944",
 	"Pacca Housing Units": "19294 (64.43 %)",

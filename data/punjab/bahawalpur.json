@@ -2,6 +2,7 @@
     "Title": "BAHAWALPUR DISTRICT AT A GLANCE ",
     "Area": "24830Sq.Kms.",
     "Population": { 
+        "1981": "1453438",
         "1998": "2433091" 
     },
     "Male": "44.86 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1767787 (72.66 %)",
     "Average Household Size": "6.9",
     "Literacy Ratio (10 +)": "35.0%",
-    "Population": { 
-        "1981": "1453438" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.08%",
     "Total Housing Units": "354356",
     "Pacca Housing Units": "164666 (46.47%)",

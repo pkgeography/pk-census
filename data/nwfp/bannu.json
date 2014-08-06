@@ -2,8 +2,9 @@
   "Title": "BANNU DISTRICT AT A GLANCE ",
   "Area": "1227 Sq.Kms.",
   "Population": { 
-		"1998": "677346" 
-	},
+		"1981": "423018",
+        "1998": "677346" 
+    },
   "Male": "50.79 %",
   "Female": "12.18 %",
   "Sex Ratio (males per 100  females)": "106.9",
@@ -12,9 +13,6 @@
   "Rural Population": "629670 (92.96 %)",
   "Average Household Size": "9.7",
   "Literacy Ratio (10 +)": "32.11 %",
-  "Population": { 
-		"1981": "423018" 
-	},
   "Average Annual Growth Rate  (1981 - 98)": "2.81 %",
   "Total Housing Units": "68920",
   "Pacca Housing Units": "16355 (23.73 %)",

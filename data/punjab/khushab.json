@@ -1,7 +1,10 @@
 {
 	"Title":"KHUSHAB DISTRICT AT A GLANCE ",
 	"Area":"6511Sq.Kms.",
-	"Population - 1998":"905711 persons",
+	"Population": {
+		"1981":"641366",
+		"1998": "905711"
+	},
 	"Male":"59.8%",
 	"Female":"21.8%",
 	"Sex Ratio (males per 100 females)":"99.4",
@@ -10,7 +13,6 @@
 	"Rural Population":"676742 (74.72 %)",
 	"Average Household Size":"6.2",
 	"Literacy Ratio (10 +)":"40.5%",
-	"Population - 1981":"641366 persons",
 	"Average Annual Growth Rate (1981 - 98)":"2.05 %",
 	"Total Housing Units":"145187",
 	"Pacca Housing Units":"100165 (68.99%)",

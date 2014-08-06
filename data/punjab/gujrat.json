@@ -2,6 +2,7 @@
     "Title": "GUJRAT  DISTRICT AT A GLANCE ",
     "Area": "3192Sq.Kms.",
     "Population": { 
+        "1981": "1408585",
         "1998": "2048008" 
     },
     "Male": "73.0 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1479836 (72.25 %)",
     "Average Household Size": "6.7",
     "Literacy Ratio (10 +)": "62.2%",
-    "Population": { 
-        "1981": "1408585" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.22%",
     "Total Housing Units": "305097",
     "Pacca Housing Units": "278789 (91.37%)",

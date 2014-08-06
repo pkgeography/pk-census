@@ -2,6 +2,7 @@
 	"Title": "SHANGLA DISTRICT AT A GLANCE ",
 	"Area": "1586",
 	"Population": { 
+		"1981": "251546",
 		"1998": "434563" 
 	},
 	"Male": "25.16 %",
@@ -12,9 +13,7 @@
 	"Rural Population": "434563 (100 %)",
 	"Average Household Size": "8.1",
 	"Literacy Ratio (10 +)": "14.73 %",
-	"Population": { 
-		"1981": "251546" 
-	},
+	
 	"Average Annual Growth Rate  (1981 - 98)": "3.27 %",
 	"Total Housing Units": "53382",
 	"Pacca Housing Units": "39375 (73.76 %)",

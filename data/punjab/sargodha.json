@@ -2,6 +2,7 @@
     "Title": "SARGODHA DISTRICT AT A GLANCE ",
     "Area": "5854Sq.Kms.",
     "Population": { 
+        "1981": "1911849",
         "1998": "2665979" 
     },
     "Male": "59.16 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1915947 (71.87 %)",
     "Average Household Size": "6.5",
     "Literacy Ratio (10 +)": "46.3%",
-    "Population": { 
-        "1981": "1911849" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "1.97%",
     "Total Housing Units": "411209",
     "Pacca Housing Units": "319740 (77.75%)",

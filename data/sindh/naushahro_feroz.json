@@ -2,6 +2,7 @@
     "Title": "NAUSHAHRO FEROZE DISTRICT AT A GLANCE ",
     "Area": "2945 Sq.Kms.",
     "Population": { 
+        "1981": "829051",
         "1998": "1087571" 
     },
     "Male": "24.27 %",
@@ -12,9 +13,6 @@
     "Rural Population": "895167 (82.31 %)",
     "Average Household Size": "5.8",
     "Literacy Ratio (10 +)": "39.1 %",
-    "Population": { 
-        "1981": "829051" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "1.61 %",
     "Total Housing Units": "187988",
     "Pacca Housing Units": "40017 (21.29 %)",

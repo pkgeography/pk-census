@@ -2,6 +2,7 @@
     "Title": "CITY DISTRICT LAHORE AT A  GLANCE ",
     "Area": "1772 Sq.Kms.",
     "Population": { 
+        "1981": "3544942",
         "1998": "6318745" 
     },
     "Male": "69.05 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1109657 (17.56 %)",
     "Average Household Size": "7.2",
     "Literacy Ratio (10 +)": "64.7 %",
-    "Population": { 
-        "1981": "3544942" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.46 %",
     "Total Housing Units": "881708",
     "Pacca Housing Units": "813772 (92.29 %)",

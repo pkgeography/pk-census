@@ -2,6 +2,7 @@
     "Title": "KHAIRPUR DISTRICT AT A GLANCE ",
     "Area": "15910 Sq.Kms.",
     "Population": { 
+        "1981": "981190",
         "1998": "1546587" 
     },
     "Male": "49.7 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1181371 (76.38 %)",
     "Average Household Size": "6.1",
     "Literacy Ratio (10 +)": "35.5 %",
-    "Population": { 
-        "1981": "981190" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.71 %",
     "Total Housing Units": "255261",
     "Pacca Housing Units": "53751 (21.05 %)",

@@ -2,6 +2,7 @@
     "Title": "HYDERABAD DISTRICT AT A GLANCE ",
     "Area": "5519 Sq.Kms.",
     "Population": { 
+        "1981": "2059026",
         "1998": "2891488" 
     },
     "Male": "52.63 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1422387 (49.19 %)",
     "Average Household Size": "6.0",
     "Literacy Ratio (10 +)": "44.2 %",
-    "Population": { 
-        "1981": "2059026" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.02 %",
     "Total Housing Units": "476321",
     "Pacca Housing Units": "259973 (54.58 %)",

@@ -2,6 +2,7 @@
     "Title": "PAKPATTAN DISTRICT AT A GLANCE ",
     "Area": "2724Sq.Kms.",
     "Population": { 
+        "1981": "843623",
         "1998": "1286680" 
     },
     "Male": "47.0%",
@@ -12,9 +13,6 @@
     "Rural Population": "1103473 (85.76 %)",
     "Average Household Size": "6.4",
     "Literacy Ratio (10 +)": "34.7%",
-    "Population": { 
-        "1981": "843623" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.51%",
     "Total Housing Units": "199672",
     "Pacca Housing Units": "66750 (33.43%)",

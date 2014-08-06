@@ -2,6 +2,7 @@
     "Title": "VEHARI  DISTRICT AT A GLANCE ",
     "Area": "4364Sq.Kms.",
     "Population": { 
+        "1981": "1328808",
         "1998": "2090416" 
     },
     "Male": "49.40 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1754984 (83.95 %)",
     "Average Household Size": "6.9",
     "Literacy Ratio (10 +)": "36.8%",
-    "Population": { 
-        "1981": "1328808" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.70%",
     "Total Housing Units": "301201",
     "Pacca Housing Units": "133031 (44.17%)",

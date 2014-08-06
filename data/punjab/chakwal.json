@@ -2,6 +2,7 @@
     "Title": "CHAKWAL DISTRICT AT A GLANCE ",
     "Area": "6524 Sq.Kms.",
     "Population": { 
+        "1981": "775600",
         "1998": "1083725" 
     },
     "Male": "73.42 %",
@@ -12,9 +13,6 @@
     "Rural Population": "952033 (87.85 %)",
     "Average Household Size": "5.7",
     "Literacy Ratio (10 +)": "56.72 %",
-    "Population": { 
-        "1981": "775600" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "1.99 %",
     "Total Housing Units": "Pacca Housing Units",
     " (32.57%)": "Housing Units having  Electricity",

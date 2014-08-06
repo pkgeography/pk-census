@@ -2,6 +2,7 @@
     "Title": "CITY DISTRICT KARACHI AT A  GLANCE ",
     "Area": "3527 Sq.Kms.",
     "Population": { 
+        "1981": "5437984",
         "1998": "9856318" 
     },
     "Male": "71.17 %",
@@ -12,9 +13,6 @@
     "Rural Population": "517295 (5.25 %)",
     "Average Household Size": "6.7",
     "Literacy Ratio (10 +)": "67.4 %",
-    "Population": { 
-        "1981": "5437984" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "3.56 %",
     "Total Housing Units": "1457096",
     "Pacca Housing Units": "1394192 (95.68 %)",

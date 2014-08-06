@@ -2,7 +2,8 @@
     "Title": "MANSEHRA DISTRICT AT A GLANCE ",
     "Area": "4579 Sq.Kms.",
     "Population": { 
-        "1998": "1152839" 
+         "1981": "770235",
+         "1998": "1152839" 
     },
     "Male": "50.90%",
     "Female": "22.71 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1091463 (94.68 %)",
     "Average Household Size": "6.7",
     "Literacy Ratio (10 +)": "36.32 %",
-    "Population": { 
-        "1981": "770235" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.40 %",
     "Total Housing Units": "172040",
     "Pacca Housing Units": "106476 (61.89 %)",

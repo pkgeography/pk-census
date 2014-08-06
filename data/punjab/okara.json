@@ -1,7 +1,10 @@
 {
     "Title": "OKARA  DISTRICT AT A GLANCE ",
     "Area": "4377 Sq.Kms.",
-    "Population - 1998": " 2232992 persons",
+    "Population": {
+        "1981": "1487261",
+        "1998": "2232992"
+    },
     "Male": "49.27 %",
     "Female": "24.99 %",
     "Sex Ratio (males per 100  females)": "109.6",
@@ -10,9 +13,6 @@
     "Rural Population": "1718584 (76.96 %)",
     "Average Household Size": "6.6",
     "Literacy Ratio (10 +)": "37.8 %",
-    "Population": { 
-        "1981": "1487261" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.42 %",
     "Total Housing Units": "337866",
     "Pacca Housing Units": "146432 (43.34 %)",

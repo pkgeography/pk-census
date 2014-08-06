@@ -2,6 +2,7 @@
     "Title": "DADU  DISTRICT AT A GLANCE ",
     "Area": "19070 Sq.Kms.",
     "Population": { 
+        "1981": "1081611",
         "1998": "1688811" 
     },
     "Male": "48.03 %",
@@ -12,9 +13,6 @@
     "Rural Population": "1328049 (78.64 %)",
     "Average Household Size": "5.5",
     "Literacy Ratio (10 +)": "35.6 %",
-    "Population": { 
-        "1981": "1081611" 
-    },
     "Average Annual Growth Rate  (1981 - 98)": "2.65 %",
     "Total Housing Units": "305116",
     "Pacca Housing Units": "82199 (26.94 %)",
