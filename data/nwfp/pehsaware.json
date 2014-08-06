@@ -1,29 +1,85 @@
 {
-	"Title": "PESHAWAR DISTRICT AT A GLANCE ",
-	"Area": "1257 Sq.Kms.",
-	"Population": {
-		"1981": "1113303", 
-		"1998": " 2026851"
-	},
-	"Male": "55.97 %",
-	"Female": "25.85 %",
-	"Sex Ratio (males per 100  females)": "110.8",
-	"population Density": "1612.5 per Sq. Km",
-	"Urban Population": "982816 (48.49 %)",
-	"Rural Population": "1044035 (51.51 %)",
-	"Average Household Size": "8.6",
-	"Literacy Ratio (10 +)": "41.7 %",
-	
-	"Average Annual Growth Rate  (1981 - 98)": "3.58 %",
-	"Total Housing Units": "235215",
-	"Pacca Housing Units": "122685 (52.16 %)",
-	"Housing Units having  Electricity": "223433 (95.00 %)",
-	"Housing Units having Piped  Water": "111884 (47.56 %)",
-	"Housing Units using Gas for  Cooking": "92101 (39.15 %)",
-	"Tehsils": "01",
-	"Union Councils": "92",
-	"Mauzas": "246",
-	"Municipal Coporation": "01",
-	"Town Committees": "01",
-	"Cantt.": "01"
+    "title": "Peshawar District",
+    "area": {
+        "value": 1257,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1113303,
+            "1998": 2026851
+        },
+        "gender": {
+            "male": {
+                "percentage": 55.97
+            },
+            "female": {
+                "percentage": 25.85
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 110.8
+        },
+        "density": {
+            "value": 1612.5,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 48.49,
+            "value": 982816
+        },
+        "rural": {
+            "percentage": 51.51,
+            "value": 1044035
+        }
+    },
+    "administration": {
+        "union_councils": 92,
+        "town_committees": 1,
+        "tehsils": 1,
+        "mauzas": 246
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 41.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.58,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 8.6
+    },
+    "housing": {
+        "units": {
+            "total": 235215,
+            "pacca": {
+                "value": 122685,
+                "percentage": 52.16
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 223433,
+                "percentage": 95
+            },
+            "water": {
+                "type": "piped",
+                "value": 111884,
+                "percentage": 47.56
+            },
+            "gas": {
+                "value": 92101,
+                "percentage": 39.15
+            }
+        }
+    }
 }

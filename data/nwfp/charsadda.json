@@ -1,27 +1,86 @@
 {
-	"Title": "CHARSADDA DISTRICT AT A GLANCE ",
-	"Area": "996 Sq.Kms.",
-	"Population": { 
-		"1981": "630811",
-		"1998": "1022364" 
-	},
-	"Male": "46.9 %",
-	"Female": "14.1 %",
-	"Sex Ratio (males per 100  females)": "107.9",
-	"population Density": "1026.5 per Sq. Km",
-	"Urban Population": "192851 (18.86%)",
-	"Rural Population": "829513 (81.14 %)",
-	"Average Household Size": "8.0",
-	"Literacy Ratio (10 +)": "31.1%",
-	"Average Annual Growth Rate  (1981 - 98)": "2.88 %",
-	"Total Housing Units": "128158",
-	"Pacca Housing Units": "35719 (27.87%)",
-	"Housing Units having  Electricity": "116023 (90.53 %)",
-	"Housing Units having Piped  Water": "16151 (12.60 %)",
-	"Housing Units using Gas for  Cooking": "8358 (6.52 %)",
-	"Tehsils": "02",
-	"Union Councils": "49",
-	"Mauzas": "200",
-	"Municipal Committees": "04",
-	"Town Committees": "-"
+    "title": "Charsadda District",
+    "area": {
+        "value": 996,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 630811,
+            "1998": 1022364
+        },
+        "gender": {
+            "male": {
+                "percentage": 46.9
+            },
+            "female": {
+                "percentage": 14.1
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107.9
+        },
+        "density": {
+            "value": 1026.5,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 18.86,
+            "value": 192851
+        },
+        "rural": {
+            "percentage": 81.14,
+            "value": 829513
+        }
+    },
+    "administration": {
+        "union_councils": 49,
+        "town_committees": 0,
+        "municipal_committees": 4,
+        "tehsils": 2,
+        "mauzas": 200
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 31.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.88,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 8
+    },
+    "housing": {
+        "units": {
+            "total": 128158,
+            "pacca": {
+                "value": 35719,
+                "percentage": 27.87
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 116023,
+                "percentage": 90.53
+            },
+            "water": {
+                "type": "piped",
+                "value": 16151,
+                "percentage": 12.6
+            },
+            "gas": {
+                "value": 8358,
+                "percentage": 6.52
+            }
+        }
+    }
 }

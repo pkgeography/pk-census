@@ -1,28 +1,87 @@
 {
-	"Title": "DERA ISMIAL KHAN DISTRICT AT A GLANCE ",
-	"Area": "7326 Sq.Kms.",
-	"Population": { 
-		"1981": "494432",
-		"1998": "852995" 
-	},
-	"Male": "43.19 %",
-	"Female": "17.86 %",
-	"Sex Ratio (males per 100  females)": "111.1",
-	"population Density": "116.4 per Sq. Km",
-	"Urban Population": "125807 (14.75%)",
-	"Rural Population": "727188 (85.25%)",
-	"Average Household Size": "7.6",
-	"Literacy Ratio (10 +)": "31.3%",
-	"Average Annual Growth Rate  (1981 - 98)": "3.26 %",
-	"Total Housing Units": "112784",
-	"Pacca Housing Units": "20807 (18.45 %)",
-	"Housing Units having  Electricity": "82478 (73.13 %)",
-	"Housing Units having Piped  Water": "15491 (13.73 %)",
-	"Housing Units using Gas for  Cooking": "3561 (3.16 %)",
-	"Tehsils": "04",
-	"Union Councils": "46",
-	"Mauzas": "384",
-	"Municipal Committees": "01",
-	"Town Committees": "02",
-	"Cantonment": "01"
+    "title": "Dera Ismial Khan District",
+    "area": {
+        "value": 7326,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 494432,
+            "1998": 852995
+        },
+        "gender": {
+            "male": {
+                "percentage": 43.19
+            },
+            "female": {
+                "percentage": 17.86
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 111.1
+        },
+        "density": {
+            "value": 116.4,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 14.75,
+            "value": 125807
+        },
+        "rural": {
+            "percentage": 85.25,
+            "value": 727188
+        }
+    },
+    "administration": {
+        "union_councils": 46,
+        "town_committees": 2,
+        "municipal_committees": 1,
+        "cantonment": 1,
+        "tehsils": 4,
+        "mauzas": 384
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 31.3
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.26,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.6
+    },
+    "housing": {
+        "units": {
+            "total": 112784,
+            "pacca": {
+                "value": 20807,
+                "percentage": 18.45
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 82478,
+                "percentage": 73.13
+            },
+            "water": {
+                "type": "piped",
+                "value": 15491,
+                "percentage": 13.73
+            },
+            "gas": {
+                "value": 3561,
+                "percentage": 3.16
+            }
+        }
+    }
 }

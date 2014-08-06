@@ -1,27 +1,86 @@
 {
-	"Title": "HARIPUR DISTRICT AT A GLANCE ",
-	"Area": "1725 Sq.Kms.",
-	"Population": { 
-		"1981": "479031",
-		"1998": "692228"
-	},
-	"Male": "70.5 %",
-	"Female": "37.4 %",
-	"Sex Ratio (males per 100  females)": "99.7",
-	"population Density": "401.3 per Sq. Km",
-	"Urban Population": "82735 (11.95 %)",
-	"Rural Population": "609493 (88.05 %)",
-	"Average Household Size": "6.6",
-	"Literacy Ratio (10 +)": "53.7 %",
-	"Average Annual Growth Rate  (1981 - 98)": "2.19 %",
-	"Total Housing Units": "104407",
-	"Pacca Housing Units": "86567 (82.91 %)",
-	"Housing Units having  Electricity": "79694 (76.33 %)",
-	"Housing Units having Piped  Water": "51766 (49.58 %)",
-	"Housing Units using Gas for  Cooking": "14801 (14.17 %)",
-	"Tehsils": "02",
-	"Union Councils": "45",
-	"Mauzas": "361",
-	"Municipal Committees": "02",
-	"Town Committees": "-"
+    "title": "Haripur District",
+    "area": {
+        "value": 1725,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 479031,
+            "1998": 692228
+        },
+        "gender": {
+            "male": {
+                "percentage": 70.5
+            },
+            "female": {
+                "percentage": 37.4
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 99.7
+        },
+        "density": {
+            "value": 401.3,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 11.95,
+            "value": 82735
+        },
+        "rural": {
+            "percentage": 88.05,
+            "value": 609493
+        }
+    },
+    "administration": {
+        "union_councils": 45,
+        "town_committees": 0,
+        "municipal_committees": 2,
+        "tehsils": 2,
+        "mauzas": 361
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 53.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.19,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.6
+    },
+    "housing": {
+        "units": {
+            "total": 104407,
+            "pacca": {
+                "value": 86567,
+                "percentage": 82.91
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 79694,
+                "percentage": 76.33
+            },
+            "water": {
+                "type": "piped",
+                "value": 51766,
+                "percentage": 49.58
+            },
+            "gas": {
+                "value": 14801,
+                "percentage": 14.17
+            }
+        }
+    }
 }

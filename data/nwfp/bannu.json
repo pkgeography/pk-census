@@ -1,27 +1,86 @@
 {
-  "Title": "BANNU DISTRICT AT A GLANCE ",
-  "Area": "1227 Sq.Kms.",
-  "Population": { 
-		"1981": "423018",
-        "1998": "677346" 
+    "title": "Bannu District",
+    "area": {
+        "value": 1227,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-  "Male": "50.79 %",
-  "Female": "12.18 %",
-  "Sex Ratio (males per 100  females)": "106.9",
-  "population Density": "552 per Sq. Km",
-  "Urban Population": "47676 (7.04 %)",
-  "Rural Population": "629670 (92.96 %)",
-  "Average Household Size": "9.7",
-  "Literacy Ratio (10 +)": "32.11 %",
-  "Average Annual Growth Rate  (1981 - 98)": "2.81 %",
-  "Total Housing Units": "68920",
-  "Pacca Housing Units": "16355 (23.73 %)",
-  "Housing Units having  Electricity": "64825 (94.06 %)",
-  "Housing Units having Piped  Water": "29833 (43.28 %)",
-  "Housing Units using Gas for  Cooking": "2088 (3.03 %)",
-  "Tehsils": "01",
-  "Union Councils": "40",
-  "Mauzas": "229",
-  "Municipal Committees": "01",
-  "Cantonment": "01"
+    "population": {
+        "year": {
+            "1981": 423018,
+            "1998": 677346
+        },
+        "gender": {
+            "male": {
+                "percentage": 50.79
+            },
+            "female": {
+                "percentage": 12.18
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 106.9
+        },
+        "density": {
+            "value": 552,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 7.04,
+            "value": 47676
+        },
+        "rural": {
+            "percentage": 92.96,
+            "value": 629670
+        }
+    },
+    "administration": {
+        "union_councils": 40,
+        "municipal_committees": 1,
+        "cantonment": 1,
+        "tehsils": 1,
+        "mauzas": 229
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 32.11
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.81,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 9.7
+    },
+    "housing": {
+        "units": {
+            "total": 68920,
+            "pacca": {
+                "value": 16355,
+                "percentage": 23.73
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 64825,
+                "percentage": 94.06
+            },
+            "water": {
+                "type": "piped",
+                "value": 29833,
+                "percentage": 43.28
+            },
+            "gas": {
+                "value": 2088,
+                "percentage": 3.03
+            }
+        }
+    }
 }

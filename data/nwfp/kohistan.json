@@ -1,27 +1,86 @@
 {
-	"Title": "KOHISTAN DISTRICT AT A GLANCE ",
-	"Area": "7492 Sq.Kms.",
-	"Population": { 
-		"1981": "465237",
-		"1998": "472570" 
-	},
-	"Male": "17.23 %",
-	"Female": "2.95 %",
-	"Sex Ratio (males per 100  females)": "124.4",
-	"population Density": "63.1 per Sq. Km",
-	"Urban Population": " -",
-	"Rural Population": "472570 (100 %)",
-	"Average Household Size": "6.4",
-	"Literacy Ratio (10 +)": "11.08 %",
-	"Average Annual Growth Rate  (1981 - 98)": "0.09 %",
-	"Total Housing Units": "73622",
-	"Pacca Housing Units": "35017 (47.56 %)",
-	"Housing Units having  Electricity": "2135 (2.90 %)",
-	"Housing Units having Piped  Water": "6691 (9.09 %)",
-	"Housing Units using Gas for  Cooking": "161 (0.22 %)",
-	"Tehsils": "03",
-	"Union Councils": "38",
-	"Mauzas": "1342",
-	"Municipal Committees": " -",
-	"Town Committees": " -"
+    "title": "Kohistan District",
+    "area": {
+        "value": 7492,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 465237,
+            "1998": 472570
+        },
+        "gender": {
+            "male": {
+                "percentage": 17.23
+            },
+            "female": {
+                "percentage": 2.95
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 124.4
+        },
+        "density": {
+            "value": 63.1,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 0,
+            "value": 0
+        },
+        "rural": {
+            "percentage": 100,
+            "value": 472570
+        }
+    },
+    "administration": {
+        "union_councils": 38,
+        "town_committees": 0,
+        "municipal_committees": 0,
+        "tehsils": 3,
+        "mauzas": 1342
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 11.08
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 0.09,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.4
+    },
+    "housing": {
+        "units": {
+            "total": 73622,
+            "pacca": {
+                "value": 35017,
+                "percentage": 47.56
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 2135,
+                "percentage": 2.9
+            },
+            "water": {
+                "type": "piped",
+                "value": 6691,
+                "percentage": 9.09
+            },
+            "gas": {
+                "value": 161,
+                "percentage": 0.22
+            }
+        }
+    }
 }

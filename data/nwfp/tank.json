@@ -1,27 +1,85 @@
 {
-	"Title": "TANK DISTRICT AT A GLANCE ",
-	"Area": "1679 Sq.Kms.",
-	"Population": { 
-		"1981": "141062",
-		"1998": "238216" 
-	},
-	"Male": "42.44 %",
-	"Female": "8.59 %",
-	"Sex Ratio (males per 100  females)": "109.2",
-	"population Density": "141.9 per Sq. Km",
-	"Urban Population": "35741 (15.00 %)",
-	"Rural Population": "202475 (84.99 %)",
-	"Average Household Size": "9.4",
-	"Literacy Ratio (10 +)": "26.2 %",
-	
-	"Average Annual Growth Rate  (1981 - 98)": "3.13 %",
-	"Total Housing Units": "25423",
-	"Pacca Housing Units": "3660 (41.39 %)",
-	"Housing Units having  Electricity": "23479 (92.35 %)",
-	"Housing Units having Piped  Water": "7556 (29.72 %)",
-	"Housing Units using Gas for  Cooking": "77 (0.30 %)",
-	"Tehsils": "01",
-	"Union Councils": "16",
-	"Mauzas": "87",
-	"Municipal Committees": "01"
+    "title": "Tank District",
+    "area": {
+        "value": 1679,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 141062,
+            "1998": 238216
+        },
+        "gender": {
+            "male": {
+                "percentage": 42.44
+            },
+            "female": {
+                "percentage": 8.59
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 109.2
+        },
+        "density": {
+            "value": 141.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 15,
+            "value": 35741
+        },
+        "rural": {
+            "percentage": 84.99,
+            "value": 202475
+        }
+    },
+    "administration": {
+        "union_councils": 16,
+        "municipal_committees": 1,
+        "tehsils": 1,
+        "mauzas": 87
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 26.2
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.13,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 9.4
+    },
+    "housing": {
+        "units": {
+            "total": 25423,
+            "pacca": {
+                "value": 3660,
+                "percentage": 41.39
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 23479,
+                "percentage": 92.35
+            },
+            "water": {
+                "type": "piped",
+                "value": 7556,
+                "percentage": 29.72
+            },
+            "gas": {
+                "value": 77,
+                "percentage": 0.3
+            }
+        }
+    }
 }

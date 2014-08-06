@@ -1,27 +1,86 @@
 {
-    "Title": "MANSEHRA DISTRICT AT A GLANCE ",
-    "Area": "4579 Sq.Kms.",
-    "Population": { 
-         "1981": "770235",
-         "1998": "1152839" 
+    "title": "Mansehra District",
+    "area": {
+        "value": 4579,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "50.90%",
-    "Female": "22.71 %",
-    "Sex Ratio (males per 100  females)": "98.4",
-    "population Density": "251.8 per Sq. Km",
-    "Urban Population": "61376 (5.32 %)",
-    "Rural Population": "1091463 (94.68 %)",
-    "Average Household Size": "6.7",
-    "Literacy Ratio (10 +)": "36.32 %",
-    "Average Annual Growth Rate  (1981 - 98)": "2.40 %",
-    "Total Housing Units": "172040",
-    "Pacca Housing Units": "106476 (61.89 %)",
-    "Housing Units having  Electricity": "84478 (49.10 %)",
-    "Housing Units having Piped  Water": "45201 (26.27 %)",
-    "Housing Units using Gas for  Cooking": "5891 (3.42 %)",
-    "Tehsils": "03",
-    "Union Councils": "0",
-    "Mauzas": "492",
-    "Municipal Committees": "01",
-    "Town Committees": "01"
+    "population": {
+        "year": {
+            "1981": 770235,
+            "1998": 1152839
+        },
+        "gender": {
+            "male": {
+                "percentage": 50.9
+            },
+            "female": {
+                "percentage": 22.71
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 98.4
+        },
+        "density": {
+            "value": 251.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 5.32,
+            "value": 61376
+        },
+        "rural": {
+            "percentage": 94.68,
+            "value": 1091463
+        }
+    },
+    "administration": {
+        "union_councils": 0,
+        "town_committees": 1,
+        "municipal_committees": 1,
+        "tehsils": 3,
+        "mauzas": 492
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 36.32
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.4,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.7
+    },
+    "housing": {
+        "units": {
+            "total": 172040,
+            "pacca": {
+                "value": 106476,
+                "percentage": 61.89
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 84478,
+                "percentage": 49.1
+            },
+            "water": {
+                "type": "piped",
+                "value": 45201,
+                "percentage": 26.27
+            },
+            "gas": {
+                "value": 5891,
+                "percentage": 3.42
+            }
+        }
+    }
 }

@@ -1,28 +1,87 @@
 {
-  "Title": "ABBOTTABAD DISTRICT AT A GLANCE ",
-  "Area": "1967 Sq.Kms.",
-  "Population": { 
-		"1981": "647635",
-        "1998": "880666" 
+    "title": "Abbottabad District",
+    "area": {
+        "value": 1967,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-  "Male": "74.52 %",
-  "Female": "39.11 %",
-  "Sex Ratio (males per 100  females)": "100.2",
-  "population Density": "447.7 per Sq. Km",
-  "Urban Population": "157904 (17.93%)",
-  "Rural Population": "722762 (82.07%)",
-  "Average Household Size": "6.5",
-  "Literacy Ratio (10 +)": "56.6%",
-  "Average Annual Growth Rate  (1981 - 98)": "1.82 %",
-  "Total Housing Units": "135575",
-  "Pacca Housing Units": "88908 (65.58 %)",
-  "Housing Units having  Electricity": "101660 (74.98 %)",
-  "Housing Units having Piped  Water": "40498 (29.87 %)",
-  "Housing Units using Gas for  Cooking": "24239 (17.88 %)",
-  "Tehsils": "01",
-  "Union Councils": "46",
-  "Mauzas": "346",
-  "Municipal Committees": "02",
-  "Town Committees": "01",
-  "Cantonment": "03"
+    "population": {
+        "year": {
+            "1981": 647635,
+            "1998": 880666
+        },
+        "gender": {
+            "male": {
+                "percentage": 74.52
+            },
+            "female": {
+                "percentage": 39.11
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 100.2
+        },
+        "density": {
+            "value": 447.7,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 17.93,
+            "value": 157904
+        },
+        "rural": {
+            "percentage": 82.07,
+            "value": 722762
+        }
+    },
+    "administration": {
+        "union_councils": 46,
+        "town_committees": 1,
+        "municipal_committees": 2,
+        "cantonment": 3,
+        "tehsils": 1,
+        "mauzas": 346
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 56.6
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 1.82,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.5
+    },
+    "housing": {
+        "units": {
+            "total": 135575,
+            "pacca": {
+                "value": 88908,
+                "percentage": 65.58
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 101660,
+                "percentage": 74.98
+            },
+            "water": {
+                "type": "piped",
+                "value": 40498,
+                "percentage": 29.87
+            },
+            "gas": {
+                "value": 24239,
+                "percentage": 17.88
+            }
+        }
+    }
 }

@@ -1,29 +1,87 @@
 {
-	"Title": "NOWSHERA DISTRICT AT A GLANCE ",
-	"Area": "1748 Sq.Kms.",
-	"Population": { 
-		"1981": "537638",
-		"1998": "874373" 
-	},
-	"Male": "60.55 %",
-	"Female": "22.68 %",
-	"Sex Ratio (males per 100  females)": "108.8",
-	"population Density": "500.2 per Sq. Km",
-	"Urban Population": "227030 (25.96 %)",
-	"Rural Population": "647343 (74.04 %)",
-	"Average Household Size": "7.7",
-	"Literacy Ratio (10 +)": "42.50 %",
-	
-	"Average Annual Growth Rate  (1981 - 98)": "2.90 %",
-	"Total Housing Units": "112042",
-	"Pacca Housing Units": "74825 (66.78 %)",
-	"Housing Units having  Electricity": "101402 (90.50 %)",
-	"Housing Units having Piped  Water": "38003 (33.91 %)",
-	"Housing Units using Gas for  Cooking": "24140 (21.54 %)",
-	"Tehsils": "01",
-	"Union Councils": "47",
-	"Mauzas": "153",
-	"Municipal Committees": "04",
-	"Town Committees": "01",
-	"Cantonment": "03"
+    "title": "Nowshera District",
+    "area": {
+        "value": 1748,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 537638,
+            "1998": 874373
+        },
+        "gender": {
+            "male": {
+                "percentage": 60.55
+            },
+            "female": {
+                "percentage": 22.68
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.8
+        },
+        "density": {
+            "value": 500.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 25.96,
+            "value": 227030
+        },
+        "rural": {
+            "percentage": 74.04,
+            "value": 647343
+        }
+    },
+    "administration": {
+        "union_councils": 47,
+        "town_committees": 1,
+        "municipal_committees": 4,
+        "cantonment": 3,
+        "tehsils": 1,
+        "mauzas": 153
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 42.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.9,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.7
+    },
+    "housing": {
+        "units": {
+            "total": 112042,
+            "pacca": {
+                "value": 74825,
+                "percentage": 66.78
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 101402,
+                "percentage": 90.5
+            },
+            "water": {
+                "type": "piped",
+                "value": 38003,
+                "percentage": 33.91
+            },
+            "gas": {
+                "value": 24140,
+                "percentage": 21.54
+            }
+        }
+    }
 }

@@ -1,28 +1,87 @@
 {
-	"Title": "KOHAT DISTRICT AT A GLANCE ",
-	"Area": "2545 Sq.Kms.",
-	"Population": { 
-		"1981": "326617",
-		"1998": "562644" 
-	},
-	"Male": "65.0 %",
-	"Female": "23.5 %",
-	"Sex Ratio (males per 100  females)": "101.1",
-	"population Density": "221.1 per Sq. Km",
-	"Urban Population": "151913 (26.99%)",
-	"Rural Population": "410731 (73.00%)",
-	"Average Household Size": "7.5",
-	"Literacy Ratio (10 +)": "44.1%",
-	"Average Annual Growth Rate  (1981 - 98)": "3.25 %",
-	"Total Housing Units": "74695",
-	"Pacca Housing Units": "46314 (62.00 %)",
-	"Housing Units having  Electricity": "64368 (86.17 %)",
-	"Housing Units having Piped  Water": "27525 (36.85 %)",
-	"Housing Units using Gas for  Cooking": "8223 (11.01 %)",
-	"Tehsils": "02",
-	"Union Councils": "31",
-	"Mauzas": "141",
-	"Municipal Committees": "01",
-	"Town Committees": "02",
-	"Cantonment": "01"
+    "title": "Kohat District",
+    "area": {
+        "value": 2545,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 326617,
+            "1998": 562644
+        },
+        "gender": {
+            "male": {
+                "percentage": 65
+            },
+            "female": {
+                "percentage": 23.5
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 101.1
+        },
+        "density": {
+            "value": 221.1,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 26.99,
+            "value": 151913
+        },
+        "rural": {
+            "percentage": 73,
+            "value": 410731
+        }
+    },
+    "administration": {
+        "union_councils": 31,
+        "town_committees": 2,
+        "municipal_committees": 1,
+        "cantonment": 1,
+        "tehsils": 2,
+        "mauzas": 141
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 44.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.25,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.5
+    },
+    "housing": {
+        "units": {
+            "total": 74695,
+            "pacca": {
+                "value": 46314,
+                "percentage": 62
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 64368,
+                "percentage": 86.17
+            },
+            "water": {
+                "type": "piped",
+                "value": 27525,
+                "percentage": 36.85
+            },
+            "gas": {
+                "value": 8223,
+                "percentage": 11.01
+            }
+        }
+    }
 }
