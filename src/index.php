@@ -239,83 +239,83 @@ define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 // $filename = '/sindh_thatta.json';
 // $url = 'http://census.gov.pk/SINDH/THATTA.htm';
 
-// $filename = '/balochistan_zhob.json';
+// $filename = '/balochistan/zhob.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/ZHOB.htm';
 
-// $filename = '/balochistan_quetta.json';
+// $filename = '/balochistan/quetta.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/QUETTA.htm';
 
-// $filename = '/balochistan_sibbi.json';
+// $filename = '/balochistan/sibbi.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/SIBBI.htm';
 
-#$filename = '/balochistan_pishan.json';
+#$filename = '/balochistan/pishan.json';
 #$url = 'http://census.gov.pk/BALOCHISTAN/PISHAN.htm';
 
-// $filename = '/balochistan_ziarat.json';
+// $filename = '/balochistan/ziarat.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/ZIARAT.htm';
 
-#$filename = '/balochistan_panjur.json';
+#$filename = '/balochistan/panjur.json';
 #$url = 'http://census.gov.pk/BALOCHISTAN/PANJUR.htm';
 
-// $filename = '/balochistan_nasirabad.json';
+// $filename = '/balochistan/nasirabad.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/NASIRABAD.htm';
 
-// $filename = '/balochistan_musakhel.json';
+// $filename = '/balochistan/musakhel.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/MUSAKHEL.htm';
 
-// $filename = '/balochistan_mastung.json';
+// $filename = '/balochistan/mastung.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/MASTUNG.htm';
 
-// $filename = '/balochistan_lorali.json';
+// $filename = '/balochistan/loralai.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/LORALI.htm';
 
-// $filename = '/balochistan_lasbela.json';
+// $filename = '/balochistan/lasbela.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/LASBELA.htm';
 
-// $filename = '/balochistan_kohlui.json';
+// $filename = '/balochistan/kohlu.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/KOHLUI.htm';
 
-// $filename = '/balochistan_killa_saifullah.json';
+// $filename = '/balochistan/killa_saifullah.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/KILLA%20SAIFULLAH.htm';
 
-// $filename = '/balochistan_killa_abdullah.json';
+// $filename = '/balochistan/killa_abdullah.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/KILLA%20ABDULLAH.htm';
 
-// $filename = '/balochistan_khuzdar.json';
+// $filename = '/balochistan/khuzdar.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/KHUZDAR.htm';
 
-// $filename = '/balochistan_kharan.json';
+// $filename = '/balochistan/kharan.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/KHARAN.htm';
 
-// $filename = '/balochistan_kech.json';
+// $filename = '/balochistan/kech.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/KECH.htm';
 
-// $filename = '/balochistan_kalat.json';
+// $filename = '/balochistan/kalat.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/KALAT.htm';
 
-#$filename = '/balochistan_jhal_magsi.json';
+#$filename = '/balochistan/jhal_magsi.json';
 #$url = 'http://census.gov.pk/BALOCHISTAN/JHAL%20MAGSI.htm';
 
-// $filename = '/balochistan_jaffarabad.json';
+// $filename = '/balochistan/jaffarabad.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/JAFFARABAD.htm';
 
-// $filename = '/balochistan_gwadar.json';
+// $filename = '/balochistan/gwadar.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/GWADAR.htm';
 
-// $filename = '/balochistan_dera_bugti.json';
+// $filename = '/balochistan/dera_bugti.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/DERA%20BUGTI.htm';
 
-// $filename = '/balochistan_chagai.json';
+// $filename = '/balochistan/chagai.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/CHAGAI.htm';
 
-// $filename = '/balochistan_bolan.json';
+// $filename = '/balochistan/bolan.json';
 // $url = 'http://census.gov.pk/BALOCHISTAN/BOLAN.htm';
 
-$filename = '/balochistan_barkha.json';
-$url = 'http://census.gov.pk/BALOCHISTAN/BARKHAN.htm';
+// $filename = '/balochistan/barkhan.json';
+// $url = 'http://census.gov.pk/BALOCHISTAN/BARKHAN.htm';
 
-// $filename = '/balochistan_awara.json';
-// $url = 'http://census.gov.pk/BALOCHISTAN/AWARAN.htm';
+$filename = '/balochistan/awaran.json';
+$url = 'http://census.gov.pk/BALOCHISTAN/AWARAN.htm';
 
 $html = file_get_html($url);
 
@@ -342,9 +342,9 @@ $html = file_get_html($url);
 	foreach ($dataNow as $key) {
 		$i++;
 		if ( $i % 2 )
-			$keys[] = $key;
+			$keys[] = trim($key);
 		else
-			$values[] = $key;
+			$values[] = trim($key);
 	}
 
 	$result = array_combine($keys, $values);

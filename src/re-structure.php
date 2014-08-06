@@ -1,7 +1,7 @@
 <?php
 
 define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
-define('THEDIR', DATAPATH . '/sindh');
+define('THEDIR', DATAPATH . '/balochistan');
 
 $listing = scandir(THEDIR);
 
@@ -9,12 +9,15 @@ $files  = array();
 $contents  = array();
 
 foreach ($listing as $i => $thefile) {
-	if ( preg_match('/[a-zA-Z_]+\.json/', $thefile) )
+	if ( preg_match('/[a-zA-Z_]+\.json/', $thefile) ) {
+		if ( ! filesize(THEDIR . '/' . $thefile) ) 
+			continue;
+
 		$files[] = $thefile;
+	}
 }
 
 foreach ($files as $datafile) {
-
 
 	$filename = THEDIR . '/'. $datafile;
 
@@ -44,7 +47,7 @@ foreach ($files as $datafile) {
 
 	$data = json_decode($file);
 
-	// echo '<pre>'; print_r($data); echo '<hr></pre>'; return;
+	// echo '<pre>'; print_r($data); echo '<hr></pre>';
 
 	$o = array();
 
@@ -69,9 +72,11 @@ foreach ($files as $datafile) {
 	$o['population']['ratio']['type'] = 'males per 100 females';
 	$o['population']['ratio']['value'] = floatval($data->sex_ratio);
 
-	$o['population']['density']['value'] = floatval($data->population_density);
-	$o['population']['density']['unit_long'] = 'per square kilometers';
-	$o['population']['density']['unit_short'] = 'per Sq. Kms';
+	if (property_exists($data, 'population_density')) {
+		$o['population']['density']['value'] = floatval($data->population_density);
+		$o['population']['density']['unit_long'] = 'per square kilometers';
+		$o['population']['density']['unit_short'] = 'per Sq. Kms';
+	}
 
 	$urban_pop = preg_match('/[0-9]+/', $data->urban_population, $urban_pop_match);
 	$urban_per = preg_match('/\(([0-9\.]+)%\)/', $data->urban_population, $urban_per_match);
@@ -140,10 +145,9 @@ foreach ($files as $datafile) {
 	$o['housing']['have_utilities']['gas']['value'] = intval($gas_val_match[1]);
 	$o['housing']['have_utilities']['gas']['percentage'] = floatval($gas_per_match[1]);
 
-	file_put_contents($filename, json_encode($o, JSON_PRETTY_PRINT));
-
-	// $contents[] = file_get_contents($filename);
 	$contents[] = json_encode($o, JSON_PRETTY_PRINT);
+	// file_put_contents($filename, json_encode($o, JSON_PRETTY_PRINT));
+	// $contents[] = file_get_contents($filename);
 }
 
 header('Content-Type: application/json');

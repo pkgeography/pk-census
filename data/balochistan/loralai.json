@@ -39,8 +39,8 @@
     "administration": {
         "union_councils": 30,
         "town_committees": 1,
+        "municipal_committees": 1,
         "cantonment": 1,
-        "tehsils": 3,
         "mauzas": 324
     },
     "litracy_ratio": {

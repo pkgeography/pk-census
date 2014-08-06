@@ -28,7 +28,7 @@
             "unit_short": "per Sq. Kms"
         },
         "urban": {
-            "percentage": 0,
+            "percentage": 100,
             "value": 0
         },
         "rural": {

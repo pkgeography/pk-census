@@ -38,6 +38,7 @@
     },
     "administration": {
         "union_councils": 12,
+        "municipal_committees": 1,
         "tehsils": 2,
         "mauzas": 278
     },
