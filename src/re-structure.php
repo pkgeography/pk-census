@@ -2,7 +2,7 @@
 
 define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 
-$filename = DATAPATH . '/nwfp/abbottabad.json';
+$filename = DATAPATH . '/punjab/unknown.json';
 
 $file = file_get_contents($filename);
 
