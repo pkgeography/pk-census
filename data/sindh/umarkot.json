@@ -1,26 +1,84 @@
 {
-    "Title": "UMERKOT DISTRICT AT A GLANCE ",
-    "Area": "5608 Sq.Kms.",
-    "Population": { 
-        "1981": "383018",
-        "1998": "663095" 
+    "title": "Umerkot District",
+    "area": {
+        "value": 5608,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "36.32 %",
-    "Female": "11.94 %",
-    "Sex Ratio (males per 100  females)": "111.6",
-    "population Density": "118.2 per Sq. Km",
-    "Urban Population": "111464 (16.81 %)",
-    "Rural Population": "551631 (83.19 %)",
-    "Average Household Size": "5.4",
-    "Literacy Ratio (10 +)": "24.8 %",
-    "Average Annual Growth Rate  (1981 - 98)": "3.28 %",
-    "Total Housing Units": "122335",
-    "Pacca Housing Units": "15945 (13.03 %)",
-    "Housing Units having  Electricity": "47857 (39.12 %)",
-    "Housing Units having Piped  Water": "14797 (12.09 %)",
-    "Housing Units using Gas for  Cooking": "734 (0.59 %)",
-    "Talukas": "04",
-    "Union Councils": "29",
-    "Mauzas": "228",
-    "Town Committees": "08"
+    "population": {
+        "year": {
+            "1981": 383018,
+            "1998": 663095
+        },
+        "gender": {
+            "male": {
+                "percentage": 36.32
+            },
+            "female": {
+                "percentage": 11.94
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 111.6
+        },
+        "density": {
+            "value": 118.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 16.81,
+            "value": 111464
+        },
+        "rural": {
+            "percentage": 83.19,
+            "value": 551631
+        }
+    },
+    "administration": {
+        "union_councils": 29,
+        "town_committees": 8,
+        "mauzas": 228
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 24.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.28,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.4
+    },
+    "housing": {
+        "units": {
+            "total": 122335,
+            "pacca": {
+                "value": 15945,
+                "percentage": 13.03
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 47857,
+                "percentage": 39.12
+            },
+            "water": {
+                "type": "piped",
+                "value": 14797,
+                "percentage": 12.09
+            },
+            "gas": {
+                "value": 734,
+                "percentage": 0.59
+            }
+        }
+    }
 }

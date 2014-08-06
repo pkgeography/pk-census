@@ -1,27 +1,84 @@
 {
-    "Title": "GHOTKI  DISTRICT AT A GLANCE ",
-    "Area": "6083 Sq.Kms.",
-    "Population": { 
-        "1981": "562105",
-        "1998": "970549" 
+    "title": "Ghotki District",
+    "area": {
+        "value": 6083,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "44.21 %",
-    "Female": "11.85 %",
-    "Sex Ratio (males per 100  females)": "111.4",
-    "population Density": "159.6 per Sq. Km",
-    "Urban Population": "158501 (16.33 %)",
-    "Rural Population": "812048 (83.67 %)",
-    "Average Household Size": "505",
-    "Literacy Ratio (10 +)": "29.01 %",
-    "Average Annual Growth Rate  (1981 - 98)": "3.26 %",
-    "Total Housing Units": "177432",
-    "Pacca Housing Units": "53072 (29.91 %)",
-    "Housing Units having  Electricity": "105301 (59.35 %)",
-    "Housing Units having Piped  Water": "25589 (14.42 %)",
-    "Housing Units using Gas for  Cooking": "8995 (5.07 %)",
-    "Talukas": "05",
-    "Union Councils": "34",
-    "Mauzas": "284",
-    "Municipal Committee": "02",
-    "Town Committees": "03"
+    "population": {
+        "year": {
+            "1981": 562105,
+            "1998": 970549
+        },
+        "gender": {
+            "male": {
+                "percentage": 44.21
+            },
+            "female": {
+                "percentage": 11.85
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 111.4
+        },
+        "density": {
+            "value": 159.6,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 16.33,
+            "value": 158501
+        },
+        "rural": {
+            "percentage": 83.67,
+            "value": 812048
+        }
+    },
+    "administration": {
+        "union_councils": 34,
+        "town_committees": 3,
+        "mauzas": 284
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 29.01
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.26,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 505
+    },
+    "housing": {
+        "units": {
+            "total": 177432,
+            "pacca": {
+                "value": 53072,
+                "percentage": 29.91
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 105301,
+                "percentage": 59.35
+            },
+            "water": {
+                "type": "piped",
+                "value": 25589,
+                "percentage": 14.42
+            },
+            "gas": {
+                "value": 8995,
+                "percentage": 5.07
+            }
+        }
+    }
 }

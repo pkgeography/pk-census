@@ -1,29 +1,86 @@
 {
-    "Title": "HYDERABAD DISTRICT AT A GLANCE ",
-    "Area": "5519 Sq.Kms.",
-    "Population": { 
-        "1981": "2059026",
-        "1998": "2891488" 
+    "title": "Hyderabad District",
+    "area": {
+        "value": 5519,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "52.63 %",
-    "Female": "34.97 %",
-    "Sex Ratio (males per 100  females)": "109.5",
-    "population Density": "523.9 per Sq. Km",
-    "Urban Population": "1469101 (50.81 %)",
-    "Rural Population": "1422387 (49.19 %)",
-    "Average Household Size": "6.0",
-    "Literacy Ratio (10 +)": "44.2 %",
-    "Average Annual Growth Rate  (1981 - 98)": "2.02 %",
-    "Total Housing Units": "476321",
-    "Pacca Housing Units": "259973 (54.58 %)",
-    "Housing Units having  Electricity": "145838 (56.55 %)",
-    "Housing Units having Piped  Water": "53399 (20.71 %)",
-    "Housing Units using Gas for  Cooking": "7476 (2.90 %)",
-    "Talukas": "08",
-    "Union Councils": "102",
-    "Mauzas": "410",
-    "Municipal Corporation": "03",
-    "Municipal Committees": "04",
-    "Town Committees": "08",
-    "Cantonment": "01"
+    "population": {
+        "year": {
+            "1981": 2059026,
+            "1998": 2891488
+        },
+        "gender": {
+            "male": {
+                "percentage": 52.63
+            },
+            "female": {
+                "percentage": 34.97
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 109.5
+        },
+        "density": {
+            "value": 523.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 50.81,
+            "value": 1469101
+        },
+        "rural": {
+            "percentage": 49.19,
+            "value": 1422387
+        }
+    },
+    "administration": {
+        "union_councils": 102,
+        "town_committees": 8,
+        "municipal_committees": 4,
+        "cantonment": 1,
+        "mauzas": 410
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 44.2
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.02,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6
+    },
+    "housing": {
+        "units": {
+            "total": 476321,
+            "pacca": {
+                "value": 259973,
+                "percentage": 54.58
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 145838,
+                "percentage": 56.55
+            },
+            "water": {
+                "type": "piped",
+                "value": 53399,
+                "percentage": 20.71
+            },
+            "gas": {
+                "value": 7476,
+                "percentage": 2.9
+            }
+        }
+    }
 }

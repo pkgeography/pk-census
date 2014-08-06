@@ -1,27 +1,84 @@
 {
-    "Title": "NAUSHAHRO FEROZE DISTRICT AT A GLANCE ",
-    "Area": "2945 Sq.Kms.",
-    "Population": { 
-        "1981": "829051",
-        "1998": "1087571" 
+    "title": "Naushahro Feroze District",
+    "area": {
+        "value": 2945,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "24.27 %",
-    "Female": "22.60 %",
-    "Sex Ratio (males per 100  females)": "109.6",
-    "population Density": "369.3 per Sq. Km",
-    "Urban Population": "192404 (17.69 %)",
-    "Rural Population": "895167 (82.31 %)",
-    "Average Household Size": "5.8",
-    "Literacy Ratio (10 +)": "39.1 %",
-    "Average Annual Growth Rate  (1981 - 98)": "1.61 %",
-    "Total Housing Units": "187988",
-    "Pacca Housing Units": "40017 (21.29 %)",
-    "Housing Units having  Electricity": "130311 (69.32 %)",
-    "Housing Units having Piped  Water": "30257 (16.09 %)",
-    "Housing Units using Gas for  Cooking": "16682 (8.87 %)",
-    "Talukas": "04",
-    "Union Councils": "51",
-    "Mauzas": "231",
-    "Municipal Committee": "01",
-    "Town Committees": "08"
+    "population": {
+        "year": {
+            "1981": 829051,
+            "1998": 1087571
+        },
+        "gender": {
+            "male": {
+                "percentage": 24.27
+            },
+            "female": {
+                "percentage": 22.6
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 109.6
+        },
+        "density": {
+            "value": 369.3,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 17.69,
+            "value": 192404
+        },
+        "rural": {
+            "percentage": 82.31,
+            "value": 895167
+        }
+    },
+    "administration": {
+        "union_councils": 51,
+        "town_committees": 8,
+        "mauzas": 231
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 39.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 1.61,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.8
+    },
+    "housing": {
+        "units": {
+            "total": 187988,
+            "pacca": {
+                "value": 40017,
+                "percentage": 21.29
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 130311,
+                "percentage": 69.32
+            },
+            "water": {
+                "type": "piped",
+                "value": 30257,
+                "percentage": 16.09
+            },
+            "gas": {
+                "value": 16682,
+                "percentage": 8.87
+            }
+        }
+    }
 }
