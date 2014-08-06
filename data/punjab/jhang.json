@@ -1,28 +1,87 @@
 {
-	"Title":"JHANG DISTRICT AT A GLANCE ",
-	"Area":"8809Sq.Kms.",
-	"Population": {
-		"1981": "1970944",
-		"1998": "2834545"
-	},
-	"Male":"51.53 %",
-	"Female":"21.43%",
-	"Sex Ratio (males per 100 females)":"108.4",
-	"population Density":"321.8 per Sq. Km",
-	"Urban Population":"662990 (23.39 %)",
-	"Rural Population":"2171555 (76.61 %)",
-	"Average Household Size":"6.5",
-	"Literacy Ratio (10 +)":"37.1%",
-	"Average Annual Growth Rate (1981 - 98)":"2.16%",
-	"Total Housing Units":"434495",
-	"Pacca Housing Units":"162894 (37.49%)",
-	"Housing Units having Electricity":"212375 (48.88 %)",
-	"Housing Units having Piped Water":"41775 (9.61 %)",
-	"Housing Units using Gas for Cooking":"22025 (5.07 %)",
-	"Tehsils":"03",
-	"Union Councils":"129",
-	"Mauzas":"1069",
-	"Municipal Committees":"02",
-	"Town Committees":"07",
-	"Cantonment":"01"
+    "title": "Jhang District",
+    "area": {
+        "value": 8809,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1970944,
+            "1998": 2834545
+        },
+        "gender": {
+            "male": {
+                "percentage": 51.53
+            },
+            "female": {
+                "percentage": 21.43
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.4
+        },
+        "density": {
+            "value": 321.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 23.39,
+            "value": 662990
+        },
+        "rural": {
+            "percentage": 76.61,
+            "value": 2171555
+        }
+    },
+    "administration": {
+        "union_councils": 129,
+        "town_committees": 7,
+        "municipal_committees": 2,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 1069
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 37.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.16,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.5
+    },
+    "housing": {
+        "units": {
+            "total": 434495,
+            "pacca": {
+                "value": 162894,
+                "percentage": 37.49
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 212375,
+                "percentage": 48.88
+            },
+            "water": {
+                "type": "piped",
+                "value": 41775,
+                "percentage": 9.61
+            },
+            "gas": {
+                "value": 22025,
+                "percentage": 5.07
+            }
+        }
+    }
 }

@@ -1,27 +1,86 @@
 {
-	"Title": "BHAKKAR DISTRICT AT A GLANCE ",
-	"Area": "8153Sq.Kms.",
-	"Population": { 
-		"1981": "665884",
-		"1998": "1051456" 
-	},
-	"Male": "49.7 %",
-	"Female": "17.6%",
-	"Sex Ratio (males per 100  females)": "107.5",
-	"population Density": "129 per Sq. Km",
-	"Urban Population": "168674 (16.04 %)",
-	"Rural Population": "882782 (83.96 %)",
-	"Average Household Size": "6.6",
-	"Literacy Ratio (10 +)": "34.2%",
-	"Average Annual Growth Rate  (1981 - 98)": "2.72 %",
-	"Total Housing Units": "158055",
-	"Pacca Housing Units": "51484 (32.57%)",
-	"Housing Units having  Electricity": "75795 (47.95 %)",
-	"Housing Units having Piped  Water": "12464 (7.89 %)",
-	"Housing Units using Gas for  Cooking": "1568 (0.99 %)",
-	"Tehsils": "04",
-	"Union Councils": "42",
-	"Mauzas": "580",
-	"Municipal Committees": "01",
-	"Town Committees": "05"
+    "title": "Bhakkar District",
+    "area": {
+        "value": 8153,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 665884,
+            "1998": 1051456
+        },
+        "gender": {
+            "male": {
+                "percentage": 49.7
+            },
+            "female": {
+                "percentage": 17.6
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107.5
+        },
+        "density": {
+            "value": 129,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 16.04,
+            "value": 168674
+        },
+        "rural": {
+            "percentage": 83.96,
+            "value": 882782
+        }
+    },
+    "administration": {
+        "union_councils": 42,
+        "town_committees": 5,
+        "municipal_committees": 1,
+        "tehsils": 4,
+        "mauzas": 580
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 34.2
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.72,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.6
+    },
+    "housing": {
+        "units": {
+            "total": 158055,
+            "pacca": {
+                "value": 51484,
+                "percentage": 32.57
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 75795,
+                "percentage": 47.95
+            },
+            "water": {
+                "type": "piped",
+                "value": 12464,
+                "percentage": 7.89
+            },
+            "gas": {
+                "value": 1568,
+                "percentage": 0.99
+            }
+        }
+    }
 }

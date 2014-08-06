@@ -1,27 +1,86 @@
 {
-    "Title": "VEHARI  DISTRICT AT A GLANCE ",
-    "Area": "4364Sq.Kms.",
-    "Population": { 
-        "1981": "1328808",
-        "1998": "2090416" 
+    "title": "Vehari District",
+    "area": {
+        "value": 4364,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "49.40 %",
-    "Female": "23.18%",
-    "Sex Ratio (males per 100  females)": "107.7",
-    "population Density": "479.0 per Sq. Km",
-    "Urban Population": "335432 (16.05 %)",
-    "Rural Population": "1754984 (83.95 %)",
-    "Average Household Size": "6.9",
-    "Literacy Ratio (10 +)": "36.8%",
-    "Average Annual Growth Rate  (1981 - 98)": "2.70%",
-    "Total Housing Units": "301201",
-    "Pacca Housing Units": "133031 (44.17%)",
-    "Housing Units having  Electricity": "191163 (63.47 %)",
-    "Housing Units having Piped  Water": "51888 (17.23 %)",
-    "Housing Units using Gas for  Cooking": "7640 (2.54 %)",
-    "Tehsils": "03",
-    "Union Councils": "89",
-    "Mauzas": "774",
-    "Municipal Committees": "03",
-    "Town Committees": "03"
+    "population": {
+        "year": {
+            "1981": 1328808,
+            "1998": 2090416
+        },
+        "gender": {
+            "male": {
+                "percentage": 49.4
+            },
+            "female": {
+                "percentage": 23.18
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107.7
+        },
+        "density": {
+            "value": 479,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 16.05,
+            "value": 335432
+        },
+        "rural": {
+            "percentage": 83.95,
+            "value": 1754984
+        }
+    },
+    "administration": {
+        "union_councils": 89,
+        "town_committees": 3,
+        "municipal_committees": 3,
+        "tehsils": 3,
+        "mauzas": 774
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 36.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.7,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.9
+    },
+    "housing": {
+        "units": {
+            "total": 301201,
+            "pacca": {
+                "value": 133031,
+                "percentage": 44.17
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 191163,
+                "percentage": 63.47
+            },
+            "water": {
+                "type": "piped",
+                "value": 51888,
+                "percentage": 17.23
+            },
+            "gas": {
+                "value": 7640,
+                "percentage": 2.54
+            }
+        }
+    }
 }

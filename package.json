@@ -1,11 +1,8 @@
 {
   "name": "pk-census",
-  "version": "0.0.7",
-  "description": "Collection of public census data",
+  "version": "0.0.8",
+  "description": "Collection of 1998 public census data",
   "main": "data/",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pkgeography/pk-census.git"
@@ -13,12 +10,13 @@
   "keywords": [
     "pakistan",
     "census",
-    "data"
+    "data",
+    "1998"
   ],
   "author": "Jabran Rafique <hello@jabran.me>",
-  "license": "MIT",
+  "license": "MIT License",
   "bugs": {
     "url": "https://github.com/pkgeography/pk-census/issues"
   },
-  "homepage": "https://github.com/pkgeography/pk-census"
+  "homepage": "http://git.io/pk-census"
 }

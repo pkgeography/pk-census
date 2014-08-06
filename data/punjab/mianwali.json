@@ -1,27 +1,86 @@
 {
-    "Title": "MIANWALI DISTRICT AT A GLANCE ",
-    "Area": "5840Sq.Kms.",
-    "Population": { 
-        "1981": "711529",
-        "1998": "1056620" 
+    "title": "Mianwali District",
+    "area": {
+        "value": 5840,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "63.8 %",
-    "Female": "22.1 %",
-    "Sex Ratio (males per 100  females)": "100.8",
-    "population Density": "180.9 per Sq. Km",
-    "Urban Population": "220010 (20.82%)",
-    "Rural Population": "836610 (79.18 %)",
-    "Average Household Size": "7.1",
-    "Literacy Ratio (10 +)": "42.8%",
-    "Average Annual Growth Rate  (1981 - 98)": "2.35 %",
-    "Total Housing Units": "148837",
-    "Pacca Housing Units": "96232 (64.65%)",
-    "Housing Units having  Electricity": "97395 (65.44 %)",
-    "Housing Units having Piped  Water": "34587(23.24 %)",
-    "Housing Units using Gas for  Cooking": "5776 (3.88 %)",
-    "Tehsils": "03",
-    "Union Councils": "60",
-    "Mauzas": "255",
-    "Municipal Committees": "01",
-    "Town Committees": "07"
+    "population": {
+        "year": {
+            "1981": 711529,
+            "1998": 1056620
+        },
+        "gender": {
+            "male": {
+                "percentage": 63.8
+            },
+            "female": {
+                "percentage": 22.1
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 100.8
+        },
+        "density": {
+            "value": 180.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 20.82,
+            "value": 220010
+        },
+        "rural": {
+            "percentage": 79.18,
+            "value": 836610
+        }
+    },
+    "administration": {
+        "union_councils": 60,
+        "town_committees": 7,
+        "municipal_committees": 1,
+        "tehsils": 3,
+        "mauzas": 255
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 42.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.35,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.1
+    },
+    "housing": {
+        "units": {
+            "total": 148837,
+            "pacca": {
+                "value": 96232,
+                "percentage": 64.65
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 97395,
+                "percentage": 65.44
+            },
+            "water": {
+                "type": "piped",
+                "value": 34587,
+                "percentage": 23.24
+            },
+            "gas": {
+                "value": 5776,
+                "percentage": 3.88
+            }
+        }
+    }
 }

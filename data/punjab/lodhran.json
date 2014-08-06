@@ -1,27 +1,86 @@
 {
-    "Title": "LODHRAN DISTRICT AT A GLANCE ",
-    "Area": "2778Sq.Kms.",
-    "Population": { 
-        "1981": "739912",
-        "1998": "1171800" 
+    "title": "Lodhran District",
+    "area": {
+        "value": 2778,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "42.7 %",
-    "Female": "16.0 %",
-    "Sex Ratio (males per 100  females)": "108.3",
-    "population Density": "421.8 per Sq. Km",
-    "Urban Population": "170088 (14.51%)",
-    "Rural Population": "1001712 (85.48 %)",
-    "Average Household Size": "7.3",
-    "Literacy Ratio (10 +)": "29.9%",
-    "Average Annual Growth Rate  (1981 - 98)": "2.74 %",
-    "Total Housing Units": "161437",
-    "Pacca Housing Units": "54369 (33.67%)",
-    "Housing Units having  Electricity": "83988 (52.03 %)",
-    "Housing Units having Piped  Water": "21510(13.32 %)",
-    "Housing Units using Gas for  Cooking": "1866 (1.15 %)",
-    "Tehsils": "03",
-    "Union Councils": "75",
-    "Mauzas": "438",
-    "Municipal Committees": "02",
-    "Town Committees": "02"
+    "population": {
+        "year": {
+            "1981": 739912,
+            "1998": 1171800
+        },
+        "gender": {
+            "male": {
+                "percentage": 42.7
+            },
+            "female": {
+                "percentage": 16
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.3
+        },
+        "density": {
+            "value": 421.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 14.51,
+            "value": 170088
+        },
+        "rural": {
+            "percentage": 85.48,
+            "value": 1001712
+        }
+    },
+    "administration": {
+        "union_councils": 75,
+        "town_committees": 2,
+        "municipal_committees": 2,
+        "tehsils": 3,
+        "mauzas": 438
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 29.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.74,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.3
+    },
+    "housing": {
+        "units": {
+            "total": 161437,
+            "pacca": {
+                "value": 54369,
+                "percentage": 33.67
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 83988,
+                "percentage": 52.03
+            },
+            "water": {
+                "type": "piped",
+                "value": 21510,
+                "percentage": 13.32
+            },
+            "gas": {
+                "value": 1866,
+                "percentage": 1.15
+            }
+        }
+    }
 }

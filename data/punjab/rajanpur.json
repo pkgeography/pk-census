@@ -1,27 +1,86 @@
 {
-    "Title": "RAJANPUR DISTRICT AT A GLANCE ",
-    "Area": "12318Sq.Kms.",
-    "Population": { 
-        "1981": "638921",
-        "1998": "1103618" 
+    "title": "Rajanpur District",
+    "area": {
+        "value": 12318,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "29.0 %",
-    "Female": "11.3 %",
-    "Sex Ratio (males per 100  females)": "111.1",
-    "population Density": "89.6 per Sq. Km",
-    "Urban Population": "160155 (14.51 %)",
-    "Rural Population": "943463 (85.49 %)",
-    "Average Household Size": "7.3",
-    "Literacy Ratio (10 +)": "20.7%",
-    "Average Annual Growth Rate  (1981 - 98)": "3.27 %",
-    "Total Housing Units": "151733",
-    "Pacca Housing Units": "25598 (16.87%)",
-    "Housing Units having  Electricity": "61372 (40.44 %)",
-    "Housing Units having Piped  Water": "12895(8.49 %)",
-    "Housing Units using Gas for  Cooking": "953 (0.63 %)",
-    "Tehsils": "03",
-    "Union Councils": "47",
-    "Mauzas": "532",
-    "Municipal Committees": "02",
-    "Town Committees": "04"
+    "population": {
+        "year": {
+            "1981": 638921,
+            "1998": 1103618
+        },
+        "gender": {
+            "male": {
+                "percentage": 29
+            },
+            "female": {
+                "percentage": 11.3
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 111.1
+        },
+        "density": {
+            "value": 89.6,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 14.51,
+            "value": 160155
+        },
+        "rural": {
+            "percentage": 85.49,
+            "value": 943463
+        }
+    },
+    "administration": {
+        "union_councils": 47,
+        "town_committees": 4,
+        "municipal_committees": 2,
+        "tehsils": 3,
+        "mauzas": 532
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 20.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.27,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.3
+    },
+    "housing": {
+        "units": {
+            "total": 151733,
+            "pacca": {
+                "value": 25598,
+                "percentage": 16.87
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 61372,
+                "percentage": 40.44
+            },
+            "water": {
+                "type": "piped",
+                "value": 12895,
+                "percentage": 8.49
+            },
+            "gas": {
+                "value": 953,
+                "percentage": 0.63
+            }
+        }
+    }
 }

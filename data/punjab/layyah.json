@@ -1,27 +1,86 @@
 {
-	"Title":"LAYYAH DISTRICT AT A GLANCE ",
-	"Area":"6291Sq.Kms.",
-	"Population": {
-		"1981": "66651",
-		"1998": "1120951"
-	},
-	"Male":"52.98%",
-	"Female":"23.39 %",
-	"Sex Ratio (males per 100 females)":"106.8",
-	"population Density":"178.2 per Sq. Km",
-	"Urban Population":"144203 (12.86%)",
-	"Rural Population":"976748 (87.14 %)",
-	"Average Household Size":"7.3",
-	"Literacy Ratio (10 +)":"38.7%",
-	"Average Annual Growth Rate (1981 - 98)":"3.10%",
-	"Total Housing Units":"152050",
-	"Pacca Housing Units":"42311 (27.82%)",
-	"Housing Units having Electricity":"70888 (46.62 %)",
-	"Housing Units having Piped Water":"7850 (5.16 %)",
-	"Housing Units using Gas for Cooking":"1609 (1.05 %)",
-	"Tehsils":"03",
-	"Union Councils":"44",
-	"Mauzas":"720",
-	"Municipal Committees":"03",
-	"Town Committees":"01"
+    "title": "Layyah District",
+    "area": {
+        "value": 6291,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 66651,
+            "1998": 1120951
+        },
+        "gender": {
+            "male": {
+                "percentage": 52.98
+            },
+            "female": {
+                "percentage": 23.39
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 106.8
+        },
+        "density": {
+            "value": 178.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 12.86,
+            "value": 144203
+        },
+        "rural": {
+            "percentage": 87.14,
+            "value": 976748
+        }
+    },
+    "administration": {
+        "union_councils": 44,
+        "town_committees": 1,
+        "municipal_committees": 3,
+        "tehsils": 3,
+        "mauzas": 720
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 38.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.1,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.3
+    },
+    "housing": {
+        "units": {
+            "total": 152050,
+            "pacca": {
+                "value": 42311,
+                "percentage": 27.82
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 70888,
+                "percentage": 46.62
+            },
+            "water": {
+                "type": "piped",
+                "value": 7850,
+                "percentage": 5.16
+            },
+            "gas": {
+                "value": 1609,
+                "percentage": 1.05
+            }
+        }
+    }
 }

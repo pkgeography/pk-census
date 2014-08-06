@@ -1,27 +1,86 @@
 {
-    "Title": "RAHIM YAR KHAN DISTRICT AT A  GLANCE ",
-    "Area": "11880Sq.Kms.",
-    "Population": { 
-        "1981": "1841451",
-        "1998": "3141053" 
+    "title": "Rahim Yar Khan District",
+    "area": {
+        "value": 11880,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "43.40 %",
-    "Female": "21.82%",
-    "Sex Ratio (males per 100  females)": "108.8",
-    "population Density": "264.4 per Sq. Km",
-    "Urban Population": "616582 (19.63 %)",
-    "Rural Population": "2524471 (80.37 %)",
-    "Average Household Size": "7.5",
-    "Literacy Ratio (10 +)": "33.1%",
-    "Average Annual Growth Rate  (1981 - 98)": "3.19%",
-    "Total Housing Units": "416215",
-    "Pacca Housing Units": "185771 (44.63%)",
-    "Housing Units having  Electricity": "220167 (52.90 %)",
-    "Housing Units having Piped  Water": "63894 (15.35 %)",
-    "Housing Units using Gas for  Cooking": "38187 (9.17 %)",
-    "Tehsils": "04",
-    "Union Councils": "121",
-    "Mauzas": "1504",
-    "Municipal Committees": "03",
-    "Town Committees": "05"
+    "population": {
+        "year": {
+            "1981": 1841451,
+            "1998": 3141053
+        },
+        "gender": {
+            "male": {
+                "percentage": 43.4
+            },
+            "female": {
+                "percentage": 21.82
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.8
+        },
+        "density": {
+            "value": 264.4,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 19.63,
+            "value": 616582
+        },
+        "rural": {
+            "percentage": 80.37,
+            "value": 2524471
+        }
+    },
+    "administration": {
+        "union_councils": 121,
+        "town_committees": 5,
+        "municipal_committees": 3,
+        "tehsils": 4,
+        "mauzas": 1504
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 33.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.19,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.5
+    },
+    "housing": {
+        "units": {
+            "total": 416215,
+            "pacca": {
+                "value": 185771,
+                "percentage": 44.63
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 220167,
+                "percentage": 52.9
+            },
+            "water": {
+                "type": "piped",
+                "value": 63894,
+                "percentage": 15.35
+            },
+            "gas": {
+                "value": 38187,
+                "percentage": 9.17
+            }
+        }
+    }
 }

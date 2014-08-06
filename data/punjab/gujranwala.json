@@ -1,28 +1,87 @@
 {
-	"Title":"GUJRANWALA DISTRICT AT A GLANCE ",
-	"Area":"3622Sq.Kms.",
-	"Population": {
-		"1981": "2108365",
-		"1998": "3400940"
-	},
-	"Male":"63.60 %",
-	"Female":"48.80%",
-	"Sex Ratio (males per 100  females)":"108.6",
-	"population Density":"939.0 per Sq. Km",
-	"Urban Population":"1719038 (50.55 %)",
-	"Rural Population":"1681902 (49.45 %)",
-	"Average Household Size":"7.6",
-	"Literacy Ratio (10 +)":"56.5%",
-	"Average Annual Growth Rate  (1981 - 98)":"2.85%",
-	"Total Housing Units":"448818",
-	"Pacca Housing Units":"406319 (90.53%)",
-	"Housing Units having  Electricity":"418878 (93.33 %)",
-	"Housing Units having Piped  Water":"145929 (32.51 %)",
-	"Housing Units using Gas for  Cooking":"154004 (34.31 %)",
-	"Tehsils":"05",
-	"Union Councils":"192",
-	"Mauzas":"803",
-	"Municipal Committees":"04",
-	"Town Committees":"08",
-	"Cantonment":"01"
+    "title": "Gujranwala District",
+    "area": {
+        "value": 3622,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 2108365,
+            "1998": 3400940
+        },
+        "gender": {
+            "male": {
+                "percentage": 63.6
+            },
+            "female": {
+                "percentage": 48.8
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.6
+        },
+        "density": {
+            "value": 939,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 50.55,
+            "value": 1719038
+        },
+        "rural": {
+            "percentage": 49.45,
+            "value": 1681902
+        }
+    },
+    "administration": {
+        "union_councils": 192,
+        "town_committees": 8,
+        "municipal_committees": 4,
+        "cantonment": 1,
+        "tehsils": 5,
+        "mauzas": 803
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 56.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.85,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.6
+    },
+    "housing": {
+        "units": {
+            "total": 448818,
+            "pacca": {
+                "value": 406319,
+                "percentage": 90.53
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 418878,
+                "percentage": 93.33
+            },
+            "water": {
+                "type": "piped",
+                "value": 145929,
+                "percentage": 32.51
+            },
+            "gas": {
+                "value": 154004,
+                "percentage": 34.31
+            }
+        }
+    }
 }

@@ -1,27 +1,86 @@
 {
-    "Title": "MANDI BAHAUDDIN DISTRICT AT A GLANCE ",
-    "Area": "7623Sq.Kms.",
-    "Population": { 
-        "1981": "846114",
-        "1998": "1160552" 
+    "title": "Mandi Bahauddin District",
+    "area": {
+        "value": 7623,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "58.77 %",
-    "Female": "35.64 %",
-    "Sex Ratio (males per 100  females)": "104.9",
-    "population Density": "434.2 per Sq. Km",
-    "Urban Population": "176421 (15.20 %)",
-    "Rural Population": "984131 (84.80 %)",
-    "Average Household Size": "6.7",
-    "Literacy Ratio (10 +)": "47.4%",
-    "Average Annual Growth Rate  (1981 - 98)": "1.88 %",
-    "Total Housing Units": "173408",
-    "Pacca Housing Units": "158291 (91.28%)",
-    "Housing Units having  Electricity": "137245 (79.14 %)",
-    "Housing Units having Piped  Water": "13661(7.88 %)",
-    "Housing Units using Gas for  Cooking": "8198 (4.73 %)",
-    "Tehsils": "03",
-    "Union Councils": "65",
-    "Mauzas": "429",
-    "Municipal Committees": "01",
-    "Town Committees": "04"
+    "population": {
+        "year": {
+            "1981": 846114,
+            "1998": 1160552
+        },
+        "gender": {
+            "male": {
+                "percentage": 58.77
+            },
+            "female": {
+                "percentage": 35.64
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 104.9
+        },
+        "density": {
+            "value": 434.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 15.2,
+            "value": 176421
+        },
+        "rural": {
+            "percentage": 84.8,
+            "value": 984131
+        }
+    },
+    "administration": {
+        "union_councils": 65,
+        "town_committees": 4,
+        "municipal_committees": 1,
+        "tehsils": 3,
+        "mauzas": 429
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 47.4
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 1.88,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.7
+    },
+    "housing": {
+        "units": {
+            "total": 173408,
+            "pacca": {
+                "value": 158291,
+                "percentage": 91.28
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 137245,
+                "percentage": 79.14
+            },
+            "water": {
+                "type": "piped",
+                "value": 13661,
+                "percentage": 7.88
+            },
+            "gas": {
+                "value": 8198,
+                "percentage": 4.73
+            }
+        }
+    }
 }

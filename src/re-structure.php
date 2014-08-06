@@ -2,7 +2,7 @@
 
 define('DATAPATH', dirname(dirname(__FILE__)) . '/data');
 
-$filename = DATAPATH . '/punjab/unknown.json';
+$filename = DATAPATH . '/sindh/unknown.json';
 
 $file = file_get_contents($filename);
 
@@ -83,7 +83,9 @@ if (property_exists($data, 'municipal_committees'))
 if (property_exists($data, 'cantonment'))
 	$o['administration']['cantonment'] = intval($data->cantonment);
 
-$o['administration']['tehsils'] = intval($data->tehsils);
+if (property_exists($data, 'tehsils'))
+	$o['administration']['tehsils'] = intval($data->tehsils);
+
 $o['administration']['mauzas'] = intval($data->mauzas);
 
 $o['litracy_ratio']['age'] = '10+';
@@ -99,26 +101,26 @@ $o['household']['size'] = floatval($data->average_household_size);
 
 $o['housing']['units']['total'] = intval($data->total_housing_units);
 
-$pacca_val = preg_match('/([0-9]+) \(/', $data->pacca_housing_units, $pacca_val_match);
+$pacca_val = preg_match('/([0-9]+) ?\(/', $data->pacca_housing_units, $pacca_val_match);
 $pacca_per = preg_match('/\(([0-9\.]+)%\)/', $data->pacca_housing_units, $pacca_per_match);
 
 $o['housing']['units']['pacca']['value'] = intval($pacca_val_match[1]);
 $o['housing']['units']['pacca']['percentage'] = floatval($pacca_per_match[1]);
 
-$electric_val = preg_match('/([0-9]+) \(/', $data->housing_units_having_electricity, $electric_val_match);
+$electric_val = preg_match('/([0-9]+) ?\(/', $data->housing_units_having_electricity, $electric_val_match);
 $electric_per = preg_match('/\(([0-9\.]+)%\)/', $data->housing_units_having_electricity, $electric_per_match);
 
 $o['housing']['have_utilities']['electricity']['value'] = intval($electric_val_match[1]);
 $o['housing']['have_utilities']['electricity']['percentage'] = floatval($electric_per_match[1]);
 
-$water_val = preg_match('/([0-9]+) \(/', $data->housing_units_having_piped_water, $water_val_match);
+$water_val = preg_match('/([0-9]+) ?\(/', $data->housing_units_having_piped_water, $water_val_match);
 $water_per = preg_match('/\(([0-9\.]+)%\)/', $data->housing_units_having_piped_water, $water_per_match);
 
 $o['housing']['have_utilities']['water']['type'] = 'piped';
 $o['housing']['have_utilities']['water']['value'] = intval($water_val_match[1]);
 $o['housing']['have_utilities']['water']['percentage'] = floatval($water_per_match[1]);
 
-$gas_val = preg_match('/([0-9]+) \(/', $data->housing_units_using_gas_for_cooking, $gas_val_match);
+$gas_val = preg_match('/([0-9]+) ?\(/', $data->housing_units_using_gas_for_cooking, $gas_val_match);
 $gas_per = preg_match('/\(([0-9\.]+)%\)/', $data->housing_units_using_gas_for_cooking, $gas_per_match);
 
 $o['housing']['have_utilities']['gas']['value'] = intval($gas_val_match[1]);
@@ -126,7 +128,7 @@ $o['housing']['have_utilities']['gas']['percentage'] = floatval($gas_per_match[1
 
 header('Content-Type: application/json');
 
-// file_put_contents($filename, json_encode($o, JSON_PRETTY_PRINT));
+file_put_contents($filename, json_encode($o, JSON_PRETTY_PRINT));
 
 // echo file_get_contents($filename);
 echo json_encode($o, JSON_PRETTY_PRINT);

@@ -1,28 +1,87 @@
 {
-    "Title": "BAHAWALPUR DISTRICT AT A GLANCE ",
-    "Area": "24830Sq.Kms.",
-    "Population": { 
-        "1981": "1453438",
-        "1998": "2433091" 
+    "title": "Bahawalpur District",
+    "area": {
+        "value": 24830,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "44.86 %",
-    "Female": "23.95%",
-    "Sex Ratio (males per 100  females)": "110.8",
-    "population Density": "98.0 per Sq. Km",
-    "Urban Population": "665304 (27.34 %)",
-    "Rural Population": "1767787 (72.66 %)",
-    "Average Household Size": "6.9",
-    "Literacy Ratio (10 +)": "35.0%",
-    "Average Annual Growth Rate  (1981 - 98)": "3.08%",
-    "Total Housing Units": "354356",
-    "Pacca Housing Units": "164666 (46.47%)",
-    "Housing Units having  Electricity": "176982 (49.94 %)",
-    "Housing Units having Piped  Water": "56860 (16.04 %)",
-    "Housing Units using Gas for  Cooking": "39837 (11.24 %)",
-    "Tehsils": "05",
-    "Union Councils": "108",
-    "Mauzas": "1216",
-    "Municipal Committees": "04",
-    "Town Committees": "03",
-    "Cantonment": "01"
+    "population": {
+        "year": {
+            "1981": 1453438,
+            "1998": 2433091
+        },
+        "gender": {
+            "male": {
+                "percentage": 44.86
+            },
+            "female": {
+                "percentage": 23.95
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 110.8
+        },
+        "density": {
+            "value": 98,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 27.34,
+            "value": 665304
+        },
+        "rural": {
+            "percentage": 72.66,
+            "value": 1767787
+        }
+    },
+    "administration": {
+        "union_councils": 108,
+        "town_committees": 3,
+        "municipal_committees": 4,
+        "cantonment": 1,
+        "tehsils": 5,
+        "mauzas": 1216
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 35
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.08,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.9
+    },
+    "housing": {
+        "units": {
+            "total": 354356,
+            "pacca": {
+                "value": 164666,
+                "percentage": 46.47
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 176982,
+                "percentage": 49.94
+            },
+            "water": {
+                "type": "piped",
+                "value": 56860,
+                "percentage": 16.04
+            },
+            "gas": {
+                "value": 39837,
+                "percentage": 11.24
+            }
+        }
+    }
 }

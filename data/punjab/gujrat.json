@@ -1,28 +1,87 @@
 {
-    "Title": "GUJRAT  DISTRICT AT A GLANCE ",
-    "Area": "3192Sq.Kms.",
-    "Population": { 
-        "1981": "1408585",
-        "1998": "2048008" 
+    "title": "Gujrat District",
+    "area": {
+        "value": 3192,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "73.0 %",
-    "Female": "51.6%",
-    "Sex Ratio (males per 100  females)": "100.4",
-    "population Density": "641.6 per Sq. Km",
-    "Urban Population": "568172 (27.74 %)",
-    "Rural Population": "1479836 (72.25 %)",
-    "Average Household Size": "6.7",
-    "Literacy Ratio (10 +)": "62.2%",
-    "Average Annual Growth Rate  (1981 - 98)": "2.22%",
-    "Total Housing Units": "305097",
-    "Pacca Housing Units": "278789 (91.37%)",
-    "Housing Units having  Electricity": "282005 (92.43 %)",
-    "Housing Units having Piped  Water": "64554 (21.15 %)",
-    "Housing Units using Gas for  Cooking": "57168 (18.73 %)",
-    "Tehsils": "03",
-    "Union Councils": "119",
-    "Mauzas": "1065",
-    "Municipal Committees": "04",
-    "Town Committees": "04",
-    "Cantonment": "01"
+    "population": {
+        "year": {
+            "1981": 1408585,
+            "1998": 2048008
+        },
+        "gender": {
+            "male": {
+                "percentage": 73
+            },
+            "female": {
+                "percentage": 51.6
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 100.4
+        },
+        "density": {
+            "value": 641.6,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 27.74,
+            "value": 568172
+        },
+        "rural": {
+            "percentage": 72.25,
+            "value": 1479836
+        }
+    },
+    "administration": {
+        "union_councils": 119,
+        "town_committees": 4,
+        "municipal_committees": 4,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 1065
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 62.2
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.22,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.7
+    },
+    "housing": {
+        "units": {
+            "total": 305097,
+            "pacca": {
+                "value": 278789,
+                "percentage": 91.37
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 282005,
+                "percentage": 92.43
+            },
+            "water": {
+                "type": "piped",
+                "value": 64554,
+                "percentage": 21.15
+            },
+            "gas": {
+                "value": 57168,
+                "percentage": 18.73
+            }
+        }
+    }
 }

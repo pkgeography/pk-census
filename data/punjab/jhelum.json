@@ -1,28 +1,87 @@
 {
-    "Title": "JHELUM  DISTRICT AT A GLANCE ",
-    "Area": "3587 Sq.Kms.",
-    "Population": { 
-        "1981": "659012",
-        "1998": "936957" 
+    "title": "Jhelum District",
+    "area": {
+        "value": 3587,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "77.66 %",
-    "Female": "50.47 %",
-    "Sex Ratio (males per 100  females)": "99.8",
-    "population Density": "261.2 per Sq. Km",
-    "Urban Population": "259330 (27.68 %)",
-    "Rural Population": "677627 (72.32 %)",
-    "Average Household Size": "6.2",
-    "Literacy Ratio (10 +)": "63.9 %",
-    "Average Annual Growth Rate  (1981 - 98)": "2.09 %",
-    "Total Housing Units": "150225",
-    "Pacca Housing Units": "126992 (84.53 %)",
-    "Housing Units having  Electricity": "124910 (83.14 %)",
-    "Housing Units having Piped  Water": "40862 (27.20 %)",
-    "Housing Units using Gas for  Cooking": "23124 (15.39 %)",
-    "Tehsils": "03",
-    "Union Councils": "53",
-    "Mauzas": "573",
-    "Municipal Committees": "02",
-    "Town Committees": "03",
-    "Cantonment": "02"
+    "population": {
+        "year": {
+            "1981": 659012,
+            "1998": 936957
+        },
+        "gender": {
+            "male": {
+                "percentage": 77.66
+            },
+            "female": {
+                "percentage": 50.47
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 99.8
+        },
+        "density": {
+            "value": 261.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 27.68,
+            "value": 259330
+        },
+        "rural": {
+            "percentage": 72.32,
+            "value": 677627
+        }
+    },
+    "administration": {
+        "union_councils": 53,
+        "town_committees": 3,
+        "municipal_committees": 2,
+        "cantonment": 2,
+        "tehsils": 3,
+        "mauzas": 573
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 63.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.09,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.2
+    },
+    "housing": {
+        "units": {
+            "total": 150225,
+            "pacca": {
+                "value": 126992,
+                "percentage": 84.53
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 124910,
+                "percentage": 83.14
+            },
+            "water": {
+                "type": "piped",
+                "value": 40862,
+                "percentage": 27.2
+            },
+            "gas": {
+                "value": 23124,
+                "percentage": 15.39
+            }
+        }
+    }
 }

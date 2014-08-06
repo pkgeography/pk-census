@@ -1,28 +1,87 @@
 {
-    "Title": "OKARA  DISTRICT AT A GLANCE ",
-    "Area": "4377 Sq.Kms.",
-    "Population": {
-        "1981": "1487261",
-        "1998": "2232992"
+    "title": "Okara District",
+    "area": {
+        "value": 4377,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
     },
-    "Male": "49.27 %",
-    "Female": "24.99 %",
-    "Sex Ratio (males per 100  females)": "109.6",
-    "population Density": "510.2 per Sq. Km",
-    "Urban Population": "514408 (23.04 %)",
-    "Rural Population": "1718584 (76.96 %)",
-    "Average Household Size": "6.6",
-    "Literacy Ratio (10 +)": "37.8 %",
-    "Average Annual Growth Rate  (1981 - 98)": "2.42 %",
-    "Total Housing Units": "337866",
-    "Pacca Housing Units": "146432 (43.34 %)",
-    "Housing Units having  Electricity": "234486 (69.40 %)",
-    "Housing Units having Piped  Water": "49252 (14.58 %)",
-    "Housing Units using Gas for  Cooking": "8542 (2.53 %)",
-    "Tehsils": "03",
-    "Union Councils": "114",
-    "Mauzas": "915",
-    "Municipal Committees": "02",
-    "Town Committees": "06",
-    "Cantonment": "01"
+    "population": {
+        "year": {
+            "1981": 1487261,
+            "1998": 2232992
+        },
+        "gender": {
+            "male": {
+                "percentage": 49.27
+            },
+            "female": {
+                "percentage": 24.99
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 109.6
+        },
+        "density": {
+            "value": 510.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 23.04,
+            "value": 514408
+        },
+        "rural": {
+            "percentage": 76.96,
+            "value": 1718584
+        }
+    },
+    "administration": {
+        "union_councils": 114,
+        "town_committees": 6,
+        "municipal_committees": 2,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 915
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 37.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.42,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.6
+    },
+    "housing": {
+        "units": {
+            "total": 337866,
+            "pacca": {
+                "value": 146432,
+                "percentage": 43.34
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 234486,
+                "percentage": 69.4
+            },
+            "water": {
+                "type": "piped",
+                "value": 49252,
+                "percentage": 14.58
+            },
+            "gas": {
+                "value": 8542,
+                "percentage": 2.53
+            }
+        }
+    }
 }
