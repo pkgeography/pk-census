@@ -26,7 +26,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 }
 
 .app-header {
-    background-color: rgba(white, 0.75);
+    background-color: rgba(white, 0.85);
+    box-shadow: 0 1px 5px rgba(black, 0.35);
 
     .page-header {
         margin-top: 0;
@@ -35,5 +36,23 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     }
 }
 
-.app-container {
+.district-marker {
+    background-color: rgba(#444, 0.75);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1.22em;
+
+    @include transition(all 0.5s ease);
+
+    &:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 18px;
+        content: ' ';
+        border: 10px solid rgba(#333, 0.75);
+        border-bottom-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+    }
 }
