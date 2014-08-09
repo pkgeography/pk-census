@@ -1,5 +1,6 @@
-.DS_Store
-.sass-cache
 node_modules
+dist
+.tmp
+.sass-cache
 bower_components
-temp.txt
+test/bower_components
