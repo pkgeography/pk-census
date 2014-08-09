@@ -1,12 +1,33 @@
 <?php
 
 /**
- * Fetch the census data for 2008 from Pakistan Government Census website
- * and export it as JSON formated text files
- * @version: 1.0
- * @author: hello@jabran.me
- * @package: Free Public Data (Pakistan)
+ * Fetch census data for 2008 from Pakistan Government Census website
+ * `census.gov.pk` and export it as JSON formated text files
+ * 
+ * @author: Jabran Rafique <hello@jabran.me>
+ * @license: MIT License
  *
+ *	The MIT License (MIT)
+ *
+ * Copyright (c) 2014 Jabran Rafique <hello@jabran.me>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
  */
 
 require ('simple_html_dom.php');
@@ -319,37 +340,37 @@ $url = 'http://census.gov.pk/BALOCHISTAN/AWARAN.htm';
 
 $html = file_get_html($url);
 
-	$i = 0;
+$i = 0;
 
-	foreach ($html->find('tr') as $dataRows) {
-		foreach($dataRows->find('td') as $dataCells)	{
-			if ( isset($dataCells->attr['class']) )	{
-				if(empty($dataCells->plaintext))
-					continue;
-				$data[] = $dataCells->plaintext;
-			}
+foreach ($html->find('tr') as $dataRows) {
+	foreach($dataRows->find('td') as $dataCells)	{
+		if ( isset($dataCells->attr['class']) )	{
+			if(empty($dataCells->plaintext))
+				continue;
+			$data[] = $dataCells->plaintext;
 		}
 	}
+}
 
-	$data = json_encode($data);
-	$data = preg_replace('/\\\u00a0/', '', $data);
-	$data = preg_replace('/  /', ' ', $data);
-	$dataNow = json_decode($data);
+$data = json_encode($data);
+$data = preg_replace('/\\\u00a0/', '', $data);
+$data = preg_replace('/  /', ' ', $data);
+$dataNow = json_decode($data);
 
-	array_unshift($dataNow, 'Title');
-	unset($dataNow[40]);
+array_unshift($dataNow, 'Title');
+unset($dataNow[40]);
 
-	foreach ($dataNow as $key) {
-		$i++;
-		if ( $i % 2 )
-			$keys[] = trim($key);
-		else
-			$values[] = trim($key);
-	}
+foreach ($dataNow as $key) {
+	$i++;
+	if ( $i % 2 )
+		$keys[] = trim($key);
+	else
+		$values[] = trim($key);
+}
 
-	$result = array_combine($keys, $values);
-	$result = json_encode($result, JSON_PRETTY_PRINT);
+$result = array_combine($keys, $values);
+$result = json_encode($result, JSON_PRETTY_PRINT);
 
-	// file_put_contents(DATAPATH . $filename, $result);
-	header('Content-type: application/json');
-	echo $result;
+// file_put_contents(DATAPATH . $filename, $result);
+header('Content-type: application/json');
+echo $result;
