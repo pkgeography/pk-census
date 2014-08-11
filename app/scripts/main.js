@@ -156,18 +156,18 @@
 			appcontent.empty();
 
 			var heading = $('<h3 />', {
-				'html': info.title,
-				'class': 'district-title'
+				'html': '<i class="fa fa-institution"></i> ' + info.title,
+				'class': 'district-title animated flipInX'
 			}).prependTo(appcontent);
 
 			var area = $('<div />', {
-				'class': 'district-area district-divider',
+				'class': 'district-area district-divider animated fadeInUp',
 				'html': '<h4><i class="fa fa-flag"></i>  Area</h4><p>' + info.area.value.toLocaleString() + ' ' + info.area.unit_short + '</p>'
 			}).insertAfter(heading);
 
 			var population = $('<div />', {
-				'class': 'district-population district-divider',
-				'html': '<h4><i class="fa fa-smile-o"></i> Population</h4> '
+				'class': 'district-population district-divider animated fadeInUp',
+				'html': '<h4><i class="fa fa-male"></i> <i class="fa fa-female"></i> Population</h4> '
 			}).insertAfter(area);
 
 				var popStats = $('<dl />', { 'class': 'dl-horizontal' }).appendTo(population);
@@ -189,7 +189,7 @@
 					}).appendTo(popStats);
 
 				var popGender = $('<div />', {
-					'class': 'district-gender-ratio district-divider',
+					'class': 'district-gender-ratio district-divider animated fadeInLeft',
 					'html': '<strong>Gender ratio:</strong>'
 				}).insertAfter(popStats);
 
@@ -247,7 +247,7 @@
 						.appendTo(urbanRural).wrap( $('<div />', { 'class': 'progress progress-urban-rural' }) );
 
 			var litracyRatio = $('<div />', {
-				'class': 'district-litracy-ratio district-divider',
+				'class': 'district-litracy-ratio district-divider animated fadeInLeft',
 				'html': '<h4><i class="fa fa-graduation-cap"></i> Litracy ratio:</h4>'
 			}).insertAfter(population);
 
@@ -262,7 +262,7 @@
 					.appendTo(litracyRatio).wrap( $('<div />', { 'class': 'progress progress-litracy-ratio' }) );
 
 			var household = $('<div />', {
-				'class': 'district-household district-divider',
+				'class': 'district-household district-divider animated fadeInLeft',
 				'html': '<h4><i class="fa fa-users"></i> Household average:</h4>'
 			}).insertAfter(litracyRatio);
 
@@ -272,7 +272,7 @@
 				}).appendTo(household);
 
 			var housing = $('<div />', {
-				'class': 'district-housing district-divider',
+				'class': 'district-housing district-divider animated fadeInRight',
 				'html': '<h4><i class="fa fa-home"></i> Housing</h4>'
 			}).insertAfter(household);
 
@@ -280,17 +280,26 @@
 					'html': 'Total: ' + info.housing.units.total.toLocaleString()
 				}).appendTo(housing);
 
-				$('<p />', {
-					'html': '<i class="fa fa-lightbulb-o"></i> Electricity: ' + info.housing.have_utilities.electricity.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.electricity.percentage + '%'
-				}).appendTo(housing);
+				if ( info.housing.have_utilities.electricity ) {
 
-				$('<p />', {
-					'html': '<i class="fa fa-tint"></i> Water: ' + info.housing.have_utilities.water.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.water.percentage + '%'
-				}).appendTo(housing);
+					$('<p />', {
+						'html': '<i class="fa fa-lightbulb-o"></i> Electricity: ' + info.housing.have_utilities.electricity.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.electricity.percentage + '%'
+					}).appendTo(housing);
+				}
 
-				$('<p />', {
-					'html': '<i class="fa fa-fire"></i> Gas: ' + info.housing.have_utilities.gas.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.gas.percentage + '%'
-				}).appendTo(housing);
+				if ( info.housing.have_utilities.water ) {
+
+					$('<p />', {
+						'html': '<i class="fa fa-tint"></i> Water: ' + info.housing.have_utilities.water.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.water.percentage + '%'
+					}).appendTo(housing);
+				}
+
+				if ( info.housing.have_utilities.gas ) {
+
+					$('<p />', {
+						'html': '<i class="fa fa-fire"></i> Gas: ' + info.housing.have_utilities.gas.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.gas.percentage + '%'
+					}).appendTo(housing);
+				}
 
 
 		}

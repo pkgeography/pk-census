@@ -119,8 +119,11 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 }
 
 .progress-litracy-ratio {
-    min-width: 100px;
     margin-top: 10px;
+
+    .progress-bar {
+        min-width: 100px;
+    }
 }
 
 .district-household-average {
