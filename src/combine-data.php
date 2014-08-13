@@ -55,6 +55,10 @@ foreach ($dirs as $dir) {
 	$in_dir = scandir($dir);
 
 	foreach ($in_dir as $dor) {
+
+		// Exclude census-data-combined.json data
+		if ( $dor === 'census-data-combined.json' ) continue;
+
 		if ( strpos($dor, '.json') && filesize($dir . '/' . $dor) !== 0 ) {
 			$data[] = json_decode(file_get_contents($dir . '/' . $dor), true);
 		}
