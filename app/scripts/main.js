@@ -147,22 +147,40 @@
 				_this.iw.toggleClass('col-sm-12 col-sm-4');
 
 			// add class if not exist already
-			if ( ! _this.iw.hasClass('info-window') )
-				_this.iw.addClass('info-window');
+			if ( ! _this.iw.hasClass('info-window') ) {
+				_this.iw.addClass('info-window').promise().done(function()	{
+					return _this.setupHTML(_this, marker, info);
+				});
+			}
+			else {
+				$('.animated').toggleClass(function() {
+					if ( $(this).hasClass('fadeInUp') ) {
+						return 'fadeOutDown';
+					}
+					else {
+						return 'fadeOutLeft';
+					}
+				}).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+					return _this.setupHTML(_this, marker, info);
+				});
+			}
+		},
 
-			var appcontent = $('.app-content');
+		setupHTML: function(obj, marker, info) {
+
+			var _this = obj;
 
 			// empty any existing contents
-			appcontent.empty();
+			var appcontent = $('.app-content').empty();
 
 			var heading = $('<h3 />', {
 				'html': '<i class="fa fa-institution"></i> ' + info.title,
-				'class': 'district-title animated flipInX'
+				'class': 'district-title animated fadeInRight'
 			}).prependTo(appcontent);
 
 			var area = $('<div />', {
 				'class': 'district-area district-divider animated fadeInUp',
-				'html': '<h4><i class="fa fa-flag"></i>  Area</h4><p>' + info.area.value.toLocaleString() + ' ' + info.area.unit_short + '</p>'
+				'html': '<h4><i class="fa fa-flag"></i>  Area</h4><p>' + info.area.value.toLocaleString('en-GB') + ' ' + info.area.unit_short + '</p>'
 			}).insertAfter(heading);
 
 			var population = $('<div />', {
@@ -177,7 +195,7 @@
 					}).appendTo(popStats);
 
 					$('<dd />', {
-						'html': info.population.year[1981] ? info.population.year[1981].toLocaleString() : 'N/A'
+						'html': info.population.year[1981] ? info.population.year[1981].toLocaleString('en-GB') : 'N/A'
 					}).appendTo(popStats);
 
 					var y1998 = $('<dt />', {
@@ -185,11 +203,11 @@
 					}).appendTo(popStats);
 
 					$('<dd />', {
-						'html': info.population.year[1998] ? info.population.year[1998].toLocaleString() : 'N/A'
+						'html': info.population.year[1998] ? info.population.year[1998].toLocaleString('en-GB') : 'N/A'
 					}).appendTo(popStats);
 
 				var popGender = $('<div />', {
-					'class': 'district-gender-ratio district-divider animated fadeInLeft',
+					'class': 'district-gender-ratio district-divider animated fadeInUp',
 					'html': '<strong>Gender ratio:</strong>'
 				}).insertAfter(popStats);
 
@@ -247,7 +265,7 @@
 						.appendTo(urbanRural).wrap( $('<div />', { 'class': 'progress progress-urban-rural' }) );
 
 			var litracyRatio = $('<div />', {
-				'class': 'district-litracy-ratio district-divider animated fadeInLeft',
+				'class': 'district-litracy-ratio district-divider animated fadeInUp',
 				'html': '<h4><i class="fa fa-graduation-cap"></i> Litracy ratio:</h4>'
 			}).insertAfter(population);
 
@@ -262,7 +280,7 @@
 					.appendTo(litracyRatio).wrap( $('<div />', { 'class': 'progress progress-litracy-ratio' }) );
 
 			var household = $('<div />', {
-				'class': 'district-household district-divider animated fadeInLeft',
+				'class': 'district-household district-divider animated fadeInUp',
 				'html': '<h4><i class="fa fa-users"></i> Household average:</h4>'
 			}).insertAfter(litracyRatio);
 
@@ -272,35 +290,34 @@
 				}).appendTo(household);
 
 			var housing = $('<div />', {
-				'class': 'district-housing district-divider animated fadeInRight',
+				'class': 'district-housing district-divider animated fadeInUp',
 				'html': '<h4><i class="fa fa-home"></i> Housing</h4>'
 			}).insertAfter(household);
 
 				$('<p />', {
-					'html': 'Total: ' + info.housing.units.total.toLocaleString()
+					'html': 'Total: ' + info.housing.units.total.toLocaleString('en-GB')
 				}).appendTo(housing);
 
 				if ( info.housing.have_utilities.electricity ) {
 
 					$('<p />', {
-						'html': '<i class="fa fa-lightbulb-o"></i> Electricity: ' + info.housing.have_utilities.electricity.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.electricity.percentage + '%'
+						'html': '<i class="fa fa-lightbulb-o"></i> Electricity: ' + info.housing.have_utilities.electricity.value.toLocaleString('en-GB') + ' &ndash; ' + info.housing.have_utilities.electricity.percentage + '%'
 					}).appendTo(housing);
 				}
 
 				if ( info.housing.have_utilities.water ) {
 
 					$('<p />', {
-						'html': '<i class="fa fa-tint"></i> Water: ' + info.housing.have_utilities.water.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.water.percentage + '%'
+						'html': '<i class="fa fa-tint"></i> Water: ' + info.housing.have_utilities.water.value.toLocaleString('en-GB') + ' &ndash; ' + info.housing.have_utilities.water.percentage + '%'
 					}).appendTo(housing);
 				}
 
 				if ( info.housing.have_utilities.gas ) {
 
 					$('<p />', {
-						'html': '<i class="fa fa-fire"></i> Gas: ' + info.housing.have_utilities.gas.value.toLocaleString() + ' &ndash; ' + info.housing.have_utilities.gas.percentage + '%'
+						'html': '<i class="fa fa-fire"></i> Gas: ' + info.housing.have_utilities.gas.value.toLocaleString('en-GB') + ' &ndash; ' + info.housing.have_utilities.gas.percentage + '%'
 					}).appendTo(housing);
 				}
-
 
 		}
 
