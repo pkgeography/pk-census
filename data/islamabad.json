@@ -7,14 +7,17 @@
     },
     "population": {
         "year": {
-            "1981": 340286
+            "1981": 340286,
+            "1998": 805235
         },
         "gender": {
             "male": {
-                "percentage": 75.09
+                "value": 434239,
+                "percentage": 53.93
             },
             "female": {
-                "percentage": 48.78
+                "value": 370996,
+                "percentage": 46.07
             }
         },
         "ratio": {
@@ -42,7 +45,13 @@
     },
     "litracy_ratio": {
         "age": "10+",
-        "percentage": 62.52
+        "percentage": 62.52,
+        "male": {
+            "percentage": 75.09
+        },
+        "female": {
+            "percentage": 48.78
+        }
     },
     "growth_rate": {
         "type": "average",
