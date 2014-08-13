@@ -71,21 +71,21 @@
             "pacca": {
                 "value": 113263,
                 "percentage": 87.96
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 117778,
+                "percentage": 91.47
             },
-            "have_utilities": {
-                "electricity": {
-                    "value": 117778,
-                    "percentage": 91.47
-                },
-                "water": {
-                    "type": "piped",
-                    "value": 73751,
-                    "percentage": 57.28
-                },
-                "gas": {
-                    "value": 72118,
-                    "percentage": 56
-                }
+            "water": {
+                "type": "piped",
+                "value": 73751,
+                "percentage": 57.28
+            },
+            "gas": {
+                "value": 72118,
+                "percentage": 56
             }
         }
     },
