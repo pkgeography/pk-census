@@ -99,25 +99,28 @@
 			$.getJSON('scripts/census-data-combined.json', 
 				function(json, status) {
 					if (status && status === 'success') {
-						for (var i = json.length - 1; i >= 0; i--) {
-							var district = json[i];
-							var marker = new MarkerWithLabel({
-								position: new google.maps.LatLng(district.location.lat, district.location.lng),
-								map: _this.map,
-								icon: {
-									path: google.maps.SymbolPath.CIRCLE,
-									scale: 3,
-									strokeOpacity: 0.85,
-									strokeColor: '#c30'
-								},
-								labelClass: 'district-marker',
-								labelContent: district.title,
-								labelVisible: false,
-								labelAnchor: new google.maps.Point(-3, 34)
-							});
+						for (var i in json) {
+							var provinces = json[i];
+							for (var i = provinces.length - 1; i >= 0; i--) {
+								var district = provinces[i];
+								var marker = new MarkerWithLabel({
+									position: new google.maps.LatLng(district.location.lat, district.location.lng),
+									map: _this.map,
+									icon: {
+										path: google.maps.SymbolPath.CIRCLE,
+										scale: 3,
+										strokeOpacity: 0.85,
+										strokeColor: '#c30'
+									},
+									labelClass: 'district-marker',
+									labelContent: district.title,
+									labelVisible: false,
+									labelAnchor: new google.maps.Point(-3, 34)
+								});
 
-							_this.markers.push(marker);
-							_this.setMarkerInfo(_this, marker, district);
+								_this.markers.push(marker);
+								_this.setMarkerInfo(_this, marker, district);
+							}
 						}
 					}
 			});
@@ -153,6 +156,9 @@
 				});
 			}
 			else {
+				
+				if ( _this.iw.hasClass('active-' + info.title.replace(' ', '_').toLowerCase()) ) return;
+
 				$('.animated').toggleClass(function() {
 					if ( $(this).hasClass('fadeInUp') ) {
 						return 'fadeOutDown';
