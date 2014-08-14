@@ -39,28 +39,37 @@
  */
 
 
+// Define base path
 define('DIRPATH', dirname(__DIR__) . '/data');
 
+// Define empty array
 $data = array();
 
-$dirs = array(
-	DIRPATH,
-	DIRPATH . '/balochistan',
-	DIRPATH . '/nwfp',
-	DIRPATH . '/punjab',
-	DIRPATH . '/sindh'
-);
+// Define default set of provinces
+$provinces = array('capital', 'balochistan', 'nwfp', 'punjab', 'sindh');
 
+// Define empty array for directories by provinces
+$dirs = array();
+
+// Setup directories
+foreach ($provinces as $province) {
+	$dirs[] = DIRPATH . '/' . $province;
+}
+
+// Process data to combine
 foreach ($dirs as $dir) {
 	$in_dir = scandir($dir);
+
+	$dirProvince = end(explode('/', $dir));
 
 	foreach ($in_dir as $dor) {
 
 		// Exclude census-data-combined.json data
 		if ( $dor === 'census-data-combined.json' ) continue;
 
+		// Skip the empty files
 		if ( strpos($dor, '.json') && filesize($dir . '/' . $dor) !== 0 ) {
-			$data[] = json_decode(file_get_contents($dir . '/' . $dor), true);
+			$data[$dirProvince][] = json_decode(file_get_contents($dir . '/' . $dor), true);
 		}
 	}
 }
