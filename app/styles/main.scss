@@ -131,10 +131,11 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 }
 
 .emblem-seal {
-    width: 27px;
-    height: 27px;
+    width: 64px;
+    height: 64px;
+    background-size: 90%;
     display: inline-block;
-    background-size: 27px 27px;
+    vertical-align: middle;
     background-repeat: no-repeat;
     background-position: center center;
     background-image: url(../images/capital-seal.svg);
