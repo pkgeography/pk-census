@@ -76,5 +76,12 @@ foreach ($dirs as $dir) {
 	}
 }
 
+
+// Setup response headers
 header('Content-type: application/json');
-echo json_encode($data, JSON_PRETTY_PRINT);
+
+// Output JSON depending upon PHP version
+if (version_compare(PHP_VERSION, '5.4.0', '<'))
+	echo json_encode($data);
+else
+	echo json_encode($data, JSON_PRETTY_PRINT);
