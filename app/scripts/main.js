@@ -179,8 +179,10 @@
 			// empty any existing contents
 			var appcontent = $('.app-content').empty();
 
+			console.log(info);
+
 			var heading = $('<h3 />', {
-				'html': '<i class="fa fa-institution"></i> ' + info.title,
+				'html': '<i class="emblem-seal emblem-seal-capital ' + info.title + '"></i> ' + info.title,
 				'class': 'district-title animated fadeInRight'
 			}).prependTo(appcontent);
 

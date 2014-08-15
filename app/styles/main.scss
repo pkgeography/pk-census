@@ -129,3 +129,33 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 .district-household-average {
     margin-top: 10px;
 }
+
+.emblem-seal {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../images/capital-seal.svg);
+}
+
+.emblem-seal-capital {
+    background-image: url(../images/capital-seal.svg);
+}
+
+.emblem-seal-nwfp {
+    background-image: url(../images/nwfp-seal.svg);
+}
+
+.emblem-seal-sindh {
+    background-image: url(../images/sindh-seal.svg);
+}
+
+.emblem-seal-punjab {
+    background-image: url(../images/punjab-seal.svg);
+}
+
+.emblem-seal-balochistan {
+    background-image: url(../images/balochistan-seal.svg);
+}
