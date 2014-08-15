@@ -1,0 +1,90 @@
+{
+    "title": "Hafizabad District",
+    "area": {
+        "value": 2367,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 567572,
+            "1998": 832980
+        },
+        "gender": {
+            "male": {
+                "percentage": 51.8
+            },
+            "female": {
+                "percentage": 28.7
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.4
+        },
+        "density": {
+            "value": 351.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 27.26,
+            "value": 227115
+        },
+        "rural": {
+            "percentage": 72.74,
+            "value": 605865
+        }
+    },
+    "administration": {
+        "union_councils": 45,
+        "town_committees": 4,
+        "municipal_committees": 1,
+        "tehsils": 2,
+        "mauzas": 415
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 40.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.28,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.1
+    },
+    "housing": {
+        "units": {
+            "total": 117354,
+            "pacca": {
+                "value": 77094,
+                "percentage": 65.69
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 94178,
+                "percentage": 80.25
+            },
+            "water": {
+                "type": "piped",
+                "value": 10557,
+                "percentage": 8.99
+            },
+            "gas": {
+                "value": 3962,
+                "percentage": 3.37
+            }
+        }
+    },
+    "location": {
+        "lat": 32.0693349,
+        "lng": 73.6861181
+    }
+}

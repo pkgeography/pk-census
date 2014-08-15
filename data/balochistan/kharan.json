@@ -1,0 +1,89 @@
+{
+    "title": "Kharan District",
+    "area": {
+        "value": 48051,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 128040,
+            "1998": 206909
+        },
+        "gender": {
+            "male": {
+                "percentage": 23.73
+            },
+            "female": {
+                "percentage": 5.69
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107.6
+        },
+        "density": {
+            "value": 4.3,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 13.44,
+            "value": 27806
+        },
+        "rural": {
+            "percentage": 86.56,
+            "value": 179103
+        }
+    },
+    "administration": {
+        "union_councils": 16,
+        "town_committees": 1,
+        "tehsils": 3,
+        "mauzas": 394
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 15.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.86,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.8
+    },
+    "housing": {
+        "units": {
+            "total": 35630,
+            "pacca": {
+                "value": 1239,
+                "percentage": 3.47
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 71239,
+                "percentage": 3.47
+            },
+            "water": {
+                "type": "piped",
+                "value": 3341,
+                "percentage": 9.37
+            },
+            "gas": {
+                "value": 176,
+                "percentage": 0.49
+            }
+        }
+    },
+    "location": {
+        "lat": 28.1252916,
+        "lng": 65.4016813
+    }
+}

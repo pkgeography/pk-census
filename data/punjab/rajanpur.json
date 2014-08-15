@@ -1,0 +1,90 @@
+{
+    "title": "Rajanpur District",
+    "area": {
+        "value": 12318,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 638921,
+            "1998": 1103618
+        },
+        "gender": {
+            "male": {
+                "percentage": 29
+            },
+            "female": {
+                "percentage": 11.3
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 111.1
+        },
+        "density": {
+            "value": 89.6,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 14.51,
+            "value": 160155
+        },
+        "rural": {
+            "percentage": 85.49,
+            "value": 943463
+        }
+    },
+    "administration": {
+        "union_councils": 47,
+        "town_committees": 4,
+        "municipal_committees": 2,
+        "tehsils": 3,
+        "mauzas": 532
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 20.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.27,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.3
+    },
+    "housing": {
+        "units": {
+            "total": 151733,
+            "pacca": {
+                "value": 25598,
+                "percentage": 16.87
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 61372,
+                "percentage": 40.44
+            },
+            "water": {
+                "type": "piped",
+                "value": 12895,
+                "percentage": 8.49
+            },
+            "gas": {
+                "value": 953,
+                "percentage": 0.63
+            }
+        }
+    },
+    "location": {
+        "lat": 29.103593,
+        "lng": 70.3283779
+    }
+}

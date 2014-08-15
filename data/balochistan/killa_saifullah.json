@@ -1,0 +1,89 @@
+{
+    "title": "Killa Saifullah District",
+    "area": {
+        "value": 6831,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 148362,
+            "1998": 193553
+        },
+        "gender": {
+            "male": {
+                "percentage": 24.98
+            },
+            "female": {
+                "percentage": 8.92
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 119
+        },
+        "density": {
+            "value": 28.3,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 13.07,
+            "value": 25299
+        },
+        "rural": {
+            "percentage": 86.93,
+            "value": 168254
+        }
+    },
+    "administration": {
+        "union_councils": 15,
+        "town_committees": 2,
+        "tehsils": 2,
+        "mauzas": 149
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 17.6
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 1.58,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.1
+    },
+    "housing": {
+        "units": {
+            "total": 27434,
+            "pacca": {
+                "value": 3507,
+                "percentage": 12.78
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 11293,
+                "percentage": 41.16
+            },
+            "water": {
+                "type": "piped",
+                "value": 3710,
+                "percentage": 13.52
+            },
+            "gas": {
+                "value": 276,
+                "percentage": 1
+            }
+        }
+    },
+    "location": {
+        "lat": 31.0937976,
+        "lng": 68.4789482
+    }
+}

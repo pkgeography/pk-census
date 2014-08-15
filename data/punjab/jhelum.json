@@ -1,0 +1,91 @@
+{
+    "title": "Jhelum District",
+    "area": {
+        "value": 3587,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 659012,
+            "1998": 936957
+        },
+        "gender": {
+            "male": {
+                "percentage": 77.66
+            },
+            "female": {
+                "percentage": 50.47
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 99.8
+        },
+        "density": {
+            "value": 261.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 27.68,
+            "value": 259330
+        },
+        "rural": {
+            "percentage": 72.32,
+            "value": 677627
+        }
+    },
+    "administration": {
+        "union_councils": 53,
+        "town_committees": 3,
+        "municipal_committees": 2,
+        "cantonment": 2,
+        "tehsils": 3,
+        "mauzas": 573
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 63.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.09,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.2
+    },
+    "housing": {
+        "units": {
+            "total": 150225,
+            "pacca": {
+                "value": 126992,
+                "percentage": 84.53
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 124910,
+                "percentage": 83.14
+            },
+            "water": {
+                "type": "piped",
+                "value": 40862,
+                "percentage": 27.2
+            },
+            "gas": {
+                "value": 23124,
+                "percentage": 15.39
+            }
+        }
+    },
+    "location": {
+        "lat": 32.9398188,
+        "lng": 73.7196349
+    }
+}

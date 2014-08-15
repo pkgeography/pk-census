@@ -1,0 +1,90 @@
+{
+    "title": "Chakwal District",
+    "area": {
+        "value": 6524,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 775600,
+            "1998": 1083725
+        },
+        "gender": {
+            "male": {
+                "percentage": 73.42
+            },
+            "female": {
+                "percentage": 42.15
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 91.6
+        },
+        "density": {
+            "value": 166.1,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 12.15,
+            "value": 131692
+        },
+        "rural": {
+            "percentage": 87.85,
+            "value": 952033
+        }
+    },
+    "administration": {
+        "union_councils": 0,
+        "town_committees": 1,
+        "municipal_committees": 2,
+        "tehsils": 3,
+        "mauzas": 453
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 56.72
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 1.99,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.7
+    },
+    "housing": {
+        "units": {
+            "total": 0,
+            "pacca": {
+                "value": 0,
+                "percentage": 32.57
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 0,
+                "percentage": 47.95
+            },
+            "water": {
+                "type": "piped",
+                "value": 0,
+                "percentage": 7.89
+            },
+            "gas": {
+                "value": 0,
+                "percentage": 0.99
+            }
+        }
+    },
+    "location": {
+        "lat": 32.9362834,
+        "lng": 72.8503418
+    }
+}

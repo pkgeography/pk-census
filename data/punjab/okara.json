@@ -1,0 +1,91 @@
+{
+    "title": "Okara District",
+    "area": {
+        "value": 4377,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1487261,
+            "1998": 2232992
+        },
+        "gender": {
+            "male": {
+                "percentage": 49.27
+            },
+            "female": {
+                "percentage": 24.99
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 109.6
+        },
+        "density": {
+            "value": 510.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 23.04,
+            "value": 514408
+        },
+        "rural": {
+            "percentage": 76.96,
+            "value": 1718584
+        }
+    },
+    "administration": {
+        "union_councils": 114,
+        "town_committees": 6,
+        "municipal_committees": 2,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 915
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 37.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.42,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.6
+    },
+    "housing": {
+        "units": {
+            "total": 337866,
+            "pacca": {
+                "value": 146432,
+                "percentage": 43.34
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 234486,
+                "percentage": 69.4
+            },
+            "water": {
+                "type": "piped",
+                "value": 49252,
+                "percentage": 14.58
+            },
+            "gas": {
+                "value": 8542,
+                "percentage": 2.53
+            }
+        }
+    },
+    "location": {
+        "lat": 30.8091295,
+        "lng": 73.4575479
+    }
+}

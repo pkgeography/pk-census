@@ -1,0 +1,90 @@
+{
+    "title": "Bannu District",
+    "area": {
+        "value": 1227,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 423018,
+            "1998": 677346
+        },
+        "gender": {
+            "male": {
+                "percentage": 50.79
+            },
+            "female": {
+                "percentage": 12.18
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 106.9
+        },
+        "density": {
+            "value": 552,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 7.04,
+            "value": 47676
+        },
+        "rural": {
+            "percentage": 92.96,
+            "value": 629670
+        }
+    },
+    "administration": {
+        "union_councils": 40,
+        "municipal_committees": 1,
+        "cantonment": 1,
+        "tehsils": 1,
+        "mauzas": 229
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 32.11
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.81,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 9.7
+    },
+    "housing": {
+        "units": {
+            "total": 68920,
+            "pacca": {
+                "value": 16355,
+                "percentage": 23.73
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 64825,
+                "percentage": 94.06
+            },
+            "water": {
+                "type": "piped",
+                "value": 29833,
+                "percentage": 43.28
+            },
+            "gas": {
+                "value": 2088,
+                "percentage": 3.03
+            }
+        }
+    },
+    "location": {
+        "lat": 32.9888028,
+        "lng": 70.6100847
+    }
+}

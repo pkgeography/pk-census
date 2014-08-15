@@ -1,0 +1,88 @@
+{
+    "title": "Buner District",
+    "area": {
+        "value": 1865,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1998": 506048,
+            "1981": 55860
+        },
+        "gender": {
+            "male": {
+                "percentage": 38.18
+            },
+            "female": {
+                "percentage": 7.65
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 100
+        },
+        "density": {
+            "value": 271.3,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 0,
+            "value": 0
+        },
+        "rural": {
+            "percentage": 100,
+            "value": 506048
+        }
+    },
+    "administration": {
+        "union_councils": 27,
+        "tehsils": 1,
+        "mauzas": 167
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 22.62
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.86,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 9.1
+    },
+    "housing": {
+        "units": {
+            "total": 55860,
+            "pacca": {
+                "value": 42456,
+                "percentage": 76
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 28571,
+                "percentage": 51.14
+            },
+            "water": {
+                "type": "piped",
+                "value": 15453,
+                "percentage": 27.66
+            },
+            "gas": {
+                "value": 156,
+                "percentage": 0.28
+            }
+        }
+    },
+    "location": {
+        "lat": 34.4290341,
+        "lng": 72.5072765
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "title": "Dera Bugti District",
+    "area": {
+        "value": 10160,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 103821,
+            "1998": 181310
+        },
+        "gender": {
+            "male": {
+                "percentage": 18.89
+            },
+            "female": {
+                "percentage": 2.97
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 115.9
+        },
+        "density": {
+            "value": 17.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 8.55,
+            "value": 15495
+        },
+        "rural": {
+            "percentage": 91.45,
+            "value": 165815
+        }
+    },
+    "administration": {
+        "union_councils": 13,
+        "town_committees": 1,
+        "tehsils": 3,
+        "mauzas": 223
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 11.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.33,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.3
+    },
+    "housing": {
+        "units": {
+            "total": 28673,
+            "pacca": {
+                "value": 3641,
+                "percentage": 12.69
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 4486,
+                "percentage": 15.64
+            },
+            "water": {
+                "type": "piped",
+                "value": 3988,
+                "percentage": 13.91
+            },
+            "gas": {
+                "value": 2275,
+                "percentage": 7.93
+            }
+        }
+    },
+    "location": {
+        "lat": 29.0637628,
+        "lng": 69.0408576
+    }
+}

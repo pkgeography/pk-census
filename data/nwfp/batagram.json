@@ -1,0 +1,90 @@
+{
+    "title": "Batagram District",
+    "area": {
+        "value": 1301,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 339119,
+            "1998": 307278
+        },
+        "gender": {
+            "male": {
+                "percentage": 29.4
+            },
+            "female": {
+                "percentage": 6.48
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 106.6
+        },
+        "density": {
+            "value": 236.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 0,
+            "value": 0
+        },
+        "rural": {
+            "percentage": 100,
+            "value": 307278
+        }
+    },
+    "administration": {
+        "union_councils": 20,
+        "town_committees": 0,
+        "municipal_committees": 0,
+        "tehsils": 2,
+        "mauzas": 104
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 18.31
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 0,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.6
+    },
+    "housing": {
+        "units": {
+            "total": 46438,
+            "pacca": {
+                "value": 30059,
+                "percentage": 64.72
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 19666,
+                "percentage": 42.34
+            },
+            "water": {
+                "type": "piped",
+                "value": 10856,
+                "percentage": 23.37
+            },
+            "gas": {
+                "value": 126,
+                "percentage": 0.35
+            }
+        }
+    },
+    "location": {
+        "lat": 34.7730796,
+        "lng": 73.1811332
+    }
+}

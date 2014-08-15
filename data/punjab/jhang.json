@@ -1,0 +1,91 @@
+{
+    "title": "Jhang District",
+    "area": {
+        "value": 8809,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1970944,
+            "1998": 2834545
+        },
+        "gender": {
+            "male": {
+                "percentage": 51.53
+            },
+            "female": {
+                "percentage": 21.43
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.4
+        },
+        "density": {
+            "value": 321.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 23.39,
+            "value": 662990
+        },
+        "rural": {
+            "percentage": 76.61,
+            "value": 2171555
+        }
+    },
+    "administration": {
+        "union_councils": 129,
+        "town_committees": 7,
+        "municipal_committees": 2,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 1069
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 37.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.16,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.5
+    },
+    "housing": {
+        "units": {
+            "total": 434495,
+            "pacca": {
+                "value": 162894,
+                "percentage": 37.49
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 212375,
+                "percentage": 48.88
+            },
+            "water": {
+                "type": "piped",
+                "value": 41775,
+                "percentage": 9.61
+            },
+            "gas": {
+                "value": 22025,
+                "percentage": 5.07
+            }
+        }
+    },
+    "location": {
+        "lat": 31.2688422,
+        "lng": 72.3313665
+    }
+}

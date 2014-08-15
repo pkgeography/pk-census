@@ -1,0 +1,96 @@
+{
+    "title": "Islamabad District",
+    "area": {
+        "value": 906,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 340286,
+            "1998": 805235
+        },
+        "gender": {
+            "male": {
+                "value": 434239,
+                "percentage": 53.93
+            },
+            "female": {
+                "value": 370996,
+                "percentage": 46.07
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 117
+        },
+        "density": {
+            "value": 888.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 65.71,
+            "value": 529180
+        },
+        "rural": {
+            "percentage": 34.28,
+            "value": 276055
+        }
+    },
+    "administration": {
+        "tehsils": 1,
+        "union_councils": 1,
+        "mauzas": 132
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 62.52,
+        "male": {
+            "percentage": 75.09
+        },
+        "female": {
+            "percentage": 48.78
+        }
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 5.19,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.2
+    },
+    "housing": {
+        "units": {
+            "total": 128753,
+            "pacca": {
+                "value": 113263,
+                "percentage": 87.96
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 117778,
+                "percentage": 91.47
+            },
+            "water": {
+                "type": "piped",
+                "value": 73751,
+                "percentage": 57.28
+            },
+            "gas": {
+                "value": 72118,
+                "percentage": 56
+            }
+        }
+    },
+    "location": {
+        "lat": 33.678465,
+        "lng": 73.0201863
+    }
+}

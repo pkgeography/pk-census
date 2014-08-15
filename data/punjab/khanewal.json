@@ -1,0 +1,90 @@
+{
+    "title": "Khanewal District",
+    "area": {
+        "value": 4349,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1369766,
+            "1998": 2068490
+        },
+        "gender": {
+            "male": {
+                "percentage": 53.6
+            },
+            "female": {
+                "percentage": 25.1
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107.7
+        },
+        "density": {
+            "value": 475.6,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 17.61,
+            "value": 364261
+        },
+        "rural": {
+            "percentage": 82.39,
+            "value": 1704229
+        }
+    },
+    "administration": {
+        "union_councils": 101,
+        "town_committees": 6,
+        "municipal_committees": 2,
+        "tehsils": 4,
+        "mauzas": 670
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 39.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.45,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.1
+    },
+    "housing": {
+        "units": {
+            "total": 292796,
+            "pacca": {
+                "value": 102955,
+                "percentage": 35.16
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 165200,
+                "percentage": 56.42
+            },
+            "water": {
+                "type": "piped",
+                "value": 35220,
+                "percentage": 12.03
+            },
+            "gas": {
+                "value": 27034,
+                "percentage": 9.23
+            }
+        }
+    },
+    "location": {
+        "lat": 30.2983846,
+        "lng": 71.9310521
+    }
+}

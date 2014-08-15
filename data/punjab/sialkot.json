@@ -1,0 +1,91 @@
+{
+    "title": "Sialkot District",
+    "area": {
+        "value": 3016,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1802505,
+            "1998": 2723481
+        },
+        "gender": {
+            "male": {
+                "percentage": 65.96
+            },
+            "female": {
+                "percentage": 51.52
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 105.2
+        },
+        "density": {
+            "value": 903,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 26.19,
+            "value": 713329
+        },
+        "rural": {
+            "percentage": 73.81,
+            "value": 2010152
+        }
+    },
+    "administration": {
+        "union_councils": 122,
+        "town_committees": 6,
+        "municipal_committees": 4,
+        "cantonment": 1,
+        "tehsils": 3,
+        "mauzas": 1543
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 58.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.46,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.4
+    },
+    "housing": {
+        "units": {
+            "total": 366251,
+            "pacca": {
+                "value": 315998,
+                "percentage": 86.28
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 346388,
+                "percentage": 94.57
+            },
+            "water": {
+                "type": "piped",
+                "value": 96412,
+                "percentage": 26.32
+            },
+            "gas": {
+                "value": 73293,
+                "percentage": 20.01
+            }
+        }
+    },
+    "location": {
+        "lat": 32.4954629,
+        "lng": 74.5393981
+    }
+}

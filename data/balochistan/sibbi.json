@@ -1,0 +1,90 @@
+{
+    "title": "Sibi District",
+    "area": {
+        "value": 7796,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 98482,
+            "1998": 180398
+        },
+        "gender": {
+            "male": {
+                "percentage": 35.25
+            },
+            "female": {
+                "percentage": 13.6
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 117.2
+        },
+        "density": {
+            "value": 23.1,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 32.05,
+            "value": 57826
+        },
+        "rural": {
+            "percentage": 67.95,
+            "value": 122572
+        }
+    },
+    "administration": {
+        "union_councils": 28,
+        "town_committees": 1,
+        "municipal_committees": 1,
+        "tehsils": 2,
+        "mauzas": 139
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 25.47
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.62,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7
+    },
+    "housing": {
+        "units": {
+            "total": 25700,
+            "pacca": {
+                "value": 4368,
+                "percentage": 16.99
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 13867,
+                "percentage": 53.96
+            },
+            "water": {
+                "type": "piped",
+                "value": 8148,
+                "percentage": 31.7
+            },
+            "gas": {
+                "value": 2890,
+                "percentage": 11.25
+            }
+        }
+    },
+    "location": {
+        "lat": 29.5511939,
+        "lng": 67.8672636
+    }
+}

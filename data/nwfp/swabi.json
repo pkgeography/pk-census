@@ -1,0 +1,90 @@
+{
+    "title": "Swabi District",
+    "area": {
+        "value": 1543,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 625035,
+            "1998": 1026804
+        },
+        "gender": {
+            "male": {
+                "percentage": 54
+            },
+            "female": {
+                "percentage": 18.3
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 101.2
+        },
+        "density": {
+            "value": 665.5,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 17.45,
+            "value": 179214
+        },
+        "rural": {
+            "percentage": 82.55,
+            "value": 847590
+        }
+    },
+    "administration": {
+        "union_councils": 56,
+        "town_committees": 2,
+        "municipal_committees": 3,
+        "tehsils": 2,
+        "mauzas": 149
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 36
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.96,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.7
+    },
+    "housing": {
+        "units": {
+            "total": 133234,
+            "pacca": {
+                "value": 90603,
+                "percentage": 68
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 11096,
+                "percentage": 83.38
+            },
+            "water": {
+                "type": "piped",
+                "value": 14524,
+                "percentage": 10.9
+            },
+            "gas": {
+                "value": 1518,
+                "percentage": 1.13
+            }
+        }
+    },
+    "location": {
+        "lat": 34.1193371,
+        "lng": 72.4740431
+    }
+}

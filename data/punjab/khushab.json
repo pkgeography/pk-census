@@ -1,0 +1,90 @@
+{
+    "title": "Khushab District",
+    "area": {
+        "value": 6511,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 641366,
+            "1998": 905711
+        },
+        "gender": {
+            "male": {
+                "percentage": 59.8
+            },
+            "female": {
+                "percentage": 21.8
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 99.4
+        },
+        "density": {
+            "value": 139.1,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 25.28,
+            "value": 228969
+        },
+        "rural": {
+            "percentage": 74.72,
+            "value": 676742
+        }
+    },
+    "administration": {
+        "union_councils": 55,
+        "town_committees": 5,
+        "municipal_committees": 2,
+        "tehsils": 2,
+        "mauzas": 314
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 40.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.05,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.2
+    },
+    "housing": {
+        "units": {
+            "total": 145187,
+            "pacca": {
+                "value": 100165,
+                "percentage": 68.99
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 84298,
+                "percentage": 58.06
+            },
+            "water": {
+                "type": "piped",
+                "value": 30357,
+                "percentage": 20.91
+            },
+            "gas": {
+                "value": 3755,
+                "percentage": 2.58
+            }
+        }
+    },
+    "location": {
+        "lat": 32.1115254,
+        "lng": 72.1252442
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Gujranwala District",
+    "area": {
+        "value": 3622,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 2108365,
+            "1998": 3400940
+        },
+        "gender": {
+            "male": {
+                "percentage": 63.6
+            },
+            "female": {
+                "percentage": 48.8
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.6
+        },
+        "density": {
+            "value": 939,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 50.55,
+            "value": 1719038
+        },
+        "rural": {
+            "percentage": 49.45,
+            "value": 1681902
+        }
+    },
+    "administration": {
+        "union_councils": 192,
+        "town_committees": 8,
+        "municipal_committees": 4,
+        "cantonment": 1,
+        "tehsils": 5,
+        "mauzas": 803
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 56.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.85,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.6
+    },
+    "housing": {
+        "units": {
+            "total": 448818,
+            "pacca": {
+                "value": 406319,
+                "percentage": 90.53
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 418878,
+                "percentage": 93.33
+            },
+            "water": {
+                "type": "piped",
+                "value": 145929,
+                "percentage": 32.51
+            },
+            "gas": {
+                "value": 154004,
+                "percentage": 34.31
+            }
+        }
+    },
+    "location": {
+        "lat": 32.1501773,
+        "lng": 74.1893512
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "title": "Kalat District",
+    "area": {
+        "value": 6622,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 209149,
+            "1998": 237834
+        },
+        "gender": {
+            "male": {
+                "percentage": 29.24
+            },
+            "female": {
+                "percentage": 9.44
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107
+        },
+        "density": {
+            "value": 35.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 14.21,
+            "value": 33794
+        },
+        "rural": {
+            "percentage": 85.79,
+            "value": 204040
+        }
+    },
+    "administration": {
+        "union_councils": 18,
+        "town_committees": 2,
+        "tehsils": 2,
+        "mauzas": 636
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 19.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 0.76,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.9
+    },
+    "housing": {
+        "units": {
+            "total": 34410,
+            "pacca": {
+                "value": 909,
+                "percentage": 2.64
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 15539,
+                "percentage": 45.16
+            },
+            "water": {
+                "type": "piped",
+                "value": 4551,
+                "percentage": 13.22
+            },
+            "gas": {
+                "value": 157,
+                "percentage": 0.45
+            }
+        }
+    },
+    "location": {
+        "lat": 29.0285541,
+        "lng": 66.5886497
+    }
+}

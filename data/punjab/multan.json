@@ -1,0 +1,91 @@
+{
+    "title": "Multan District",
+    "area": {
+        "value": 3720,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1970075,
+            "1998": 3116851
+        },
+        "gender": {
+            "male": {
+                "percentage": 53.25
+            },
+            "female": {
+                "percentage": 32.28
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 110.4
+        },
+        "density": {
+            "value": 837.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 42.18,
+            "value": 1314748
+        },
+        "rural": {
+            "percentage": 57.82,
+            "value": 1802103
+        }
+    },
+    "administration": {
+        "union_councils": 124,
+        "town_committees": 3,
+        "municipal_committees": 2,
+        "cantonment": 1,
+        "tehsils": 4,
+        "mauzas": 527
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 43.4
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.73,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.2
+    },
+    "housing": {
+        "units": {
+            "total": 433362,
+            "pacca": {
+                "value": 215429,
+                "percentage": 49.71
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 301527,
+                "percentage": 69.58
+            },
+            "water": {
+                "type": "piped",
+                "value": 93825,
+                "percentage": 21.65
+            },
+            "gas": {
+                "value": 125548,
+                "percentage": 28.97
+            }
+        }
+    },
+    "location": {
+        "lat": 30.1859546,
+        "lng": 71.4774371
+    }
+}

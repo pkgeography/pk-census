@@ -1,0 +1,90 @@
+{
+    "title": "Muzaffergarh District",
+    "area": {
+        "value": 8249,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 1497736,
+            "1998": 2635903
+        },
+        "gender": {
+            "male": {
+                "percentage": 40.87
+            },
+            "female": {
+                "percentage": 14.77
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.7
+        },
+        "density": {
+            "value": 319.5,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 12.95,
+            "value": 341345
+        },
+        "rural": {
+            "percentage": 87.05,
+            "value": 2294558
+        }
+    },
+    "administration": {
+        "union_councils": 93,
+        "town_committees": 6,
+        "municipal_committees": 2,
+        "tehsils": 4,
+        "mauzas": 975
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 28.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.38,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.4
+    },
+    "housing": {
+        "units": {
+            "total": 358144,
+            "pacca": {
+                "value": 100064,
+                "percentage": 27.94
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 183554,
+                "percentage": 51.25
+            },
+            "water": {
+                "type": "piped",
+                "value": 21362,
+                "percentage": 5.96
+            },
+            "gas": {
+                "value": 14228,
+                "percentage": 3.97
+            }
+        }
+    },
+    "location": {
+        "lat": 30.074772,
+        "lng": 71.1890889
+    }
+}

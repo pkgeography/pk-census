@@ -1,0 +1,89 @@
+{
+    "title": "Chagai District",
+    "area": {
+        "value": 50545,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 120455,
+            "1998": 202564
+        },
+        "gender": {
+            "male": {
+                "percentage": 38
+            },
+            "female": {
+                "percentage": 13.76
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 115.9
+        },
+        "density": {
+            "value": 4,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 17.72,
+            "value": 35896
+        },
+        "rural": {
+            "percentage": 82.28,
+            "value": 166668
+        }
+    },
+    "administration": {
+        "union_councils": 19,
+        "town_committees": 2,
+        "tehsils": 3,
+        "mauzas": 92
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 27
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.1,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.8
+    },
+    "housing": {
+        "units": {
+            "total": 29746,
+            "pacca": {
+                "value": 1820,
+                "percentage": 6.12
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 9026,
+                "percentage": 30.34
+            },
+            "water": {
+                "type": "piped",
+                "value": 8273,
+                "percentage": 27.81
+            },
+            "gas": {
+                "value": 294,
+                "percentage": 0.99
+            }
+        }
+    },
+    "location": {
+        "lat": 28.8615838,
+        "lng": 62.9653931
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "title": "Quetta District",
+    "area": {
+        "value": 2653,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 381566,
+            "1998": 759941
+        },
+        "gender": {
+            "male": {
+                "percentage": 67.27
+            },
+            "female": {
+                "percentage": 44.53
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 118.5
+        },
+        "density": {
+            "value": 286.4,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 74.36,
+            "value": 565137
+        },
+        "rural": {
+            "percentage": 25.64,
+            "value": 194804
+        }
+    },
+    "administration": {
+        "union_councils": 66,
+        "cantonment": 1,
+        "tehsils": 2,
+        "mauzas": 45
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 57.1
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 4.13,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 8.5
+    },
+    "housing": {
+        "units": {
+            "total": 87091,
+            "pacca": {
+                "value": 44249,
+                "percentage": 50.81
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 81923,
+                "percentage": 94.07
+            },
+            "water": {
+                "type": "piped",
+                "value": 69453,
+                "percentage": 79.75
+            },
+            "gas": {
+                "value": 67522,
+                "percentage": 77.53
+            }
+        }
+    },
+    "location": {
+        "lat": 30.1797521,
+        "lng": 66.9894569
+    }
+}

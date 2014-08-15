@@ -1,0 +1,89 @@
+{
+    "title": "Jaffarabad District",
+    "area": {
+        "value": 2445,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 265342,
+            "1998": 432817
+        },
+        "gender": {
+            "male": {
+                "percentage": 27.5
+            },
+            "female": {
+                "percentage": 8.64
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.3
+        },
+        "density": {
+            "value": 177,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 19.76,
+            "value": 85523
+        },
+        "rural": {
+            "percentage": 80.24,
+            "value": 347294
+        }
+    },
+    "administration": {
+        "union_councils": 33,
+        "town_committees": 1,
+        "municipal_committees": 2,
+        "mauzas": 229
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 18.5
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.92,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.1
+    },
+    "housing": {
+        "units": {
+            "total": 60864,
+            "pacca": {
+                "value": 5420,
+                "percentage": 8.91
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 39384,
+                "percentage": 64.71
+            },
+            "water": {
+                "type": "piped",
+                "value": 10395,
+                "percentage": 17.08
+            },
+            "gas": {
+                "value": 4144,
+                "percentage": 6.81
+            }
+        }
+    },
+    "location": {
+        "lat": 28.3062124,
+        "lng": 68.2027816
+    }
+}

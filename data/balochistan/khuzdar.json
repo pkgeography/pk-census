@@ -1,0 +1,90 @@
+{
+    "title": "Khuzdar District",
+    "area": {
+        "value": 35380,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 276449,
+            "1998": 417466
+        },
+        "gender": {
+            "male": {
+                "percentage": 25.33
+            },
+            "female": {
+                "percentage": 8.39
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 111.4
+        },
+        "density": {
+            "value": 11.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 28.32,
+            "value": 118248
+        },
+        "rural": {
+            "percentage": 71.68,
+            "value": 299218
+        }
+    },
+    "administration": {
+        "union_councils": 36,
+        "town_committees": 2,
+        "municipal_committees": 1,
+        "tehsils": 3,
+        "mauzas": 1089
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 17.4
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.45,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.4
+    },
+    "housing": {
+        "units": {
+            "total": 77006,
+            "pacca": {
+                "value": 4205,
+                "percentage": 5.46
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 25141,
+                "percentage": 32.65
+            },
+            "water": {
+                "type": "piped",
+                "value": 5853,
+                "percentage": 7.6
+            },
+            "gas": {
+                "value": 865,
+                "percentage": 1.12
+            }
+        }
+    },
+    "location": {
+        "lat": 27.8133671,
+        "lng": 66.6171453
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "title": "Lakki Marwat District",
+    "area": {
+        "value": 3164,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 288759,
+            "1998": 490025
+        },
+        "gender": {
+            "male": {
+                "percentage": 50.3
+            },
+            "female": {
+                "percentage": 8.6
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 104.4
+        },
+        "density": {
+            "value": 154.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 9.57,
+            "value": 46878
+        },
+        "rural": {
+            "percentage": 90.43,
+            "value": 443147
+        }
+    },
+    "administration": {
+        "union_councils": 34,
+        "town_committees": 1,
+        "municipal_committees": 1,
+        "tehsils": 1,
+        "mauzas": 157
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 29.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.16,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 9.2
+    },
+    "housing": {
+        "units": {
+            "total": 53302,
+            "pacca": {
+                "value": 7755,
+                "percentage": 14.55
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 46386,
+                "percentage": 87.02
+            },
+            "water": {
+                "type": "piped",
+                "value": 20636,
+                "percentage": 38.71
+            },
+            "gas": {
+                "value": 111,
+                "percentage": 0.21
+            }
+        }
+    },
+    "location": {
+        "lat": 32.6048456,
+        "lng": 70.9082586
+    }
+}

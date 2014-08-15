@@ -1,0 +1,88 @@
+{
+    "title": "City District Lahore",
+    "area": {
+        "value": 1772,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 3544942,
+            "1998": 6318745
+        },
+        "gender": {
+            "male": {
+                "percentage": 69.05
+            },
+            "female": {
+                "percentage": 59.68
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 111.3
+        },
+        "density": {
+            "value": 3565.9,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 82.44,
+            "value": 5209088
+        },
+        "rural": {
+            "percentage": 17.56,
+            "value": 1109657
+        }
+    },
+    "administration": {
+        "union_councils": 150,
+        "cantonment": 1,
+        "mauzas": 261
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 64.7
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.46,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.2
+    },
+    "housing": {
+        "units": {
+            "total": 881708,
+            "pacca": {
+                "value": 813772,
+                "percentage": 92.29
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 845334,
+                "percentage": 95.87
+            },
+            "water": {
+                "type": "piped",
+                "value": 662725,
+                "percentage": 75.16
+            },
+            "gas": {
+                "value": 556772,
+                "percentage": 63.15
+            }
+        }
+    },
+    "location": {
+        "lat": 31.4796725,
+        "lng": 74.3231472
+    }
+}

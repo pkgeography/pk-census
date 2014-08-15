@@ -1,0 +1,90 @@
+{
+    "title": "Sheikhupura District",
+    "area": {
+        "value": 5960,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 2110153,
+            "1998": 3321029
+        },
+        "gender": {
+            "male": {
+                "percentage": 53.28
+            },
+            "female": {
+                "percentage": 33.33
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.6
+        },
+        "density": {
+            "value": 557.2,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 26.22,
+            "value": 870816
+        },
+        "rural": {
+            "percentage": 73.78,
+            "value": 2450213
+        }
+    },
+    "administration": {
+        "union_councils": 169,
+        "town_committees": 10,
+        "municipal_committees": 5,
+        "tehsils": 4,
+        "mauzas": 1073
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 47.8
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.7,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.3
+    },
+    "housing": {
+        "units": {
+            "total": 453248,
+            "pacca": {
+                "value": 328274,
+                "percentage": 72.43
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 371266,
+                "percentage": 81.91
+            },
+            "water": {
+                "type": "piped",
+                "value": 84740,
+                "percentage": 18.69
+            },
+            "gas": {
+                "value": 57448,
+                "percentage": 12.67
+            }
+        }
+    },
+    "location": {
+        "lat": 31.7109632,
+        "lng": 74.0109872
+    }
+}

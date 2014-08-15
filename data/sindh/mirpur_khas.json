@@ -1,0 +1,88 @@
+{
+    "title": "Mirpur Khas District",
+    "area": {
+        "value": 2925,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 287570,
+            "1998": 905935
+        },
+        "gender": {
+            "male": {
+                "percentage": 45.99
+            },
+            "female": {
+                "percentage": 25.05
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.3
+        },
+        "density": {
+            "value": 309.7,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 33.13,
+            "value": 300175
+        },
+        "rural": {
+            "percentage": 66.87,
+            "value": 605760
+        }
+    },
+    "administration": {
+        "union_councils": 40,
+        "town_committees": 6,
+        "mauzas": 369
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 36
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.37,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 6.1
+    },
+    "housing": {
+        "units": {
+            "total": 148470,
+            "pacca": {
+                "value": 46395,
+                "percentage": 31.25
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 82814,
+                "percentage": 55.78
+            },
+            "water": {
+                "type": "piped",
+                "value": 45140,
+                "percentage": 30.4
+            },
+            "gas": {
+                "value": 1722,
+                "percentage": 1.16
+            }
+        }
+    },
+    "location": {
+        "lat": 25.525943,
+        "lng": 69.0193319
+    }
+}

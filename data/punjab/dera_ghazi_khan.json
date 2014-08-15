@@ -1,0 +1,88 @@
+{
+    "title": "Dera Ghazi Khan District",
+    "area": {
+        "value": 11922,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 943663,
+            "1998": 1643118
+        },
+        "gender": {
+            "male": {
+                "percentage": 42.1
+            },
+            "female": {
+                "percentage": 18.1
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 108.2
+        },
+        "density": {
+            "value": 137.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 13.93,
+            "value": 228839
+        },
+        "rural": {
+            "percentage": 86.07,
+            "value": 1414279
+        }
+    },
+    "administration": {
+        "union_councils": 59,
+        "tehsils": 2,
+        "mauzas": 826
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 30.6
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.31,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 7.9
+    },
+    "housing": {
+        "units": {
+            "total": 209255,
+            "pacca": {
+                "value": 59228,
+                "percentage": 28.3
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 117121,
+                "percentage": 55.97
+            },
+            "water": {
+                "type": "piped",
+                "value": 40770,
+                "percentage": 19.48
+            },
+            "gas": {
+                "value": 10240,
+                "percentage": 4.89
+            }
+        }
+    },
+    "location": {
+        "lat": 30.0441447,
+        "lng": 70.655694
+    }
+}

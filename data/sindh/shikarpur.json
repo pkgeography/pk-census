@@ -1,0 +1,88 @@
+{
+    "title": "Shikapur District",
+    "area": {
+        "value": 2512,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 596409,
+            "1998": 880438
+        },
+        "gender": {
+            "male": {
+                "percentage": 44.95
+            },
+            "female": {
+                "percentage": 18.04
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 107.7
+        },
+        "density": {
+            "value": 350.5,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 24.08,
+            "value": 211979
+        },
+        "rural": {
+            "percentage": 75.42,
+            "value": 668459
+        }
+    },
+    "administration": {
+        "union_councils": 47,
+        "town_committees": 6,
+        "mauzas": 240
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 31.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 2.32,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 5.9
+    },
+    "housing": {
+        "units": {
+            "total": 149758,
+            "pacca": {
+                "value": 20849,
+                "percentage": 13.92
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 104794,
+                "percentage": 69.97
+            },
+            "water": {
+                "type": "piped",
+                "value": 30389,
+                "percentage": 20.29
+            },
+            "gas": {
+                "value": 20368,
+                "percentage": 13.6
+            }
+        }
+    },
+    "location": {
+        "lat": 27.9522155,
+        "lng": 68.6414623
+    }
+}

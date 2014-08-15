@@ -1,0 +1,89 @@
+{
+    "title": "Karak District",
+    "area": {
+        "value": 3372,
+        "unit_long": "square kilometers",
+        "unit_short": "Sq. Kms"
+    },
+    "population": {
+        "year": {
+            "1981": 249681,
+            "1998": 430796
+        },
+        "gender": {
+            "male": {
+                "percentage": 68.2
+            },
+            "female": {
+                "percentage": 18.1
+            }
+        },
+        "ratio": {
+            "type": "males per 100 females",
+            "value": 96.3
+        },
+        "density": {
+            "value": 127.8,
+            "unit_long": "per square kilometers",
+            "unit_short": "per Sq. Kms"
+        },
+        "urban": {
+            "percentage": 6.47,
+            "value": 27893
+        },
+        "rural": {
+            "percentage": 93.52,
+            "value": 402903
+        }
+    },
+    "administration": {
+        "union_councils": 23,
+        "municipal_committees": 1,
+        "tehsils": 3,
+        "mauzas": 119
+    },
+    "litracy_ratio": {
+        "age": "10+",
+        "percentage": 41.9
+    },
+    "growth_rate": {
+        "type": "average",
+        "percentage": 3.26,
+        "year": {
+            "from": 1981,
+            "to": 1998
+        }
+    },
+    "household": {
+        "type": "average",
+        "size": 10
+    },
+    "housing": {
+        "units": {
+            "total": 43170,
+            "pacca": {
+                "value": 20652,
+                "percentage": 47.84
+            }
+        },
+        "have_utilities": {
+            "electricity": {
+                "value": 35054,
+                "percentage": 81.19
+            },
+            "water": {
+                "type": "piped",
+                "value": 9332,
+                "percentage": 21.62
+            },
+            "gas": {
+                "value": 314,
+                "percentage": 0.73
+            }
+        }
+    },
+    "location": {
+        "lat": 33.001633,
+        "lng": 71.1310664
+    }
+}
