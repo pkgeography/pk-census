@@ -78,7 +78,7 @@ foreach ($dirs as $dir) {
 
 
 // Setup response headers
-header('Content-type: application/json');
+header('Content-type: application/json; charset=utf-8');
 
 // Output JSON depending upon PHP version
 if (version_compare(PHP_VERSION, '5.4.0', '<'))
