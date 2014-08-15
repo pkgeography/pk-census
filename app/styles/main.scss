@@ -160,3 +160,22 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 .emblem-seal-balochistan {
     background-image: url(../images/balochistan-seal.svg);
 }
+
+.district-boundary {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;  // Much better to use the total length of path instead
+    -webkit-animation: district-boundary-anim 2s linear forwards;
+    animation: district-boundary-anim 2s linear forwards;
+}
+
+@-webkit-keyframes district-boundary-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes district-boundary-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

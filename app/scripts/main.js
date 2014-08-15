@@ -174,8 +174,6 @@
 			// empty any existing contents
 			var appcontent = $('.app-content').empty();
 
-			console.log(info);
-
 			var heading = $('<h3 />', {
 				'html': '<i class="emblem-seal emblem-seal-' + info.province + '"></i> ' + info.title,
 				'class': 'district-title animated fadeInRight'
@@ -321,6 +319,33 @@
 						'html': '<i class="fa fa-fire"></i> Gas: ' + info.housing.have_utilities.gas.value.toLocaleString('en-GB') + ' &ndash; ' + info.housing.have_utilities.gas.percentage + '%'
 					}).appendTo(housing);
 				}
+
+				// Important: Do not enable this code until issue #19 is completely resolved.
+				//
+				// 
+				// if ( info.boundary ) {
+				// 	var svg = $('<svg />', {
+				// 		'version': '1.1',
+				// 		'id': info.title.replace(' ', '_').toLowerCase(), // Shorthand code are more useful for ids. Issue #20
+				// 		'xmlns': 'http://www.w3.org/2000/svg',
+				// 		'xmlns:xlink': 'http://www.w3.org/1999/xlink',
+				// 		'x': '0px',
+				// 		'y': '0px',
+				// 		'width': info.boundary.width,
+				// 		'height': info.boundary.height,
+				// 		'viewBox': '0 0 ' + info.boundary.width + info.boundary.height,
+				// 		'enable-background': 'new 0 0 ' + info.boundary.width + info.boundary.height,
+				// 		'xml:space': 'preserve'
+				// 	}).appendTo(area);
+
+				// 	var path = ( $('<path />', {
+				// 		'class': 'district-boundary',
+				// 		'fill': '#ffffff',
+				// 		'stroke': '#006838',
+				// 		'stroke-width': '1.15',
+				// 		'd': info.boundary.path
+				// 	}) ).appendTo(svg);
+				// }
 
 		}
 
