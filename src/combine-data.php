@@ -69,7 +69,9 @@ foreach ($dirs as $dir) {
 
 		// Skip the empty files
 		if ( strpos($dor, '.json') && filesize($dir . '/' . $dor) !== 0 ) {
-			$data[$dirProvince][] = json_decode(file_get_contents($dir . '/' . $dor), true);
+			$district = json_decode(file_get_contents($dir . '/' . $dor), true);
+			$district['province'] = $dirProvince;
+			$data[] = $district;
 		}
 	}
 }
