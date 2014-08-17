@@ -39,31 +39,63 @@
  */
 
 
+// Define base path
 define('DIRPATH', dirname(__DIR__) . '/data');
 
+// Define empty array
 $data = array();
 
-$dirs = array(
-	DIRPATH,
-	DIRPATH . '/balochistan',
-	DIRPATH . '/nwfp',
-	DIRPATH . '/punjab',
-	DIRPATH . '/sindh'
-);
+// Define default set of provinces
+$provinces = array('capital', 'balochistan', 'nwfp', 'punjab', 'sindh');
 
+// Define empty array for directories by provinces
+$dirs = array();
+
+// Setup directories
+foreach ($provinces as $province) {
+	$dirs[] = DIRPATH . '/' . $province;
+}
+
+// Process data to combine
 foreach ($dirs as $dir) {
 	$in_dir = scandir($dir);
+
+	$dirProvince = end(explode('/', $dir));
 
 	foreach ($in_dir as $dor) {
 
 		// Exclude census-data-combined.json data
 		if ( $dor === 'census-data-combined.json' ) continue;
 
+		// Skip the empty files
 		if ( strpos($dor, '.json') && filesize($dir . '/' . $dor) !== 0 ) {
-			$data[] = json_decode(file_get_contents($dir . '/' . $dor), true);
+			$id = explode('.', $dor)[0];
+			$district = json_decode(file_get_contents($dir . '/' . $dor), true);
+			$district['id'] = $id;
+			$district['province'] = $dirProvince;
+
+			// Get and add district boundaries from http://git.io/pk-districts
+			$json = @file_get_contents(dirname(dirname(__DIR__)) . '/pk-districts/data/districts-data.json');
+
+			if ($json) {
+				$areas = json_decode($json);
+				foreach ($areas as $key => $value) {
+					if ($key === $id)
+						$district['area'] = $value;
+				}
+			}
+
+			$data[] = $district;
 		}
 	}
 }
 
-header('Content-type: application/json');
-echo json_encode($data, JSON_PRETTY_PRINT);
+
+// Setup response headers
+header('Content-type: application/json; charset=utf-8');
+
+// Output JSON depending upon PHP version
+if (version_compare(PHP_VERSION, '5.4.0', '<'))
+	echo json_encode($data);
+else
+	echo json_encode($data, JSON_PRETTY_PRINT);
