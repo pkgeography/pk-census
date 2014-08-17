@@ -69,8 +69,22 @@ foreach ($dirs as $dir) {
 
 		// Skip the empty files
 		if ( strpos($dor, '.json') && filesize($dir . '/' . $dor) !== 0 ) {
+			$id = explode('.', $dor)[0];
 			$district = json_decode(file_get_contents($dir . '/' . $dor), true);
+			$district['id'] = $id;
 			$district['province'] = $dirProvince;
+
+			// Get and add district boundaries from http://git.io/pk-districts
+			$json = @file_get_contents(dirname(dirname(__DIR__)) . '/pk-districts/data/districts-data.json');
+
+			if ($json) {
+				$areas = json_decode($json);
+				foreach ($areas as $key => $value) {
+					if ($key === $id)
+						$district['area'] = $value;
+				}
+			}
+
 			$data[] = $district;
 		}
 	}
