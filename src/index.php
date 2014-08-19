@@ -8,7 +8,7 @@
  * 
  * In case any data is updated in `/data` directory, it is best
  * to run this file to output a updated combined data and then save 
- * that into `/data/census-data-combined.json`.
+ * that into `/data/census-data.json`.
  * 
  * This file will automatically exclude the directories and empty files.
  * 
@@ -64,8 +64,8 @@ foreach ($dirs as $dir) {
 
 	foreach ($in_dir as $dor) {
 
-		// Exclude census-data-combined.json data
-		if ( $dor === 'census-data-combined.json' ) continue;
+		// Exclude census-data.json data
+		if ( $dor === 'census-data.json' ) continue;
 
 		// Skip the empty files
 		if ( strpos($dor, '.json') && filesize($dir . '/' . $dor) !== 0 ) {
