@@ -75,7 +75,7 @@ foreach ($dirs as $dir) {
 			$district['province'] = $dirProvince;
 
 			// Get and add district boundaries from http://git.io/pk-districts
-			$json = @file_get_contents(dirname(dirname(__DIR__)) . '/pk-districts/data/districts-data.json');
+			$json = @file_get_contents(dirname(dirname(__DIR__)) . '/pk-districts/json/districts-data.json');
 
 			if ($json) {
 				$areas = json_decode($json);
