@@ -1,14 +1,14 @@
-# Pakistan Census Data (1998)
+# Introduction
 
-This is re-structured census data, collected from [census.gov.pk](http://census.gov.pk). Data that resided on census website as HTML pages, is collected using web page scrapping method. It is then converted to rough JSON format using [Simple HTML DOM](http://sourceforge.net/projects/simplehtmldom/) library. At this stage, data is [cleaned and re-structured](https://github.com/pkgeography/pk-census/blob/master/src/re-structure.php) to a clean, reusable and machine-readable format but type of data format remains intact to JSON.
+This is a web based interactive portal build with data from [Geography of Pakistan](https://github.com/pkgeography) repositories. The data is sourced from official channels where it resides in rigid and non-reusable formats. This makes the access, reusibility and understanding of data very difficult for everyone. The sole purpose of this interactive portal is to showcase that how easier it is to reuse the data if it is available in descent digital formats. This example project also demonstrates better ways of showcasing public data for understanding at ease for everyone.
 
-# Case Study
+# How it started?
 
 [https://speakerdeck.com/jabranr/pakistan-census-data](https://speakerdeck.com/jabranr/pakistan-census-data)
 
 # Contribution
 
-Since (even this) data is not complete as official data source of [census.gov.pk](http://census.gov.pk) returned "Page not found" errors to some of the data, your findings and contributions are always welcome. Please refer to [issues](https://github.com/pkgeography/pk-census/issues) for existing issues or [create a new one](https://github.com/pkgeography/pk-census/issues/new) to start a new discussion.
+For contributions, please check the appropriate repositories at [Geography of Pakistan](https://github.com/pkgeography).
 
 # License
 
