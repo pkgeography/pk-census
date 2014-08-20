@@ -161,9 +161,13 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
     background-image: url(../images/balochistan-seal.svg);
 }
 
+.district-area-figure {
+    font-size: 22px;
+}
+
 .district-boundary {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;  // Much better to use the total length of path instead
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;  // Much better to use the total length of path instead
     -webkit-animation: district-boundary-anim 2s linear forwards;
     animation: district-boundary-anim 2s linear forwards;
 }
@@ -171,11 +175,15 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 @-webkit-keyframes district-boundary-anim {
     to {
         stroke-dashoffset: 0;
+        stroke-width: 1.5;
+        fill: lighten(#ccff99, 10%);
     }
 }
 
 @keyframes district-boundary-anim {
     to {
         stroke-dashoffset: 0;
+        stroke-width: 1.5;
+        fill: lighten(#ccff99, 10%);
     }
 }

@@ -180,9 +180,13 @@
 			}).prependTo(appcontent);
 
 			var area = $('<div />', {
-				'class': 'district-area district-divider animated fadeInUp',
-				'html': '<h4><i class="fa fa-flag"></i>  Area</h4><p>' + info.area.value.toLocaleString('en-GB') + ' ' + info.area.unit_short + '</p>'
+				'class': 'district-area district-divider animated fadeInUp clearfix',
 			}).insertAfter(heading);
+
+				$('<p />', {
+					'class': 'text-center district-area-figure',
+					'html': info.area.value.toLocaleString('en-GB') + ' ' + info.area.unit_short
+				}).appendTo(area);
 
 			var population = $('<div />', {
 				'class': 'district-population district-divider animated fadeInUp',
@@ -320,32 +324,32 @@
 					}).appendTo(housing);
 				}
 
-				// Important: Do not enable this code until issue #19 is completely resolved.
-				//
-				// 
-				// if ( info.boundary ) {
-				// 	var svg = $('<svg />', {
-				// 		'version': '1.1',
-				// 		'id': info.title.replace(' ', '_').toLowerCase(), // Shorthand code are more useful for ids. Issue #20
-				// 		'xmlns': 'http://www.w3.org/2000/svg',
-				// 		'xmlns:xlink': 'http://www.w3.org/1999/xlink',
-				// 		'x': '0px',
-				// 		'y': '0px',
-				// 		'width': info.boundary.width,
-				// 		'height': info.boundary.height,
-				// 		'viewBox': '0 0 ' + info.boundary.width + info.boundary.height,
-				// 		'enable-background': 'new 0 0 ' + info.boundary.width + info.boundary.height,
-				// 		'xml:space': 'preserve'
-				// 	}).appendTo(area);
+				if ( info.boundary && info.boundary.path ) {
+					var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+					var svgNS = svg.namespaceURI;
 
-				// 	var path = ( $('<path />', {
-				// 		'class': 'district-boundary',
-				// 		'fill': '#ffffff',
-				// 		'stroke': '#006838',
-				// 		'stroke-width': '1.15',
-				// 		'd': info.boundary.path
-				// 	}) ).appendTo(svg);
-				// }
+					svg.setAttribute('version', '1.1');
+					svg.setAttribute('id', info.boundary.meta.id);
+					svg.setAttribute('width', parseInt(info.boundary.meta.width) / 1.25);
+					svg.setAttribute('height', parseInt(info.boundary.meta.height) / 1.25);
+					svg.setAttribute('x', info.boundary.meta.x);
+					svg.setAttribute('y', info.boundary.meta.y);
+					svg.setAttribute('viewBox', info.boundary.meta.viewBox);
+					svg.setAttribute('enable-background', 'new ' + info.boundary.meta.viewBox);
+					svg.setAttribute('xml:space', 'preserved');
+
+					var path = document.createElementNS(svgNS, 'path');
+
+					path.setAttribute('class', 'district-boundary');
+					path.setAttribute('fill', '#ffffff');
+					path.setAttribute('stroke', '#006838');
+					path.setAttribute('stroke-width', '1.15');
+					path.setAttribute('d', info.boundary.path.join(' '));
+
+					svg.appendChild(path);
+					area[0].appendChild(svg);
+					$(svg).wrap($('<div />', { 'class': 'district-svg text-center' }));
+				}
 
 		}
 
