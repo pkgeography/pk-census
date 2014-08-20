@@ -76,7 +76,10 @@
 
         <!-- Google Maps API JavaScript SDK -->
         <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAho0jeVDlokdnVHMQAJ8k_brHfhqvSpc0&sensor=false&language=en"></script>
-        <script src="//google-maps-utility-library-v3.googlecode.com/svn/trunk/markerwithlabel/src/markerwithlabel_packed.js"></script>
+
+        <!-- build:js scripts/vendor/markerwithlabel.js -->
+        <script src="../bower_components/marker-with-label/index.js"></script>
+        <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
