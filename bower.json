@@ -1,0 +1,24 @@
+{
+  "name": "pk-census",
+  "version": "0.1.7",
+  "homepage": "https://github.com/pkgeography/pk-census",
+  "authors": [
+    "Jabran Rafique <hello@jabran.me>"
+  ],
+  "description": "Collection of 1998 public census data",
+  "main": "data/",
+  "keywords": [
+    "Pakistan",
+    "census",
+    "data",
+    "census-1998"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
