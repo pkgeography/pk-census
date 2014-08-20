@@ -96,7 +96,7 @@
 		// setup markers
 		setMarkers: function()	{
 			var _this = this;
-			$.getJSON('../bower_components/pk-census/data/census-data.json',
+			$.getJSON('./bower_components/pk-census/data/census-data.json',
 				function(json, status) {
 					if (status && status === 'success') {
 						for (var i = json.length - 1; i >= 0; i--) {
