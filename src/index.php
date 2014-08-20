@@ -81,7 +81,7 @@ foreach ($dirs as $dir) {
 				$areas = json_decode($json);
 				foreach ($areas as $key => $value) {
 					if ($key === $id)
-						$district['area'] = $value;
+						$district['boundary'] = $value;
 				}
 			}
 

@@ -1,6 +1,6 @@
 {
   "name": "pk-census",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Collection of 1998 public census data",
   "main": "data/",
   "repository": {
