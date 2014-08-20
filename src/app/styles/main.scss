@@ -1,0 +1,189 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+// endbower
+
+$fa-font-path: "/bower_components/font-awesome/fonts/";
+
+// bower:scss
+@import '../../bower_components/font-awesome/scss/font-awesome.scss';
+// endbower
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+.map-canvas {
+    background-color: #eee;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.app-container {
+    background-color: rgba(white, 0.85);
+
+
+
+    @include transition(all 0.3s ease);
+
+    .page-header {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+
+    &.info-window {
+        .page-header {
+            border-bottom: inherit;
+        }
+    
+        @media (min-width: $screen-sm) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            overflow: auto;
+        }
+    }
+}
+
+.app-content {
+    h3 {
+        border-bottom: 1px solid lighten(#008000, 10%);
+        padding-bottom: 10px;
+        margin-bottom: 18px;
+        color: #008000;
+    }
+}
+
+.district-divider {
+    border-bottom: 1px dotted #888;
+    margin-bottom: 18px;
+}
+
+.district-marker {
+    background-color: rgba(#444, 0.75);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1.22em;
+
+    @include transition(all 0.5s ease);
+
+    &:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 18px;
+        content: ' ';
+        border: 10px solid rgba(#333, 0.75);
+        border-bottom-color: transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+    }
+}
+
+.district-population {
+    dt {
+        text-align: left;
+    }
+}
+
+.progress,
+.progress-bar {
+    box-shadow: none;
+}
+
+.progress-gender-ratio,
+.progress-urban-rural {
+    margin-top: 10px;
+    
+    &:last-child {
+        margin-top: 0;
+    }
+
+    .progress-bar {
+        min-width: 100px;
+    }
+}
+
+.progress-litracy-ratio {
+    margin-top: 10px;
+
+    .progress-bar {
+        min-width: 100px;
+    }
+}
+
+.district-household-average {
+    margin-top: 10px;
+}
+
+.emblem-seal {
+    width: 64px;
+    height: 64px;
+    background-size: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../images/capital-seal.svg);
+}
+
+.emblem-seal-capital {
+    background-image: url(../images/capital-seal.svg);
+}
+
+.emblem-seal-nwfp {
+    background-image: url(../images/nwfp-seal.svg);
+}
+
+.emblem-seal-sindh {
+    background-image: url(../images/sindh-seal.svg);
+}
+
+.emblem-seal-punjab {
+    background-image: url(../images/punjab-seal.svg);
+}
+
+.emblem-seal-balochistan {
+    background-image: url(../images/balochistan-seal.svg);
+}
+
+.district-area-figure {
+    font-size: 22px;
+}
+
+.district-boundary {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;  // Much better to use the total length of path instead
+    -webkit-animation: district-boundary-anim 2s linear forwards;
+    animation: district-boundary-anim 2s linear forwards;
+}
+
+@-webkit-keyframes district-boundary-anim {
+    to {
+        stroke-dashoffset: 0;
+        stroke-width: 1.5;
+        fill: lighten(#ccff99, 10%);
+    }
+}
+
+@keyframes district-boundary-anim {
+    to {
+        stroke-dashoffset: 0;
+        stroke-width: 1.5;
+        fill: lighten(#ccff99, 10%);
+    }
+}
