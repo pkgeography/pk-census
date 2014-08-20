@@ -18,7 +18,7 @@ module.exports = function (grunt) {
     // Configurable paths
     var config = {
         app: 'app',
-        dist: 'dist'
+        dist: '../dist'
     };
 
     // Define the configuration for all the tasks
@@ -324,7 +324,11 @@ module.exports = function (grunt) {
                     expand: true,
                     dot: true,
                     cwd: '.',
-                    src: ['bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/*.*'],
+                    src: [
+                        'bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/*.*',
+                        'bower_components/font-awesome/fonts/*.*',
+                        'bower_components/pk-census/data/census-data.json'
+                    ],
                     dest: '<%= config.dist %>'
                 }]
             },
