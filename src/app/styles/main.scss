@@ -207,5 +207,10 @@ ins {
         position: absolute;
         right: 5px;
         bottom: 18px;
+        display: none;
+
+        @media (min-width: $screen-sm) {
+            display: block;
+        }
     }
 }
