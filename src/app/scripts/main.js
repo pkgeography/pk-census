@@ -24,6 +24,8 @@
 		iw: $('.app-container'),
 		markers: [],
 		init: function(canvas, lat, lng, zoom, callback) {
+			var _this = this;
+
 			this.canvas = canvas;
 			this.defaultPosition = new google.maps.LatLng(parseFloat(lat), parseFloat(lng));
 			this.zoom = typeof zoom !== 'undefined' ? parseInt(zoom) : 8;
@@ -87,6 +89,15 @@
 			};
 
 			var map = this.map = new google.maps.Map(this.canvas, this.mapDefaults);
+
+			window.onresize = function()	{
+				// Resize map
+				google.maps.event.trigger(_this.map, 'resize');
+
+				// Set the center back to default				
+				if ( _this.map.getCenter() !== _this.defaultPosition )
+					_this.map.setCenter( _this.defaultPosition );
+			};
 
 			google.maps.event.addListenerOnce(this.map, 'tilesloaded', function()	{
 				return (callback && typeof callback === 'function') ? callback.call(this, map) : false;
@@ -324,33 +335,36 @@
 					}).appendTo(housing);
 				}
 
-				if ( info.boundary && info.boundary.path ) {
-					var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-					var svgNS = svg.namespaceURI;
+			// window.setTimeout(function()	{
 
-					svg.setAttribute('version', '1.1');
-					svg.setAttribute('id', info.boundary.meta.id);
-					svg.setAttribute('width', parseInt(info.boundary.meta.width) / 1.25);
-					svg.setAttribute('height', parseInt(info.boundary.meta.height) / 1.25);
-					svg.setAttribute('x', info.boundary.meta.x);
-					svg.setAttribute('y', info.boundary.meta.y);
-					svg.setAttribute('viewBox', info.boundary.meta.viewBox);
-					svg.setAttribute('enable-background', 'new ' + info.boundary.meta.viewBox);
-					svg.setAttribute('xml:space', 'preserved');
+			// 	if ( info.boundary && info.boundary.path ) {
+			// 		var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+			// 		var svgNS = svg.namespaceURI;
 
-					var path = document.createElementNS(svgNS, 'path');
+			// 		svg.setAttribute('version', '1.1');
+			// 		svg.setAttribute('id', info.boundary.meta.id);
+			// 		svg.setAttribute('width', parseInt(info.boundary.meta.width) / 1.25);
+			// 		svg.setAttribute('height', parseInt(info.boundary.meta.height) / 1.25);
+			// 		svg.setAttribute('x', info.boundary.meta.x);
+			// 		svg.setAttribute('y', info.boundary.meta.y);
+			// 		svg.setAttribute('viewBox', info.boundary.meta.viewBox);
+			// 		svg.setAttribute('enable-background', 'new ' + info.boundary.meta.viewBox);
+			// 		svg.setAttribute('xml:space', 'preserved');
 
-					path.setAttribute('class', 'district-boundary');
-					path.setAttribute('fill', '#ffffff');
-					path.setAttribute('stroke', '#006838');
-					path.setAttribute('stroke-width', '1.15');
-					path.setAttribute('d', info.boundary.path.join(' '));
+			// 		var path = document.createElementNS(svgNS, 'path');
 
-					svg.appendChild(path);
-					area[0].appendChild(svg);
-					$(svg).wrap($('<div />', { 'class': 'district-svg text-center' }));
-				}
+			// 		path.setAttribute('class', 'district-boundary');
+			// 		path.setAttribute('fill', '#ffffff');
+			// 		path.setAttribute('stroke', '#006838');
+			// 		path.setAttribute('stroke-width', '1.15');
+			// 		path.setAttribute('d', info.boundary.path.join(' '));
 
+			// 		svg.appendChild(path);
+			// 		area[0].appendChild(svg);
+			// 		$(svg).wrap($('<div />', { 'class': 'district-svg text-center' }));
+			// 	}
+
+			// }, 1000);
 		}
 
 	};
