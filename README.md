@@ -25,6 +25,8 @@ $ git status && git commit -m 'here is my new feature'
 * Let me review changes and merge
 * and finally thank you for your contributions :+1:
 
+If you like to produce production code as well then first delete the `dist/` directory complete and use `$ grunt build`.
+
 Please check the appropriate repositories at [Geography of Pakistan](https://github.com/pkgeography) for data contributions.
 
 # License
