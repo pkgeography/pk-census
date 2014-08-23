@@ -8,7 +8,7 @@ This is a web based interactive portal build with data from [Geography of Pakist
 
 # Contribution
 
-This example project is open-source and complete code is available in this repository in `src/` directory. This project is built with [Yeoman](http://yeoman.io) [webapp generator](https://github.com/yeoman/generator-webapp). If you would like to contribute then follow these steps:
+This example project is open-source and complete code is available in this repository in gh-pages` branch. This project is built with [Yeoman](http://yeoman.io) [webapp generator](https://github.com/yeoman/generator-webapp). If you would like to contribute then follow these steps:
 
 * Fork the repository. [https://github.com/pkgeography/pk-census/fork](https://github.com/pkgeography/pk-census/fork)
 * Switch to `gh-pages` branch `$ git checkout gh-pages`
@@ -17,7 +17,8 @@ This example project is open-source and complete code is available in this repos
 * Add new features or update existing
 * Commit with meaningful message 
 ``` shell
-$ git add . && git rm $(git ls-files --deleted) && git status && git commit -m 'here is my new feature'
+$ git add . && git rm $(git ls-files --deleted) 
+$ git status && git commit -m 'here is my new feature'
 ``` 
 * Push the changes to your fork `$ git push origin gh-pages`
 * Create a pull request. [https://github.com/pkgeography/pk-census/compare](https://github.com/pkgeography/pk-census/compare)
