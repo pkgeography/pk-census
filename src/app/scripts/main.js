@@ -32,60 +32,98 @@
 			this.mapDefaults = {
 				center: this.defaultPosition,
 				zoom: this.zoom,
-				disableDefaultUI: true
-				// styles: [{
-				// 		    "featureType": "administrative.country",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "road",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "landscape.man_made",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "poi",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.province",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.neighborhood",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.locality",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.country",
-				// 		    "elementType": "geometry.stroke",
-				// 		    "stylers": [
-				// 		      { "weight": 1 }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "water",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  }
-				// 		]
+				disableDefaultUI: true,
+				styles: [{
+					        "featureType": "administrative.country",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative.province",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative.locality",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative.neighborhood",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "landscape.man_made",
+					        "elementType": "geometry",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "landscape.natural.terrain",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "poi",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "road",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "simplified"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "transit",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "simplified"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "water",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "simplified"
+					            }
+					        ]
+					    }
+					]
 			};
 
 			var map = this.map = new google.maps.Map(this.canvas, this.mapDefaults);
@@ -171,6 +209,15 @@
 				}).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 					return _this.setupHTML(_this, marker, info);
 				});
+			}
+		},
+
+		closeIW: function()	{
+			var appcontent = $('.info-window');
+
+			if ( appcontent.length > 0 ) {
+				appcontent.empty();
+				appcontent.removeClass('info-window');
 			}
 		},
 
@@ -331,36 +378,37 @@
 					}).appendTo(housing);
 				}
 
-			// window.setTimeout(function()	{
+			if ( info.boundary && info.boundary.path ) {
+				var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+				var svgNS = svg.namespaceURI;
 
-				if ( info.boundary && info.boundary.path ) {
-					var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-					var svgNS = svg.namespaceURI;
+				svg.setAttribute('version', '1.1');
+				svg.setAttribute('id', info.boundary.meta.id);
+				svg.setAttribute('width', parseInt(info.boundary.meta.width) / 1.25);
+				svg.setAttribute('height', parseInt(info.boundary.meta.height) / 1.25);
+				svg.setAttribute('x', info.boundary.meta.x);
+				svg.setAttribute('y', info.boundary.meta.y);
+				svg.setAttribute('viewBox', info.boundary.meta.viewBox);
+				svg.setAttribute('enable-background', 'new ' + info.boundary.meta.viewBox);
+				svg.setAttribute('xml:space', 'preserved');
 
-					svg.setAttribute('version', '1.1');
-					svg.setAttribute('id', info.boundary.meta.id);
-					svg.setAttribute('width', parseInt(info.boundary.meta.width) / 1.25);
-					svg.setAttribute('height', parseInt(info.boundary.meta.height) / 1.25);
-					svg.setAttribute('x', info.boundary.meta.x);
-					svg.setAttribute('y', info.boundary.meta.y);
-					svg.setAttribute('viewBox', info.boundary.meta.viewBox);
-					svg.setAttribute('enable-background', 'new ' + info.boundary.meta.viewBox);
-					svg.setAttribute('xml:space', 'preserved');
+				var path = document.createElementNS(svgNS, 'path');
 
-					var path = document.createElementNS(svgNS, 'path');
+				path.setAttribute('class', 'district-boundary');
+				path.setAttribute('fill', '#ffffff');
+				path.setAttribute('stroke', '#006838');
+				path.setAttribute('stroke-width', '1.15');
+				path.setAttribute('d', info.boundary.path.join(' '));
 
-					path.setAttribute('class', 'district-boundary');
-					path.setAttribute('fill', '#ffffff');
-					path.setAttribute('stroke', '#006838');
-					path.setAttribute('stroke-width', '1.15');
-					path.setAttribute('d', info.boundary.path.join(' '));
+				svg.appendChild(path);
+				area[0].appendChild(svg);
+				$(svg).wrap($('<div />', { 'class': 'district-svg text-center' }));
+			}
 
-					svg.appendChild(path);
-					area[0].appendChild(svg);
-					$(svg).wrap($('<div />', { 'class': 'district-svg text-center' }));
-				}
-
-			// }, 1000);
+			$('<button />', {
+				'class': 'close clearfix',
+				'html': '&times;'
+			}).prependTo(appcontent).on('click', _this.closeIW);
 		}
 
 	};
