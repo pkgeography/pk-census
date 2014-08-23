@@ -174,6 +174,15 @@
 			}
 		},
 
+		closeIW: function()	{
+			var appcontent = $('.info-window');
+
+			if ( appcontent.length > 0 ) {
+				appcontent.empty();
+				appcontent.removeClass('info-window');
+			}
+		},
+
 		setupHTML: function(obj, marker, info) {
 
 			var _this = obj;
@@ -331,36 +340,37 @@
 					}).appendTo(housing);
 				}
 
-			// window.setTimeout(function()	{
+			if ( info.boundary && info.boundary.path ) {
+				var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+				var svgNS = svg.namespaceURI;
 
-				if ( info.boundary && info.boundary.path ) {
-					var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-					var svgNS = svg.namespaceURI;
+				svg.setAttribute('version', '1.1');
+				svg.setAttribute('id', info.boundary.meta.id);
+				svg.setAttribute('width', parseInt(info.boundary.meta.width) / 1.25);
+				svg.setAttribute('height', parseInt(info.boundary.meta.height) / 1.25);
+				svg.setAttribute('x', info.boundary.meta.x);
+				svg.setAttribute('y', info.boundary.meta.y);
+				svg.setAttribute('viewBox', info.boundary.meta.viewBox);
+				svg.setAttribute('enable-background', 'new ' + info.boundary.meta.viewBox);
+				svg.setAttribute('xml:space', 'preserved');
 
-					svg.setAttribute('version', '1.1');
-					svg.setAttribute('id', info.boundary.meta.id);
-					svg.setAttribute('width', parseInt(info.boundary.meta.width) / 1.25);
-					svg.setAttribute('height', parseInt(info.boundary.meta.height) / 1.25);
-					svg.setAttribute('x', info.boundary.meta.x);
-					svg.setAttribute('y', info.boundary.meta.y);
-					svg.setAttribute('viewBox', info.boundary.meta.viewBox);
-					svg.setAttribute('enable-background', 'new ' + info.boundary.meta.viewBox);
-					svg.setAttribute('xml:space', 'preserved');
+				var path = document.createElementNS(svgNS, 'path');
 
-					var path = document.createElementNS(svgNS, 'path');
+				path.setAttribute('class', 'district-boundary');
+				path.setAttribute('fill', '#ffffff');
+				path.setAttribute('stroke', '#006838');
+				path.setAttribute('stroke-width', '1.15');
+				path.setAttribute('d', info.boundary.path.join(' '));
 
-					path.setAttribute('class', 'district-boundary');
-					path.setAttribute('fill', '#ffffff');
-					path.setAttribute('stroke', '#006838');
-					path.setAttribute('stroke-width', '1.15');
-					path.setAttribute('d', info.boundary.path.join(' '));
+				svg.appendChild(path);
+				area[0].appendChild(svg);
+				$(svg).wrap($('<div />', { 'class': 'district-svg text-center' }));
+			}
 
-					svg.appendChild(path);
-					area[0].appendChild(svg);
-					$(svg).wrap($('<div />', { 'class': 'district-svg text-center' }));
-				}
-
-			// }, 1000);
+			$('<button />', {
+				'class': 'close clearfix',
+				'html': '&times;'
+			}).prependTo(appcontent).on('click', _this.closeIW);
 		}
 
 	};

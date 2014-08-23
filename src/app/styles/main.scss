@@ -229,3 +229,15 @@ ins {
         }
     }
 }
+
+.close {
+    position: absolute;
+    right: 10px;
+    color: #008000;
+    font-weight: normal;
+
+    &:hover,
+    &:active {
+        color: #008000;
+    }
+}
