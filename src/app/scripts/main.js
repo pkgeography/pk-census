@@ -32,60 +32,98 @@
 			this.mapDefaults = {
 				center: this.defaultPosition,
 				zoom: this.zoom,
-				disableDefaultUI: true
-				// styles: [{
-				// 		    "featureType": "administrative.country",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "road",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "landscape.man_made",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "poi",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.province",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.neighborhood",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.locality",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "administrative.country",
-				// 		    "elementType": "geometry.stroke",
-				// 		    "stylers": [
-				// 		      { "weight": 1 }
-				// 		    ]
-				// 		  },{
-				// 		    "featureType": "water",
-				// 		    "elementType": "labels",
-				// 		    "stylers": [
-				// 		      { "visibility": "off" }
-				// 		    ]
-				// 		  }
-				// 		]
+				disableDefaultUI: true,
+				styles: [{
+					        "featureType": "administrative.country",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative.province",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative.locality",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "administrative.neighborhood",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "landscape.man_made",
+					        "elementType": "geometry",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "landscape.natural.terrain",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "poi",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "off"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "road",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "simplified"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "transit",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "simplified"
+					            }
+					        ]
+					    },
+					    {
+					        "featureType": "water",
+					        "elementType": "labels",
+					        "stylers": [
+					            {
+					                "visibility": "simplified"
+					            }
+					        ]
+					    }
+					]
 			};
 
 			var map = this.map = new google.maps.Map(this.canvas, this.mapDefaults);
