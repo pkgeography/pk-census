@@ -13,13 +13,22 @@ This example project is open-source and complete code is available in this repos
 * Fork the repository. [https://github.com/pkgeography/pk-census/fork](https://github.com/pkgeography/pk-census/fork)
 * Switch to `gh-pages` branch `$ git checkout gh-pages`
 * Create new branch `$ git checkout -b my-awesome-updates`
-* Install dependencies and run project in browser `$ npm install && bower install && grunt serve`
+* Install dependencies and run project in browser 
+
+``` shell
+$ cd src/
+$ npm install && bower install
+$ grunt serve
+```
+
 * Add new features or update existing
 * Commit with meaningful message 
+
 ``` shell
 $ git add . && git rm $(git ls-files --deleted) 
 $ git status && git commit -m 'here is my new feature'
 ``` 
+
 * Push the changes to your fork `$ git push origin gh-pages`
 * Create a pull request. [https://github.com/pkgeography/pk-census/compare](https://github.com/pkgeography/pk-census/compare)
 * Let me review changes and merge
