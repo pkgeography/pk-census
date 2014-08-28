@@ -241,3 +241,10 @@ ins {
         color: #008000;
     }
 }
+
+div.gmnoprint {
+    margin-top: 100px !important;
+    @media (max-width: $screen-xs) {
+        margin-top: 87px !important;
+    }
+}
