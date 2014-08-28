@@ -32,8 +32,16 @@
 			this.mapDefaults = {
 				center: this.defaultPosition,
 				zoom: this.zoom,
-				disableDefaultUI: true,
-				styles: [{
+				zoomControl: false,
+				streetViewControl: false,
+				panControl: false,
+				mapTypeControlOptions: {
+					style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+					mapTypeIds: ['census_map', google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.HYBRID]
+				}
+			};
+
+			this.mapStyles = [{
 					        "featureType": "administrative.country",
 					        "elementType": "labels",
 					        "stylers": [
@@ -123,10 +131,16 @@
 					            }
 					        ]
 					    }
-					]
-			};
+					];
 
+			// Setup custom map type
+			this.censusMap = new google.maps.StyledMapType(this.mapStyles, { name: 'Population Census' });
+			
+			// Initiate Google Maps
 			var map = this.map = new google.maps.Map(this.canvas, this.mapDefaults);
+
+			this.map.mapTypes.set('census_map', this.censusMap);
+			this.map.setMapTypeId('census_map');
 
 			window.onresize = function()	{
 				// Resize map
