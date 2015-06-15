@@ -1,21 +1,21 @@
-(function(root, factory)	{
-	window.pkcensus = window.pkcensus || factory;
-})(this, (function() {
+(function(root, $, factory)	{
+	window.pkcensus = window.pkcensus || factory(root, $);
+
+	// DOM ready methods
+	$(document).ready(function()	{
+
+		// canvas global access
+		var mapCanvas = $('#mapCanvas');
+
+		// load map
+		pkcensus.gmap.init(mapCanvas[0], 30.3894007, 69.3532207, 6, function(map)	{
+			pkcensus.gmap.setMarkers();
+		});
+	});
+
+})(this, jQuery, function(root, $) {
 	'use strict';
 
-	// indexOf support for legacy browsers
-	if (typeof Array.prototype.indexOf !== 'undefined') {
-		Array.prototype.indexOf = function(item) {
-			var that = this;
-			for (var i = 0; i < that.length; i++) {
-				if (that[i] === item) {
-					return i;
-				}
-			}
-			return -1;
-		};
-	}
-	
 	// global pkcensus object
 	var pkcensus = {};
 
@@ -135,7 +135,7 @@
 
 			// Setup custom map type
 			this.censusMap = new google.maps.StyledMapType(this.mapStyles, { name: 'Population Census' });
-			
+
 			// Initiate Google Maps
 			var map = this.map = new google.maps.Map(this.canvas, this.mapDefaults);
 
@@ -146,7 +146,7 @@
 				// Resize map
 				google.maps.event.trigger(_this.map, 'resize');
 
-				// Set the center back to default				
+				// Set the center back to default
 				if ( _this.map.getCenter() !== _this.defaultPosition )
 					_this.map.setCenter( _this.defaultPosition );
 			};
@@ -164,19 +164,24 @@
 					if (status && status === 'success') {
 						for (var i = json.length - 1; i >= 0; i--) {
 							var district = json[i];
-							var marker = new MarkerWithLabel({
+							// var marker = new MarkerWithLabel({
+							// 	position: new google.maps.LatLng(district.location.lat, district.location.lng),
+							// 	map: _this.map,
+							// 	icon: {
+							// 		path: google.maps.SymbolPath.CIRCLE,
+							// 		scale: 3,
+							// 		strokeOpacity: 0.85,
+							// 		strokeColor: '#c30'
+							// 	},
+							// 	labelClass: 'district-marker',
+							// 	labelContent: district.title,
+							// 	labelVisible: false,
+							// 	labelAnchor: new google.maps.Point(-3, 34)
+							// });
+
+							var marker = new google.maps.Marker({
 								position: new google.maps.LatLng(district.location.lat, district.location.lng),
-								map: _this.map,
-								icon: {
-									path: google.maps.SymbolPath.CIRCLE,
-									scale: 3,
-									strokeOpacity: 0.85,
-									strokeColor: '#c30'
-								},
-								labelClass: 'district-marker',
-								labelContent: district.title,
-								labelVisible: false,
-								labelAnchor: new google.maps.Point(-3, 34)
+								map: _this.map
 							});
 
 							_this.markers.push(marker);
@@ -212,7 +217,7 @@
 				});
 			}
 			else {
-				
+
 				$('.animated').toggleClass(function() {
 					if ( $(this).hasClass('fadeInUp') ) {
 						return 'fadeOutDown';
@@ -429,18 +434,4 @@
 
 
 	return pkcensus;
-})());
-
-// DOM ready methods
-$(document).ready(function()	{
-	'use strict';
-
-	// canvas global access
-	var mapCanvas = $('#mapCanvas');
-
-	// load map
-	pkcensus.gmap.init(mapCanvas[0], 30.3894007, 69.3532207, 6, function(map)	{
-		// console.log(map);
-		pkcensus.gmap.setMarkers();
-	});
 });
