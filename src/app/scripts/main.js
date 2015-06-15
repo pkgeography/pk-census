@@ -147,7 +147,7 @@
 				google.maps.event.trigger(_this.map, 'resize');
 
 				// Set the center back to default
-				if ( _this.map.getCenter() !== _this.defaultPosition )
+				if ( ! _this.map.getCenter().equals(_this.defaultPosition) )
 					_this.map.setCenter( _this.defaultPosition );
 			};
 
@@ -164,24 +164,19 @@
 					if (status && status === 'success') {
 						for (var i = json.length - 1; i >= 0; i--) {
 							var district = json[i];
-							// var marker = new MarkerWithLabel({
-							// 	position: new google.maps.LatLng(district.location.lat, district.location.lng),
-							// 	map: _this.map,
-							// 	icon: {
-							// 		path: google.maps.SymbolPath.CIRCLE,
-							// 		scale: 3,
-							// 		strokeOpacity: 0.85,
-							// 		strokeColor: '#c30'
-							// 	},
-							// 	labelClass: 'district-marker',
-							// 	labelContent: district.title,
-							// 	labelVisible: false,
-							// 	labelAnchor: new google.maps.Point(-3, 34)
-							// });
-
-							var marker = new google.maps.Marker({
+							var marker = new MarkerWithLabel({
 								position: new google.maps.LatLng(district.location.lat, district.location.lng),
-								map: _this.map
+								map: _this.map,
+								icon: {
+									path: google.maps.SymbolPath.CIRCLE,
+									scale: 4,
+									strokeOpacity: 0.85,
+									strokeColor: '#008000'
+								},
+								labelClass: 'district-marker',
+								labelContent: district.title,
+								labelVisible: false,
+								labelAnchor: new google.maps.Point(-3, 34)
 							});
 
 							_this.markers.push(marker);
@@ -203,9 +198,12 @@
 			});
 
 			google.maps.event.addListener(marker, 'click', function()	{
-				if ( _this.map.getZoom() !== 9 )
-					_this.map.setZoom(9);
+				if ( _this.map.getCenter().equals(this.getPosition()) ) return;
 				_this.map.panTo(this.getPosition());
+
+				if ( _this.map.getZoom() !== 10 )
+					_this.map.setZoom(10);
+
 				return _this.loadMarkerInfo(_this, this, info);
 			});
 		},
@@ -430,7 +428,10 @@
 			$('<button />', {
 				'class': 'close clearfix',
 				'html': '&times;'
-			}).prependTo(appcontent).on('click', _this.closeIW);
+			}).prependTo(appcontent).on('click', function() {
+				_this.map.setOptions(_this.mapDefaults );
+				return _this.closeIW();
+			});
 		}
 
 	};

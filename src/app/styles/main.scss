@@ -137,7 +137,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts/";
 .progress-gender-ratio,
 .progress-urban-rural {
     margin-top: 10px;
-    
+
     &:last-child {
         margin-top: 0;
     }
@@ -232,9 +232,12 @@ ins {
 
 .close {
     position: absolute;
+    display: block;
     right: 10px;
     color: #008000;
+    padding: 5px;
     font-weight: normal;
+    z-index: 99999;
 
     &:hover,
     &:active {
@@ -242,9 +245,9 @@ ins {
     }
 }
 
-div.gmnoprint {
-    margin-top: 100px !important;
-    @media (max-width: $screen-xs) {
-        margin-top: 87px !important;
-    }
-}
+// div.gmnoprint {
+//     margin-top: 100px !important;
+//     @media (max-width: $screen-xs) {
+//         margin-top: 87px !important;
+//     }
+// }
