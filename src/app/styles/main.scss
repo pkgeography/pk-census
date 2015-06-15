@@ -8,7 +8,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 $fa-font-path: "../bower_components/font-awesome/fonts/";
 
 // bower:scss
-@import "../../bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 .browsehappy {
@@ -103,7 +102,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts/";
 }
 
 .district-marker {
-    background-color: rgba(#444, 0.75);
+    background-color: rgba(#444, 0.65);
     color: #fff;
     padding: 5px 10px;
     font-size: 1.22em;
@@ -116,7 +115,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts/";
         left: 0;
         top: 18px;
         content: ' ';
-        border: 10px solid rgba(#333, 0.75);
+        border: 10px solid rgba(black, 0.75);
         border-bottom-color: transparent;
         border-top-color: transparent;
         border-right-color: transparent;
@@ -137,7 +136,7 @@ $fa-font-path: "../bower_components/font-awesome/fonts/";
 .progress-gender-ratio,
 .progress-urban-rural {
     margin-top: 10px;
-    
+
     &:last-child {
         margin-top: 0;
     }
@@ -242,9 +241,9 @@ ins {
     }
 }
 
-div.gmnoprint {
-    margin-top: 100px !important;
-    @media (max-width: $screen-xs) {
-        margin-top: 87px !important;
-    }
-}
+// div.gmnoprint {
+//     margin-top: 100px !important;
+//     @media (max-width: $screen-xs) {
+//         margin-top: 87px !important;
+//     }
+// }
