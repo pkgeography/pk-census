@@ -203,6 +203,9 @@
 			});
 
 			google.maps.event.addListener(marker, 'click', function()	{
+				if ( _this.map.getZoom() !== 9 )
+					_this.map.setZoom(9);
+				_this.map.panTo(this.getPosition());
 				return _this.loadMarkerInfo(_this, this, info);
 			});
 		},
