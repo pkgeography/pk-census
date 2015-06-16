@@ -2,14 +2,18 @@
 	root.pkcensus = root.pkcensus || factory(root, $, _, Backbone);
 
 	$(document).ready(function() {
-		pkcensus.init($('#mapCanvas').get(0), 30.3894007, 69.3532207, 10);
+		pkcensus.init($('#mapCanvas').get(0), 30.3894007, 69.3532207, (pkcensus.iOS || pkcensus.android ? 5 : 6));
 	});
 
 })(this, jQuery, _, Backbone, function(root, $, _, Backbone) {
 	'use strict';
 
 	// Global app object
-	var app = {};
+	var app = {
+		iOS: (new RegExp(/iP(od|ad|hone)/)).test(navigator.userAgent),
+		android: (new RegExp(/(Android)/)).test(navigator.userAgent),
+		iw: $('.app-content')
+	};
 
 	// Marker MVC
 	var markerModel = Backbone.Model.extend({});
@@ -94,7 +98,36 @@
 			if ( app.map.getCenter().equals(this.getPosition()) ) return;
 			app.map.panTo(this.getPosition());
 			app.map.setZoom(9);
+			app.map.panBy(-100, 0);
+
+			// Load marker info
+			loadMarkerInfo(markerModel.get('id'));
 		});
+	};
+
+	// Load marker info
+	var loadMarkerInfo = function(id) {
+		var _this = app;
+		var marker = _this.districts.get(id);
+		if ( ! _this.iw.hasClass('info-window') ) {
+			_this.iw.addClass('info-window').promise().done(function()	{
+				// return _this.setupHTML(_this, marker, info);
+				console.log(this);
+			});
+		}
+		else {
+			$('.animated').toggleClass(function() {
+				if ( $(this).hasClass('fadeInUp') ) {
+					return 'fadeOutDown';
+				}
+				else {
+					return 'fadeOutLeft';
+				}
+			}).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+				// return _this.setupHTML(_this, marker, info);
+				console.log(this);
+			});
+		}
 	};
 
 	// init
