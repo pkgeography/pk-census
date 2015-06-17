@@ -2,7 +2,7 @@
 	root.pkcensus = root.pkcensus || factory(root, $, _, Backbone);
 
 	$(document).ready(function() {
-		pkcensus.init($('#mapCanvas').get(0), 30.3894007, 69.3532207, (pkcensus.iOS || pkcensus.android ? 5 : 6));
+		pkcensus.init($('#mapCanvas').get(0), 30.3894007, 69.3532207, (pkcensus.iOS || pkcensus.android ? 5 : 10));
 	});
 
 })(this, jQuery, _, Backbone, function(root, $, _, Backbone) {
@@ -16,12 +16,12 @@
 	};
 
 	// Marker MVC
-	var markerModel = Backbone.Model.extend({});
-	var markerView = Backbone.View.extend({});
-	var markerCollection = Backbone.Collection.extend({ model: markerModel });
+	var MarkerModel = Backbone.Model.extend({});
+	var MarkerView = Backbone.View.extend({});
+	var MarkerCollection = Backbone.Collection.extend({ model: MarkerModel });
 
 	// District MVC
-	var districtModel = Backbone.Model.extend({
+	var DistrictModel = Backbone.Model.extend({
 		initialize: function() {
 			var latlng = this.get('location');
 			var marker = new MarkerWithLabel({
@@ -41,7 +41,7 @@
 			});
 
 			// Add marker to marker model
-			var districtMarkerModel = new markerModel({
+			var districtMarkerModel = new MarkerModel({
 				id: this.get('id'),
 				marker: marker
 			});
@@ -54,12 +54,25 @@
 		}
 	});
 
-	var districtView = Backbone.View.extend({});
-	var districtCollection = Backbone.Collection.extend({ model: districtModel });
+	var DistrictCollection = Backbone.Collection.extend({ model: DistrictModel });
+	var DistrictView = Backbone.View.extend({
+		className: 'app-content',
+		template: _.template('#district-template'),
+		events: {
+			'click .close': 'close'
+		},
+		render: function() {
+			this.$el.html( this.template( this.model.attributes ) );
+			return this;
+		},
+		close: function() {
+			this.$el.empty();
+		}
+	});
 
 	// Add global collections
-	app.markers = new markerCollection();
-	app.districts = new districtCollection();
+	app.markers = new MarkerCollection();
+	app.districts = new DistrictCollection();
 
 	// Get JSON data
 	var getData = function(callback) {
@@ -70,13 +83,13 @@
 
 	// Set fetched data to models and add to collection
 	var sortData = function(district) {
-		return app.districts.add(new districtModel(district));
+		return app.districts.add(new DistrictModel(district));
 	};
 
 
 	// Setup marker events
-	var setupMarkerEvents = function(markerModel) {
-		var marker = markerModel.get('marker');
+	var setupMarkerEvents = function(obj) {
+		var marker = obj.get('marker');
 
 		// Listen to mouse over event
 		google.maps.event.addListener(marker, 'mouseover', function() {
@@ -96,18 +109,20 @@
 			app.map.panBy(-100, 0);
 
 			// Load marker info
-			loadMarkerInfo(markerModel.get('id'));
+			makeMarkerView(obj.get('id'));
 		});
 	};
 
 	// Load marker info
-	var loadMarkerInfo = function(id) {
+	var makeMarkerView = function(id) {
 		var _this = app;
 		var marker = _this.districts.get(id);
 		if ( ! _this.iw.hasClass('info-window') ) {
 			_this.iw.addClass('info-window').promise().done(function()	{
+				var districtView = new DistrictView();
+				console.log(districtView.model);
 				// return _this.setupHTML(_this, marker, info);
-				console.log(this);
+				// console.log(this);
 			});
 		}
 		else {
