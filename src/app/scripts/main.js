@@ -69,13 +69,8 @@
 	};
 
 	// Set fetched data to models and add to collection
-	var sortData = function(data) {
-		if (data && data.length) {
-			for(var i = 0; i < data.length; i++) {
-				var district = new districtModel(data[i]);
-				app.districts.add(district);
-			}
-		}
+	var sortData = function(district) {
+		return app.districts.add(new districtModel(district));
 	};
 
 
@@ -138,7 +133,11 @@
 			zoom: z
 		});
 
-		return getData(sortData);
+		return getData(function(data) {
+		    if (data && data.length) {
+		        data.map(sortData);
+		    }
+		});
 	};
 
 	return app;
