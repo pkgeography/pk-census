@@ -25,11 +25,11 @@ $ grunt serve
 * Commit with meaningful message 
 
 ``` shell
-$ git add . && git rm $(git ls-files --deleted) 
-$ git status && git commit -m 'here is my new feature'
+$ git add -A
+$ git commit -m 'here is my new feature'
 ``` 
 
-* Push the changes to your fork `$ git push origin gh-pages`
+* Push the changes `$ git push origin gh-pages`
 * Create a pull request. [https://github.com/pkgeography/pk-census/compare](https://github.com/pkgeography/pk-census/compare)
 * Let me review changes and merge
 * and finally thank you for your contributions :+1:
